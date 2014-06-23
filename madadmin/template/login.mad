@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>login</title>
+   	<link rel="stylesheet" href="{$vp}/css/login.css">
+   	<script type="text/javascript" src="{$vp}/js/jquery-1.9.0.js"></script>
+   	<script type="text/javascript" src="{$vp}/js/login.js"></script>
+</head>
+<body>
+<div class="wrap">
+	<div class="content">
+		<div class="pic"></div>
+		<form id='sign' action="post.php?act=login" method="POST">
+		<div class="login">
+			<p class='user'><img src="{$vp}/images/login-user.png" alt="name"><input  type="text" name='user_name'></p>
+			<p class='user'><img src="{$vp}/images/login-password.png" alt="password"><input  type="password" name='user_word'></p>
+			<p class='remenber'><input class='checkbox' type="checkbox" > remenber me</p>
+			<input  type="hidden" name='remenber' value='false'>
+			<div class="submit">Sign In</div>
+
+		</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>

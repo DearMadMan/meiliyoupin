@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Matrix Admin</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{$vp}/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{$vp}/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="{$vp}/css/fullcalendar.css" />
+    <link rel="stylesheet" href="{$vp}/css/matrix-style.css" />
+    <link rel="stylesheet" href="{$vp}/css/matrix-media.css" />
+    <link rel="stylesheet" href="{$vp}/css/select2.css">
+    <link rel="stylesheet" href="{$vp}/css/uniform.css">
+    <link href="{$vp}/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{$vp}/css/jquery.gritter.css" />
+    <link href='{$vp}/css/google.css' rel='stylesheet' type='text/css'>
+    <script src="{$vp}/js/jquery.min.js"></script>
+    <script src="{$vp}/js/jquery.ui.custom.js"></script>
+    <script src="{$vp}/js/jquery.uniform.js"></script>
+    <script src="{$vp}/js/bootstrap.min.js"></script>
+    <script src="{$vp}/js/jquery.flot.min.js"></script>
+    <script src="{$vp}/js/jquery.flot.resize.min.js"></script>
+    <script src="{$vp}/js/matrix.js"></script>
+    <script src="{$vp}/js/select2.min.js"></script>
+
+    <link rel="stylesheet" href="{$vp}/css/datepicker.css" />
+    <script src="{$vp}/js/bootstrap-datepicker.js"></script>
+    <script src="{$vp}/js/message.js"></script>
+    <link rel="stylesheet" href="{$vp}/css/style.css">
+</head>
+
+<body>
+    {include file='header.mad'} {include file='menu.mad'}
+
+    <div class="hidiv">
+
+
+        <div class="container-fluid">
+
+            <div class="row-fluid">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon">
+                            <i class="icon-align-justify"></i>
+                        </span>
+                        <h5>用户留言</h5>
+                    </div>
+           <div class="widget-content">
+
+           	<div class="form-horizontal">
+            <div class="control-group">
+              <label class="control-label">标题 :</label>
+              <div class="controls">
+                <input id="title" name="title" type="text" class="span11" placeholder="标题" value="">
+              </div>
+            </div>
+
+
+
+            <div class="control-group">
+              <label class="control-label">姓名 :</label>
+              <div class="controls">
+                    <input id="name" name="name" type="text" class="span11" placeholder="姓名" value="">
+              </div>
+            </div>
+
+
+
+
+
+
+            <div class="control-group">
+              <label class="control-label">邮箱 :</label>
+              <div class="controls">
+                <input id="email" type="text" class="span11" name="email" value="" placeholder="0">
+              </div>
+            </div>
+
+
+              <div class="control-group">
+              <label class="control-label">留言 :</label>
+              <div class="controls">
+               <textarea name="msg" id="msg" class="span11" ></textarea>
+              </div>
+            </div>
+</div>
+
+                            <div class="form-actions ">
+                            	<input type="hidden" id="nav_id" name="nav_id">
+                                <button type="button" onclick="NavCanel();" class="btn btn-primary span11">Canel</button>
+
+                            </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <!--main-container-part-->
+    <div id="content">
+        {include file="breadcrumbs.mad"}
+
+
+
+
+
+
+        <div class="container-fluid">
+
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><i class="icon-bookmark"></i></span>
+<h5>全局设置</h5>
+</div>
+
+<div class="widget-content">
+<p>
+
+</p>
+
+</div>
+
+</div>
+
+
+            <div class="row-fluid">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon"> <i class="icon-align-justify"></i>
+                        </span>
+                        <h5>留言管理</h5>
+
+
+                    </div>
+                    <div class="widget-content nopadding">
+
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>留言ID</th>
+                                    <th>留言标题</th>
+                                    <th>姓名</th>
+                                    <th>邮箱</th>
+                                    <th>编辑</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {foreach $messagelist as $v}
+                                <tr>
+                                    <td>{$v.id}</td>
+                                    <td>{$v.title|escape:"html"}</td>
+                                    <td>{$v.name|escape:"html"}</td>
+                                    <td>{$v.email|escape:"html"}</td>
+                                    <td>
+                                        <a href="javascript:;" onclick="Open('{$v.id}');"> <i class="icon-edit"></i>
+                                            编辑
+                                        </a>
+                                        &nbsp;
+                                        <a href="javascript:;" onclick="Message_Delete('{$v.id}',this);">
+                                            <i class="icon-trash"></i>
+                                            删除
+                                        </a>
+                                    </td>
+                                </tr>
+                                {/foreach}
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--end-main-container-part-->{include file='footer.mad'}</body>
+
+</html>

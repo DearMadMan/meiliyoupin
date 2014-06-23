@@ -1,0 +1,14 @@
+/*public*/
+.green{color: #51a351;}
+.m-l-30{margin-left: 30px;}
+.pos-r{position: relative;}
+
+.logo-pic{position: absolute;overflow: hidden;display: none;z-index: 99;right: 0;top:-2px;border: 1px dashed red;}
+.logo-icon{line-height: 28px;}
+
+.hidiv{z-index: 99;position: absolute;background: none repeat scroll 0 0 #eeeeee;margin-right: 0;min-height: 100%;width: 100%;background-color: rgba(207,207,207,0.8);display: none;margin: 0;padding: 0
+}
+
+
+
+#minibar .progress-mini{height: 6px;}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Matrix Admin</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{$vp}/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{$vp}/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="{$vp}/css/fullcalendar.css" />
+    <link rel="stylesheet" href="{$vp}/css/matrix-style.css" />
+    <link rel="stylesheet" href="{$vp}/css/matrix-media.css" />
+    <link rel="stylesheet" href="{$vp}/css/select2.css">
+    <link rel="stylesheet" href="{$vp}/css/uniform.css">
+    <link href="{$vp}/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{$vp}/css/jquery.gritter.css" />
+    <link href='{$vp}/css/google.css' rel='stylesheet' type='text/css'>
+    <script src="{$vp}/js/jquery.min.js"></script>
+    <script src="{$vp}/js/jquery.ui.custom.js"></script>
+    <script src="{$vp}/js/jquery.uniform.js"></script>
+    <script src="{$vp}/js/bootstrap.min.js"></script>
+    <script src="{$vp}/js/jquery.flot.min.js"></script>
+    <script src="{$vp}/js/jquery.flot.resize.min.js"></script>
+    <script src="{$vp}/js/matrix.js"></script>
+    <script src="{$vp}/js/select2.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="{$vp}/css/datepicker.css" />
+    <script src="{$vp}/js/bootstrap-datepicker.js"></script>
+
+
+</head>
+
+<body>
+
+    {include file='header.mad'} {include file='menu.mad'}
+    <!--main-container-part-->
+    <div id="content">
+
+    <div id="content-header">
+
+    <h1>Tips</h1>
+  </div>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="widget-box">
+          <div class="widget-title"> <span class="icon"> <i class="icon-info-sign"></i> </span>
+            <h5>信息提示</h5>
+          </div>
+          <div class="widget-content">
+            <div class="error_ex">
+              <h3>{$tips}</h3>
+              <a class="btn btn-warning btn-big"  href="index.php">Back to Home</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </div>
+
+
+    <!--end-main-container-part-->
+
+    {include file='footer.mad'}
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

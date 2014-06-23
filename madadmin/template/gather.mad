@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Matrix Admin</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="{$vp}/css/bootstrap.min.css" />
+<link rel="stylesheet" href="{$vp}/css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="{$vp}/css/fullcalendar.css" />
+<link rel="stylesheet" href="{$vp}/css/matrix-style.css" />
+<link rel="stylesheet" href="{$vp}/css/matrix-media.css" />
+<link rel="stylesheet" href="{$vp}/css/select2.css">
+<link href="{$vp}/font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link rel="stylesheet" href="{$vp}/css/jquery.gritter.css" />
+<link href='{$vp}/css/google.css' rel='stylesheet' type='text/css'>
+<link href='{$vp}/css/gather.css' rel='stylesheet' type='text/css'>
+<script src="{$vp}/js/jquery.min.js"></script>
+<script src="{$vp}/js/jquery.ui.custom.js"></script>
+<script src="{$vp}/js/bootstrap.min.js"></script>
+<script src="{$vp}/js/jquery.flot.min.js"></script>
+<script src="{$vp}/js/jquery.flot.resize.min.js"></script>
+<script src="{$vp}/js/matrix.js"></script>
+<script src="{$vp}/js/gather.js"></script>
+<script src="{$vp}/js/select2.min.js"></script>
+</head>
+<body>
+
+    {include file='header.mad'}
+    {include file='menu.mad'}
+<!--main-container-part-->
+<div id="content">
+
+    {include file="breadcrumbs.mad"}
+<!--Action boxes-->
+  <div class="container-fluid">
+    <div class="quick-actions_homepage">
+      <ul class="quick-actions">
+        <li class="bg_lr"> <a href="javascript:;" onclick="gather('http://www.taofen8.com/cat-1#ju-more','衣服');"> 服饰内衣 </a> </li>
+        <li class="bg_ls span3"> <a href="javascript:;" onclick="gather('http://www.taofen8.com/cat-2#ju-more','配饰');"> 鞋包配饰</a> </li>
+        <li class="bg_lo"> <a href="javascript:;" onclick="gather('http://www.taofen8.com/cat-3#ju-more','家居');">  居家生活</a> </li>
+        <li class="bg_lb"> <a href="javascript:;" onclick="gather('http://www.taofen8.com/cat-4#ju-more','美妆');">  美妆护理</a> </li>
+        <li class="bg_lo span3"> <a href="javascript:;" onclick="gather('http://www.taofen8.com/cat-5#ju-more','家居');">  食品保健</a> </li>
+        <li class="bg_ls"> <a href="javascript:;" onclick="gather('http://www.taofen8.com/cat-6#ju-more','家居');"> 母婴玩具</a> </li>
+        <li class="bg_lg"> <a href="javascript:;" onclick="gather('http://www.taofen8.com/cat-7#ju-more','家居');"> 数码电器</a> </li>
+        <li class="bg_lb"> <a href="javascript:;" onclick="gather('http://www.taofen8.com/cat-8#ju-more','家居');">  文体娱乐</a> </li>
+        <li class="bg_lr"> <a href="javascript:;" onclick="gather('http://www.taofen8.com/promcat-1#ju-more','家居');">  9.9邮</a> </li>
+
+      </ul>
+    </div>
+<!--End-Action boxes-->
+
+    <hr/>
+
+  </div>
+
+    <div class="container-fluid">
+
+            <div class="row-fluid">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon">
+                            <i class="icon-align-justify"></i>
+                        </span>
+                        <h5>商品列表</h5>
+                    </div>
+                    <div class="widget-content nopadding">
+
+
+                        <table class="table table-bordered pos-r">
+                         <div class="hideimg"><img src="" alt=""></div>
+                            <thead>
+                                <tr>
+                                    <th>商品ID</th>
+                                    <th>商品名称</th>
+                                    <th>小编说</th>
+                                    <th>价格</th>
+                                    <th>市场价</th>
+                                    <th>编辑</th>
+                                </tr>
+                            </thead>
+                            <tbody id="gather">
+
+                            </tbody>
+                        </table>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+</div>
+
+
+                                    <select id="categroy"  name="categroy_id" class="hide">
+                                        {foreach $categroy_list as $v}
+                                        <option value="{$v.categroy_id}">{$v.categroy_name}</option>
+                                        {/foreach}
+                                    </select>
+
+   </div>
+<!--end-main-container-part-->
+
+    {include file='footer.mad'}
+
+
+
+
+
+
+
+
+
+
+<!--
+
+<script src="{$vp}/js/jquery.dataTables.min.js"></script>
+
+-->
+
+</body>
+</html>

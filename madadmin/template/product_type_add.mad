@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Matrix Admin</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{$vp}/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{$vp}/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="{$vp}/css/fullcalendar.css" />
+    <link rel="stylesheet" href="{$vp}/css/matrix-style.css" />
+    <link rel="stylesheet" href="{$vp}/css/matrix-media.css" />
+    <link rel="stylesheet" href="{$vp}/css/select2.css">
+    <link rel="stylesheet" href="{$vp}/css/uniform.css">
+    <link href="{$vp}/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{$vp}/css/jquery.gritter.css" />
+    <link href='{$vp}/css/google.css' rel='stylesheet' type='text/css'>
+    <script src="{$vp}/js/jquery.min.js"></script>
+    <script src="{$vp}/js/jquery.ui.custom.js"></script>
+    <script src="{$vp}/js/jquery.uniform.js"></script>
+    <script src="{$vp}/js/bootstrap.min.js"></script>
+    <script src="{$vp}/js/jquery.flot.min.js"></script>
+    <script src="{$vp}/js/jquery.flot.resize.min.js"></script>
+    <script src="{$vp}/js/matrix.js"></script>
+    <script src="{$vp}/js/select2.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="{$vp}/css/datepicker.css" />
+    <script src="{$vp}/js/bootstrap-datepicker.js"></script>
+
+
+</head>
+
+<body>
+
+    {include file='header.mad'} {include file='menu.mad'}
+    <!--main-container-part-->
+    <div id="content">
+
+        {include file="breadcrumbs.mad"}
+
+
+
+        <div class="container-fluid">
+
+            <div class="row-fluid">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon">
+                            <i class="icon-align-justify"></i>
+                        </span>
+                        <h5>添加分类</h5>
+                    </div>
+                    <div class="widget-content nopadding">
+                        <form action="post.php?act=product_type_add" method="POST" enctype='multipart/form-data' class="form-horizontal">
+
+                            <div class="control-group">
+                                <label class="control-label">分类名称</label>
+                                <div class="controls">
+                                    <input name="type_name" type="text" class="span11" placeholder="分类名称">
+                                </div>
+                            </div>
+
+                <input type="hidden" name="parent_id" value="0">
+   <!--
+
+                            <div class="control-group">
+                                <label class="control-label">上级分类</label>
+                                <div class="controls">
+                                    <div class="select2-container">
+                                         <a href="#" onclick="return false;" class="select2-choice" tabindex="0">
+                                            <span>First option</span>
+                                            <abbr class="select2-search-choice-close" style="display:none;"></abbr>
+                                            <div>
+                                                <b></b>
+                                            </div>
+                                        </a>
+
+                                        <div class="select2-drop select2-with-searchbox select2-offscreen" style="display:block;">
+
+                                            <div class="select2-search">
+                                                <input type="text" class="select2-input" autocomplete="off" tabindex="0">
+
+                                            </div>
+                                            <ul class="select2-results"></ul>
+                                        </div>
+                                        <select name="parent_id" style="display:none;">
+                                            <option value="0">顶级分类</option>
+                                            <option value="2">Second</option>
+                                        </select>
+
+                                    </div>
+                                </div>
+                            </div>
+-->
+
+
+
+
+
+                            <div class="form-actions ">
+                                <button type="submit" class="btn btn-success span3 offset3">Save</button>
+                                <button type="reset" class="btn btn-primary span3">Reset</button>
+
+                            </div>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--end-main-container-part-->
+
+    {include file='footer.mad'}
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

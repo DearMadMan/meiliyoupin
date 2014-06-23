@@ -1,0 +1,588 @@
+10:11:25 use company;
+10:11:25 set names utf8;
+10:11:25 select * from configs
+10:11:25 use company;
+10:11:25 set names utf8;
+10:11:25 select * from configs
+10:11:30 use company;
+10:11:30 set names utf8;
+10:11:30 select * from configs
+10:11:30 select * from admin where user_name='myadmin' and user_word='691c360156c27261b40c974ec0bf8f4a'
+10:11:30 use company;
+10:11:30 set names utf8;
+10:11:30 select * from configs
+10:11:53 use company;
+10:11:53 set names utf8;
+10:11:53 select * from configs
+10:13:08 use company;
+10:13:08 set names utf8;
+10:13:08 select * from configs
+10:21:38 use company;
+10:21:38 set names utf8;
+10:21:38 select * from configs
+10:21:41 use company;
+10:21:41 set names utf8;
+10:21:41 select * from configs
+10:21:42 use company;
+10:21:42 set names utf8;
+10:21:42 select * from configs
+10:21:42 select * from article_type
+10:21:48 use company;
+10:21:48 set names utf8;
+10:21:48 select * from configs
+10:21:48 select * from article_type
+10:21:51 use company;
+10:21:51 set names utf8;
+10:21:51 select * from configs
+10:21:53 use company;
+10:21:53 set names utf8;
+10:21:53 select * from configs
+10:21:57 use company;
+10:21:57 set names utf8;
+10:21:57 select * from configs
+10:21:57 select count(a.id) from articles as a left join article_type as b on a.type_id=b.id order by a.id desc
+10:21:57 select a.*,b.type_name from articles as a left join article_type as b on a.type_id=b.id order by a.id desc limit 0,20
+10:21:59 use company;
+10:21:59 set names utf8;
+10:21:59 select * from configs
+10:21:59 select * from article_type
+10:22:00 use company;
+10:22:00 set names utf8;
+10:22:00 select * from configs
+10:22:00 select count(a.id) from articles as a left join article_type as b on a.type_id=b.id order by a.id desc
+10:22:00 select a.*,b.type_name from articles as a left join article_type as b on a.type_id=b.id order by a.id desc limit 0,20
+10:22:03 use company;
+10:22:03 set names utf8;
+10:22:03 select * from configs
+10:22:03 select * from article_type
+10:22:05 use company;
+10:22:05 set names utf8;
+10:22:05 select * from configs
+10:22:05 select * from article_type
+10:22:06 use company;
+10:22:06 set names utf8;
+10:22:06 select * from configs
+10:22:12 use company;
+10:22:12 set names utf8;
+10:22:12 select * from configs
+10:22:16 use company;
+10:22:16 set names utf8;
+10:22:16 select * from configs
+10:22:16 select * from focus_picture order by pic_index desc
+10:25:09 use company;
+10:25:09 set names utf8;
+10:25:09 select * from configs
+10:25:09 select * from focus_picture where id=8
+10:25:29 use company;
+10:25:29 set names utf8;
+10:25:29 select * from configs
+10:25:31 use company;
+10:25:31 set names utf8;
+10:25:31 select * from configs
+10:25:31 select * from nav order by z_index desc
+10:25:33 use company;
+10:25:33 set names utf8;
+10:25:33 select * from configs
+10:25:33 select * from focus_picture order by pic_index desc
+11:03:17 use company;
+11:03:17 set names utf8;
+11:03:17 select * from configs
+11:03:19 use company;
+11:03:19 set names utf8;
+11:03:19 select * from configs
+11:03:19 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+11:03:19 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+11:04:14 use company;
+11:04:14 set names utf8;
+11:04:14 select * from configs
+11:04:14 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+11:04:14 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+11:18:20 use company;
+11:18:20 set names utf8;
+11:18:20 select * from configs
+11:18:20 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+11:18:20 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+11:25:05 use company;
+11:25:05 set names utf8;
+11:25:05 select * from configs
+11:25:05 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+11:25:05 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+11:33:23 use company;
+11:33:23 set names utf8;
+11:33:23 select * from configs
+11:33:23 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+11:33:23 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+11:33:25 use company;
+11:33:25 set names utf8;
+11:33:25 select * from configs
+11:34:29 use company;
+11:34:29 set names utf8;
+11:34:29 select * from configs
+11:35:57 use company;
+11:35:57 set names utf8;
+11:35:57 select * from configs
+11:36:10 use company;
+11:36:10 set names utf8;
+11:36:10 select * from configs
+11:36:30 use company;
+11:36:30 set names utf8;
+11:36:30 select * from configs
+11:36:52 use company;
+11:36:52 set names utf8;
+11:36:52 select * from configs
+11:37:07 use company;
+11:37:07 set names utf8;
+11:37:07 select * from configs
+11:37:55 use company;
+11:37:55 set names utf8;
+11:37:55 select * from configs
+11:38:06 use company;
+11:38:06 set names utf8;
+11:38:06 select * from configs
+11:38:44 use company;
+11:38:44 set names utf8;
+11:38:44 select * from configs
+11:39:26 use company;
+11:39:26 set names utf8;
+11:39:26 select * from configs
+11:40:54 use company;
+11:40:54 set names utf8;
+11:40:54 select * from configs
+11:44:27 use company;
+11:44:27 set names utf8;
+11:44:27 select * from configs
+11:47:42 use company;
+11:47:42 set names utf8;
+11:47:42 select * from configs
+14:28:46 use company;
+14:28:46 set names utf8;
+14:28:46 select * from configs
+14:28:46 use company;
+14:28:46 set names utf8;
+14:28:46 select * from configs
+14:28:51 use company;
+14:28:51 set names utf8;
+14:28:51 select * from configs
+14:28:51 select * from admin where user_name='myadmin' and user_word='691c360156c27261b40c974ec0bf8f4a'
+14:28:51 use company;
+14:28:51 set names utf8;
+14:28:51 select * from configs
+14:28:56 use company;
+14:28:56 set names utf8;
+14:28:56 select * from configs
+14:28:56 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+14:28:56 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+14:28:59 use company;
+14:28:59 set names utf8;
+14:28:59 select * from configs
+14:39:14 use company;
+14:39:14 set names utf8;
+14:39:14 select * from configs
+14:39:14 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+14:39:14 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+14:39:16 use company;
+14:39:16 set names utf8;
+14:39:16 select * from configs
+14:39:19 use company;
+14:39:19 set names utf8;
+14:39:19 select * from configs
+14:39:48 use company;
+14:39:48 set names utf8;
+14:39:48 select * from configs
+14:39:51 use company;
+14:39:51 set names utf8;
+14:39:51 select * from configs
+14:39:51 select * from product_type
+14:39:53 use company;
+14:39:53 set names utf8;
+14:39:53 select * from configs
+14:42:26 use company;
+14:42:26 set names utf8;
+14:42:26 select * from configs
+14:42:26 select * from product_type
+14:42:31 use company;
+14:42:31 set names utf8;
+14:42:31 select * from configs
+14:42:35 use company;
+14:42:35 set names utf8;
+14:42:35 select * from configs
+14:42:35 insert into product_type (type_name) values ('鸟') ;
+14:42:37 use company;
+14:42:37 set names utf8;
+14:42:37 select * from configs
+14:42:40 use company;
+14:42:40 set names utf8;
+14:42:40 select * from configs
+14:42:40 select * from product_type
+14:42:43 use company;
+14:42:43 set names utf8;
+14:42:43 select * from configs
+14:42:43 select * from product_type where id=1
+14:42:46 use company;
+14:42:46 set names utf8;
+14:42:46 select * from configs
+14:42:46 select * from article_type
+14:42:51 use company;
+14:42:51 set names utf8;
+14:42:51 select * from configs
+14:42:56 use company;
+14:42:56 set names utf8;
+14:42:56 select * from configs
+14:42:56 select * from product_type
+14:42:57 use company;
+14:42:57 set names utf8;
+14:42:57 select * from configs
+14:42:57 select * from product_type where id=1
+14:42:59 use company;
+14:42:59 set names utf8;
+14:42:59 select * from configs
+14:42:59 update product_type set id='1',type_name='鸟2' where id=1
+14:43:01 use company;
+14:43:01 set names utf8;
+14:43:01 select * from configs
+14:43:01 select * from product_type
+14:43:03 use company;
+14:43:03 set names utf8;
+14:43:03 select * from configs
+14:43:03 delete from product_type where id=1
+14:43:05 use company;
+14:43:05 set names utf8;
+14:43:05 select * from configs
+14:43:05 select * from product_type
+14:43:08 use company;
+14:43:08 set names utf8;
+14:43:08 select * from configs
+14:43:08 select * from article_type
+14:43:10 use company;
+14:43:10 set names utf8;
+14:43:10 select * from configs
+14:43:10 select * from product_type
+14:43:12 use company;
+14:43:12 set names utf8;
+14:43:12 select * from configs
+14:43:16 use company;
+14:43:16 set names utf8;
+14:43:16 select * from configs
+14:43:16 insert into product_type (type_name) values ('鸟') ;
+14:43:19 use company;
+14:43:19 set names utf8;
+14:43:19 select * from configs
+14:43:19 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+14:43:19 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+14:45:02 use company;
+14:45:02 set names utf8;
+14:45:02 select * from configs
+14:45:02 select * from product_type
+15:03:13 use company;
+15:03:13 set names utf8;
+15:03:13 select * from configs
+15:03:13 select * from product_type
+15:05:57 use company;
+15:05:57 set names utf8;
+15:05:57 select * from configs
+15:05:57 select * from product_type
+15:11:11 use company;
+15:11:11 set names utf8;
+15:11:11 select * from configs
+15:11:19 use company;
+15:11:19 set names utf8;
+15:11:19 select * from configs
+15:11:19 insert into product (type_id,product_name,product_dis,product_imgurl,add_time) values ('2','asdassd','asdasdasdasdad','../images/20140526/140108827108297119.jpg','1401088279') ;
+15:11:22 use company;
+15:11:22 set names utf8;
+15:11:22 select * from configs
+15:11:22 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+15:11:22 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+15:11:24 use company;
+15:11:24 set names utf8;
+15:11:24 select * from configs
+15:11:27 use company;
+15:11:27 set names utf8;
+15:11:27 select * from configs
+15:11:27 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+15:11:27 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+15:26:11 use company;
+15:26:11 set names utf8;
+15:26:11 select * from configs
+15:26:11 select * from product_type
+15:26:13 use company;
+15:26:13 set names utf8;
+15:26:13 select * from configs
+15:26:13 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+15:26:13 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+15:26:15 use company;
+15:26:15 set names utf8;
+15:26:15 select * from configs
+15:26:15 select * from product where id='1'
+15:26:15 select * from product_type
+15:26:23 use company;
+15:26:23 set names utf8;
+15:26:23 select * from configs
+15:26:27 use company;
+15:26:27 set names utf8;
+15:26:27 select * from configs
+15:26:32 use company;
+15:26:32 set names utf8;
+15:26:32 select * from configs
+15:27:53 use company;
+15:27:53 set names utf8;
+15:27:53 select * from configs
+15:27:53 select * from product_type
+15:27:56 use company;
+15:27:56 set names utf8;
+15:27:56 select * from configs
+15:27:56 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+15:27:56 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+15:28:00 use company;
+15:28:00 set names utf8;
+15:28:00 select * from configs
+15:28:00 select * from product_type
+15:28:02 use company;
+15:28:02 set names utf8;
+15:28:02 select * from configs
+15:28:02 select * from product_type where id=2
+15:28:05 use company;
+15:28:05 set names utf8;
+15:28:05 select * from configs
+15:28:05 select * from product_type
+15:28:07 use company;
+15:28:07 set names utf8;
+15:28:07 select * from configs
+15:28:14 use company;
+15:28:14 set names utf8;
+15:28:14 select * from configs
+15:28:14 insert into product_type (type_name) values ('鸟222') ;
+15:28:16 use company;
+15:28:16 set names utf8;
+15:28:16 select * from configs
+15:28:16 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+15:28:16 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+15:28:19 use company;
+15:28:19 set names utf8;
+15:28:19 select * from configs
+15:28:19 select * from product_type
+15:28:21 use company;
+15:28:21 set names utf8;
+15:28:21 select * from configs
+15:28:21 select * from product_type
+15:28:45 use company;
+15:28:45 set names utf8;
+15:28:45 select * from configs
+15:28:51 use company;
+15:28:51 set names utf8;
+15:28:51 select * from configs
+15:28:51 insert into product (type_id,product_name,product_dis,product_imgurl,add_time) values ('2','guangm<scritp>alert(\"123\");</script>','asasdasdasd','../images/20140526/140108932503855590.jpg','1401089331') ;
+15:28:54 use company;
+15:28:54 set names utf8;
+15:28:54 select * from configs
+15:28:54 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+15:28:54 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+15:29:00 use company;
+15:29:00 set names utf8;
+15:29:00 select * from configs
+15:29:00 select * from product where id='2'
+15:29:00 select * from product_type
+15:29:04 use company;
+15:29:04 set names utf8;
+15:29:04 select * from configs
+15:29:07 use company;
+15:29:07 set names utf8;
+15:29:07 select * from configs
+15:29:36 use company;
+15:29:36 set names utf8;
+15:29:36 select * from configs
+15:31:21 use company;
+15:31:21 set names utf8;
+15:31:21 select * from configs
+15:31:34 use company;
+15:31:34 set names utf8;
+15:31:34 select * from configs
+15:32:32 use company;
+15:32:32 set names utf8;
+15:32:32 select * from configs
+15:32:34 use company;
+15:32:34 set names utf8;
+15:32:34 select * from configs
+15:32:34 select * from product where id='2'
+15:32:34 select * from product_type
+15:32:56 use company;
+15:32:56 set names utf8;
+15:32:56 select * from configs
+15:33:01 use company;
+15:33:01 set names utf8;
+15:33:01 select * from configs
+15:33:01 select * from product where id='2'
+15:33:01 select * from product_type
+15:33:21 use company;
+15:33:21 set names utf8;
+15:33:21 select * from configs
+15:33:23 use company;
+15:33:23 set names utf8;
+15:33:23 select * from configs
+15:33:27 use company;
+15:33:27 set names utf8;
+15:33:27 select * from configs
+15:33:27 select * from product_type
+15:33:29 use company;
+15:33:29 set names utf8;
+15:33:29 select * from configs
+15:33:29 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+15:33:29 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+15:33:30 use company;
+15:33:30 set names utf8;
+15:33:30 select * from configs
+15:33:30 select * from product where id='1'
+15:33:30 select * from product_type
+15:33:33 use company;
+15:33:33 set names utf8;
+15:33:33 select * from configs
+15:33:50 use company;
+15:33:50 set names utf8;
+15:33:50 select * from configs
+15:33:50 select * from product where id='1'
+15:33:50 select * from product_type
+15:33:53 use company;
+15:33:53 set names utf8;
+15:33:53 select * from configs
+15:33:53 update product set type_id='3',product_name='asdassd',product_dis='asdasdasdasdad',product_imgurl='../images/20140526/140108827108297119.jpg',add_time='1401089633' where  id=1
+15:33:55 use company;
+15:33:55 set names utf8;
+15:33:55 select * from configs
+15:33:55 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+15:33:55 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+15:33:58 use company;
+15:33:58 set names utf8;
+15:33:58 select * from configs
+15:33:58 select * from product_type
+15:34:12 use company;
+15:34:12 set names utf8;
+15:34:12 select * from configs
+15:34:12 insert into product (type_id,product_name,product_dis,product_imgurl,add_time) values ('3','guangm<scritp>alert(\"123\");</script>--','------------','----','1401089652') ;
+15:34:13 use company;
+15:34:13 set names utf8;
+15:34:13 select * from configs
+15:34:13 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+15:34:13 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+15:34:26 use company;
+15:34:26 set names utf8;
+15:34:26 select * from configs
+15:36:00 use company;
+15:36:00 set names utf8;
+15:36:00 select * from configs
+15:36:00 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+15:36:00 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+15:36:05 use company;
+15:36:05 set names utf8;
+15:36:05 select * from configs
+15:36:05 delete from product where id=3
+15:36:06 use company;
+15:36:06 set names utf8;
+15:36:06 select * from configs
+15:36:07 use company;
+15:36:07 set names utf8;
+15:36:07 select * from configs
+15:36:07 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+15:36:07 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+16:47:05 use company;
+16:47:05 set names utf8;
+16:47:05 select * from configs
+16:47:05 use company;
+16:47:05 set names utf8;
+16:47:05 select * from configs
+16:47:05 select * from admin_menu
+16:55:10 use company;
+16:55:10 set names utf8;
+16:55:10 select * from configs
+16:55:10 select * from admin_menu
+16:55:10 use company;
+16:55:10 set names utf8;
+16:55:10 select * from configs
+16:55:10 select * from admin_menu
+16:55:12 use company;
+16:55:12 set names utf8;
+16:55:12 select * from configs
+16:55:12 select * from admin_menu
+16:55:49 use company;
+16:55:49 set names utf8;
+16:55:49 select * from configs
+16:55:49 select * from admin_menu
+16:56:32 use company;
+16:56:32 set names utf8;
+16:56:32 select * from configs
+16:56:32 select * from admin_menu
+16:57:19 use company;
+16:57:19 set names utf8;
+16:57:19 select * from configs
+16:57:19 select * from admin_menu
+17:04:24 use company;
+17:04:24 set names utf8;
+17:04:24 select * from configs
+17:04:24 select * from admin_menu
+17:06:05 use company;
+17:06:05 set names utf8;
+17:06:05 select * from configs
+17:06:05 select * from admin_menu
+17:16:19 use company;
+17:16:19 set names utf8;
+17:16:19 select * from configs
+17:16:19 select * from admin_menu
+17:22:43 use company;
+17:22:43 set names utf8;
+17:22:43 select * from configs
+17:22:43 select * from admin_menu
+17:23:14 use company;
+17:23:14 set names utf8;
+17:23:14 select * from configs
+17:23:14 select * from admin_menu
+17:24:16 use company;
+17:24:16 set names utf8;
+17:24:16 select * from configs
+17:24:16 select * from admin_menu
+17:36:44 use company;
+17:36:44 set names utf8;
+17:36:44 select * from configs
+17:36:44 select * from admin_menu
+17:40:21 use company;
+17:40:21 set names utf8;
+17:40:21 select * from configs
+17:40:21 select * from admin_menu
+17:54:09 use company;
+17:54:09 set names utf8;
+17:54:09 select * from configs
+17:54:09 select * from admin_menu
+17:54:19 use company;
+17:54:19 set names utf8;
+17:54:19 select * from configs
+17:54:19 select * from admin_menu
+17:54:43 use company;
+17:54:43 set names utf8;
+17:54:43 select * from configs
+17:54:43 select * from admin_menu
+17:54:51 use company;
+17:54:51 set names utf8;
+17:54:51 select * from configs
+17:54:51 select * from admin_menu
+17:55:22 use company;
+17:55:22 set names utf8;
+17:55:22 select * from configs
+17:55:22 select * from admin_menu
+17:55:42 use company;
+17:55:42 set names utf8;
+17:55:42 select * from configs
+17:55:42 select * from admin_menu
+17:55:43 use company;
+17:55:43 set names utf8;
+17:55:43 select * from configs
+17:55:43 select * from admin_menu
+17:55:43 use company;
+17:55:43 set names utf8;
+17:55:43 select * from configs
+17:55:43 select * from admin_menu
+17:55:43 use company;
+17:55:44 set names utf8;
+17:55:44 select * from configs
+17:55:44 select * from admin_menu
+17:57:18 use company;
+17:57:18 set names utf8;
+17:57:18 select * from configs
+17:57:18 select * from admin_menu

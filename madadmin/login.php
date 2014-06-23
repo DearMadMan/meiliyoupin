@@ -1,0 +1,29 @@
+<?php
+define("MadMan",true);
+require_once("init.php");
+$act="";
+if(isset($_REQUEST['act']))
+{
+	$act=$_REQUEST['act'];
+}
+
+if($act=="login")
+{
+	if(isset($_SESSION['admin_id']))
+	{
+		location("index.php");
+	}
+	//登录
+	$smarty->display("login.mad");
+}
+elseif($act=="loginout")
+{
+	//退出
+	unset($_SESSION['admin_id']);
+	location("index.php");
+}
+else
+{
+	location("index.php");
+}
+?>

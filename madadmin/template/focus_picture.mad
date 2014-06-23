@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Matrix Admin</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{$vp}/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{$vp}/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="{$vp}/css/fullcalendar.css" />
+    <link rel="stylesheet" href="{$vp}/css/matrix-style.css" />
+    <link rel="stylesheet" href="{$vp}/css/matrix-media.css" />
+    <link rel="stylesheet" href="{$vp}/css/select2.css">
+    <link rel="stylesheet" href="{$vp}/css/uniform.css">
+    <link href="{$vp}/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{$vp}/css/jquery.gritter.css" />
+    <link href='{$vp}/css/google.css' rel='stylesheet' type='text/css'>
+    <script src="{$vp}/js/jquery.min.js"></script>
+    <script src="{$vp}/js/jquery.ui.custom.js"></script>
+    <script src="{$vp}/js/jquery.uniform.js"></script>
+    <script src="{$vp}/js/bootstrap.min.js"></script>
+    <script src="{$vp}/js/jquery.flot.min.js"></script>
+    <script src="{$vp}/js/jquery.flot.resize.min.js"></script>
+    <script src="{$vp}/js/matrix.js"></script>
+    <script src="{$vp}/js/select2.min.js"></script>
+
+    <link rel="stylesheet" href="{$vp}/css/datepicker.css" />
+    <script src="{$vp}/js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="{$vp}/js/ajax.js"></script>
+    <script src="{$vp}/js/focus_picture.js"></script>
+    <link rel="stylesheet" href="{$vp}/css/style.css">
+</head>
+
+<body>
+    {include file='header.mad'} {include file='menu.mad'}
+
+    <div class="hidiv">
+
+
+        <div class="container-fluid">
+
+            <div class="row-fluid">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon">
+                            <i class="icon-align-justify"></i>
+                        </span>
+                        <h5>首页焦点图</h5>
+                    </div>
+           <div class="widget-content">
+
+           	<div class="form-horizontal">
+            <div class="control-group">
+              <label class="control-label">图片URL :</label>
+              <div class="controls">
+                <input id="pic_url" name="pic_url" type="text" class="span11" placeholder="goodluck.jpg" value="">
+              </div>
+            </div>
+
+
+             <div class="control-group">
+              <label class="control-label">图片上传 :</label>
+              <div class="controls pos-r">
+                <div class="logo-pic"><img id="show_img" src="{$mad_configs.logo}" alt="logo"></div>
+                <div class="uploader" id="uniform-undefined">
+                      <form id="img_form" action="post.php" method="post" enctype="multipart/form-data">
+
+                    <input id="img_file" name="uploader" type="file" size="19" style="opacity: 0;"><span class="filename"></span><span class="action">Choose File</span></div>   </form>
+                <a id="up_img" href="javascript:;"> <i class="icon-upload-alt m-l-30 logo-icon tip-top"  data-original-title="上传图片"></i></a>
+                <a id="alogo" href="javascript:;"> <i class="icon-picture green m-l-30 logo-icon"></i></a>
+              </div>
+            </div>
+
+            <div id="minibar" class="control-group">
+
+                <div  class="progress progress-mini progress-danger active progress-striped">
+                 <div class="bar" style="width: 0%;"></div>
+                </div>
+
+            </div>
+
+
+
+            <div class="control-group">
+              <label class="control-label">导向URL :</label>
+              <div class="controls">
+                    <input id="click_url" name="click_url" type="text" class="span11" placeholder="http://www.baidu.com" value="">
+              </div>
+            </div>
+
+            <div class="control-group">
+              <label class="control-label">标题(可空) :</label>
+              <div class="controls">
+                    <input id="title" name="title" type="text" class="span11" placeholder="焦点图标题" value="">
+              </div>
+            </div>
+             <div class="control-group">
+              <label class="control-label">图片描述 :</label>
+              <div class="controls">
+                <input id="pic_dis" type="text" class="span11" name="pic_dis" value="0" placeholder="这里是图片描述，可以写图片标题">
+              </div>
+            </div>
+
+
+            <div class="control-group">
+              <label class="control-label">排序 :</label>
+              <div class="controls">
+                <input id="pic_index" type="text" class="span11" name="pic_index" value="0" placeholder="0">
+              </div>
+            </div>
+</div>
+
+                            <div class="form-actions ">
+                            	<input type="hidden" id="pic_id" name="pic_id">
+                                <button id="save"  type="submit" class="btn btn-success span3 offset3">Save</button>
+                                <button type="button" onclick="Canel();" class="btn btn-primary span3">Canel</button>
+
+                            </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <!--main-container-part-->
+    <div id="content">
+        {include file="breadcrumbs.mad"}
+
+
+
+
+
+
+        <div class="container-fluid">
+
+<div class="widget-box">
+<div class="widget-title">
+<span class="icon"><i class="icon-bookmark"></i></span>
+<h5>全局设置</h5>
+</div>
+
+<div class="widget-content">
+<p>
+    <button class="btn btn-primary btn-mini" onclick="FocusAdd();">添加焦点图</button>
+     <button class="btn btn-primary btn-mini" onclick="ClearAll();">一键清空</button>
+</p>
+
+</div>
+
+</div>
+
+
+            <div class="row-fluid">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon"> <i class="icon-align-justify"></i>
+                        </span>
+                        <h5>焦点图管理</h5>
+
+
+                    </div>
+                    <div class="widget-content nopadding">
+
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>焦点图ID</th>
+                                    <th>图片地址</th>
+                                    <th>导向链接</th>
+                                    <th>图片描述</th>
+                                    <th>排序</th>
+                                    <th>编辑</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {foreach $piclist as $v}
+                                <tr>
+                                    <td>{$v.id}</td>
+                                    <td>{$v.pic_url|escape:"html"}</td>
+                                    <td><a href=" {$v.nav_url}" target="_blank">{$v.click_url|escape:"html"}</a></td>
+                                    <td>{$v.pic_dis|escape:"html"}
+                                    </td>
+                                    <td>{$v.pic_index}</td>
+                                    <td>
+                                        <a href="javascript:;" onclick="Edit('{$v.id}');"> <i class="icon-edit"></i>
+                                            编辑
+                                        </a>
+                                        &nbsp;
+                                        <a href="javascript:;" onclick="Focus_Delete('{$v.id}',this);">
+                                            <i class="icon-trash"></i>
+                                            删除
+                                        </a>
+                                    </td>
+                                </tr>
+                                {/foreach}
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--end-main-container-part-->{include file='footer.mad'}</body>
+
+</html>

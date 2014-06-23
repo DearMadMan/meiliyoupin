@@ -1,0 +1,9 @@
+<!--breadcrumbs-->
+
+      <div id="breadcrumb">
+      <a href="index.php" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
+      {foreach $breadCrumbs as $v}
+      <a href="{if $v.menu_url eq ""}javascript:;{/if}" {if $v@last}class="current"{/if}>{$v.menu_name}</a> 
+      {/foreach}
+      </div>
+<!--End-breadcrumbs-->

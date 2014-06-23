@@ -1,0 +1,24 @@
+function CallAjax(s_type,s_dataType,s_url,s_data,callback)
+{
+	 $.ajax({
+        type:s_type,
+        dataType:s_dataType,
+        cache:false,
+        url:s_url,
+        data:s_data,
+        success:function(msg){
+            if(msg.error=="ok")
+            {
+                callback(msg);
+            }
+            else
+            {
+                alert(msg.error);
+            }
+        },
+        complete:function(msg)
+        {
+           console.log(msg);
+        }
+    });
+}

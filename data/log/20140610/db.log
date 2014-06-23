@@ -1,0 +1,19 @@
+16:19:24 use company;
+16:19:24 set names utf8;
+16:19:24 select * from configs
+16:19:24 use company;
+16:19:24 set names utf8;
+16:19:24 select * from configs
+16:19:24 select * from admin_menu
+16:19:54 use company;
+16:19:54 set names utf8;
+16:19:54 select * from configs
+16:19:54 select * from admin_menu
+16:19:54 use company;
+16:19:54 set names utf8;
+16:19:54 select * from configs
+16:19:54 select * from admin_menu
+16:21:26 use company;
+16:21:26 set names utf8;
+16:21:26 select * from configs
+16:21:26 select * from admin_menu

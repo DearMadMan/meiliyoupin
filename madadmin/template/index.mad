@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matrix Admin</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{$vp}/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{$vp}/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="{$vp}/css/fullcalendar.css" />
+    <link rel="stylesheet" href="{$vp}/css/matrix-style.css" />
+    <link rel="stylesheet" href="{$vp}/css/matrix-media.css" />
+    <link href="{$vp}/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{$vp}/css/jquery.gritter.css" />
+    <link href='{$vp}/css/google.css' rel='stylesheet' type='text/css'>
+
+    <script src="{$vp}/js/jquery.min.js"></script>
+    <script src="{$vp}/js/jquery.ui.custom.js"></script>
+    <script src="{$vp}/js/bootstrap.min.js"></script>
+    <script src="{$vp}/js/jquery.flot.min.js"></script>
+    <script src="{$vp}/js/jquery.flot.resize.min.js"></script>
+    <script src="{$vp}/js/matrix.js"></script>
+</head>
+<body>
+    {include file='header.mad'}
+    {include file='menu.mad'}
+    <!--main-container-part-->
+    <div id="content">
+        {include file="breadcrumbs.mad"}
+        <!--Action boxes-->
+        <div class="container-fluid">
+            <div class="quick-actions_homepage">
+                <ul class="quick-actions">
+                    <li class="bg_lb">
+                        <a href="index.php"> <i class="icon-dashboard"></i>
+                            控制面板
+                        </a>
+                    </li>
+                    <li class="bg_lg span3">
+                        <a href="charts.html"> <i class="icon-user"></i>
+                            用户管理
+                        </a>
+                    </li>
+                    <li class="bg_lo">
+                        <a href="tables.html">
+                            <i class="icon-comments"></i>
+                            评论管理
+                        </a>
+                    </li>
+                    <li class="bg_ls">
+                        <a href="grid.html">
+                            <i class="icon-envelope"></i>
+                            留言管理
+                        </a>
+                    </li>
+                    <li class="bg_lo span3">
+                        <a href="index.php?act=goods_list">
+                            <i class="icon-shopping-cart"></i>
+                            商品列表
+                        </a>
+                    </li>
+                    <li class="bg_ls">
+                        <a href="index.php?act=goods_add">
+                            <i class="icon-pencil"></i>
+                            添加商品
+                        </a>
+                    </li>
+                    <li class="bg_lb">
+                        <a href="index.php?act=article_type_list">
+                            <i class="icon-tags"></i>
+                            文章分类
+                        </a>
+                    </li>
+                    <li class="bg_lg">
+                        <a href="index.php?act=article_type_add">
+                            <i class="icon-calendar"></i>
+                            添加分类
+                        </a>
+                    </li>
+                    <li class="bg_lr">
+                        <a href="error404.html">
+                            <i class="icon-info-sign"></i>
+                            会员统计
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <!--End-Action boxes-->
+
+            <hr/>
+
+        </div>
+    </div>
+
+    <!--end-main-container-part-->
+    {include file='footer.mad'}
+    <!--
+
+<script src="{$vp}/js/jquery.dataTables.min.js"></script>
+-->
+</body>
+</html>
