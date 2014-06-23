@@ -1,4 +1,27 @@
-MadMan-Company
+MadMan-Meiliyoupin
 ==============
+后台：
 
-MadMan-Company
+菜单：
+1.系统设置
+	a)商店信息
+	b)配送方式
+	c)支付方式
+2.商品管理
+	a)商品列表
+	b)添加商品
+	c)商品分类
+	d)商品回收站
+3.订单管理
+    a)订单列表
+    b)订单查询
+    c)订单删除日志
+4.评论管理
+	a)评论列表
+	b)留言管理
+
+数据库相关：
+
+
+
+MadMan-Meiliyoupin
