@@ -1,0 +1,245 @@
+08:48:54 use company;
+08:48:54 set names utf8;
+08:48:54 select * from configs
+08:48:54 use company;
+08:48:54 set names utf8;
+08:48:54 select * from configs
+08:48:54 select * from admin_menu
+08:48:59 use company;
+08:48:59 set names utf8;
+08:48:59 select * from configs
+08:48:59 select * from admin_menu
+08:49:00 select * from admin where user_name='myadmin' and user_word='691c360156c27261b40c974ec0bf8f4a'
+08:49:00 use company;
+08:49:00 set names utf8;
+08:49:00 select * from configs
+08:49:00 select * from admin_menu
+08:49:05 use company;
+08:49:05 set names utf8;
+08:49:05 select * from configs
+08:49:05 select * from admin_menu
+08:49:06 use company;
+08:49:06 set names utf8;
+08:49:06 select * from configs
+08:49:06 select * from admin_menu
+08:49:06 select * from nav order by z_index desc
+08:49:07 use company;
+08:49:07 set names utf8;
+08:49:07 select * from configs
+08:49:07 select * from admin_menu
+08:49:07 select * from focus_picture order by pic_index desc
+08:49:10 use company;
+08:49:10 set names utf8;
+08:49:10 select * from configs
+08:49:10 select * from admin_menu
+08:49:10 select count(a.id) from articles as a left join article_type as b on a.type_id=b.id order by a.id desc
+08:49:10 select a.*,b.type_name from articles as a left join article_type as b on a.type_id=b.id order by a.id desc limit 0,20
+08:49:11 use company;
+08:49:11 set names utf8;
+08:49:11 select * from configs
+08:49:11 select * from admin_menu
+08:49:11 select * from article_type
+08:49:12 use company;
+08:49:12 set names utf8;
+08:49:12 select * from configs
+08:49:12 select * from admin_menu
+08:49:12 select * from article_type
+08:49:13 use company;
+08:49:13 set names utf8;
+08:49:13 select * from configs
+08:49:13 select * from admin_menu
+08:49:15 use company;
+08:49:15 set names utf8;
+08:49:15 select * from configs
+08:49:15 select * from admin_menu
+08:49:15 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+08:49:15 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+08:49:16 use company;
+08:49:16 set names utf8;
+08:49:16 select * from configs
+08:49:16 select * from admin_menu
+08:49:16 select * from product_type
+08:49:18 use company;
+08:49:18 set names utf8;
+08:49:18 select * from configs
+08:49:18 select * from admin_menu
+08:49:18 select * from product_type
+08:49:19 use company;
+08:49:19 set names utf8;
+08:49:19 select * from configs
+08:49:19 select * from admin_menu
+08:49:36 use meiliyoupin;
+08:49:36 set names utf8;
+08:49:36 select * from configs
+08:49:36 select * from admin_menu
+08:50:37 use meiliyoupin;
+08:50:37 set names utf8;
+08:50:37 select * from configs
+08:50:37 select * from admin_menu
+08:50:58 use meiliyoupin;
+08:50:58 set names utf8;
+08:50:58 select * from configs
+08:50:58 select * from admin_menu
+08:52:01 use meiliyoupin;
+08:52:01 set names utf8;
+08:52:01 select * from configs
+08:52:01 select * from admin_menu
+08:52:05 use meiliyoupin;
+08:52:05 set names utf8;
+08:52:05 select * from configs
+08:52:05 select * from admin_menu
+08:52:06 use meiliyoupin;
+08:52:06 set names utf8;
+08:52:06 select * from configs
+08:52:06 select * from admin_menu
+08:52:07 use meiliyoupin;
+08:52:07 set names utf8;
+08:52:07 select * from configs
+08:52:07 select * from admin_menu
+08:52:09 use meiliyoupin;
+08:52:09 set names utf8;
+08:52:09 select * from configs
+08:52:09 select * from admin_menu
+08:52:16 use meiliyoupin;
+08:52:16 set names utf8;
+08:52:16 select * from configs
+08:52:16 select * from admin_menu
+08:52:17 use meiliyoupin;
+08:52:17 set names utf8;
+08:52:17 select * from configs
+08:52:17 select * from admin_menu
+08:52:17 use meiliyoupin;
+08:52:17 set names utf8;
+08:52:17 select * from configs
+08:52:17 select * from admin_menu
+08:52:18 use meiliyoupin;
+08:52:18 set names utf8;
+08:52:18 select * from configs
+08:52:18 select * from admin_menu
+10:56:25 use meiliyoupin;
+10:56:25 set names utf8;
+10:56:25 select * from configs
+10:56:25 use meiliyoupin;
+10:56:25 set names utf8;
+10:56:25 select * from configs
+10:56:25 select * from admin_menu
+10:56:30 use meiliyoupin;
+10:56:30 set names utf8;
+10:56:30 select * from configs
+10:56:30 select * from admin_menu
+10:56:30 select * from admin where user_name='myadmin' and user_word='691c360156c27261b40c974ec0bf8f4a'
+10:56:30 use meiliyoupin;
+10:56:30 set names utf8;
+10:56:30 select * from configs
+10:56:30 select * from admin_menu
+10:56:51 use meiliyoupin;
+10:56:51 set names utf8;
+10:56:51 select * from configs
+10:56:51 select * from admin_menu
+10:56:52 use meiliyoupin;
+10:56:52 set names utf8;
+10:56:52 select * from configs
+10:56:52 select * from admin_menu
+10:56:53 use meiliyoupin;
+10:56:53 set names utf8;
+10:56:53 select * from configs
+10:56:53 select * from admin_menu
+10:56:54 use meiliyoupin;
+10:56:54 set names utf8;
+10:56:54 select * from configs
+10:56:54 select * from admin_menu
+10:56:56 use meiliyoupin;
+10:56:56 set names utf8;
+10:56:56 select * from configs
+10:56:56 select * from admin_menu
+10:56:56 select count(a.id) from articles as a left join article_type as b on a.type_id=b.id order by a.id desc
+10:56:56 select a.*,b.type_name from articles as a left join article_type as b on a.type_id=b.id order by a.id desc limit 0,20
+10:56:56 use meiliyoupin;
+10:56:56 set names utf8;
+10:56:56 select * from configs
+10:56:56 select * from admin_menu
+10:56:56 select * from article_type
+10:56:57 use meiliyoupin;
+10:56:57 set names utf8;
+10:56:57 select * from configs
+10:56:57 select * from admin_menu
+10:56:57 select * from article_type
+10:56:58 use meiliyoupin;
+10:56:58 set names utf8;
+10:56:58 select * from configs
+10:56:58 select * from admin_menu
+10:56:58 select * from article_type
+10:56:58 use meiliyoupin;
+10:56:58 set names utf8;
+10:56:58 select * from configs
+10:56:58 select * from admin_menu
+10:56:59 use meiliyoupin;
+10:56:59 set names utf8;
+10:56:59 select * from configs
+10:56:59 select * from admin_menu
+10:56:59 select * from article_type
+10:57:00 use meiliyoupin;
+10:57:00 set names utf8;
+10:57:00 select * from configs
+10:57:00 select * from admin_menu
+10:57:00 select * from article_type
+10:57:01 use meiliyoupin;
+10:57:01 set names utf8;
+10:57:01 select * from configs
+10:57:01 select * from admin_menu
+10:57:01 select count(a.id) from articles as a left join article_type as b on a.type_id=b.id order by a.id desc
+10:57:01 select a.*,b.type_name from articles as a left join article_type as b on a.type_id=b.id order by a.id desc limit 0,20
+10:57:02 use meiliyoupin;
+10:57:02 set names utf8;
+10:57:02 select * from configs
+10:57:02 select * from admin_menu
+10:57:03 use meiliyoupin;
+10:57:03 set names utf8;
+10:57:03 select * from configs
+10:57:03 select * from admin_menu
+10:57:03 use meiliyoupin;
+10:57:03 set names utf8;
+10:57:03 select * from configs
+10:57:03 select * from admin_menu
+10:57:04 use meiliyoupin;
+10:57:04 set names utf8;
+10:57:04 select * from configs
+10:57:04 select * from admin_menu
+10:57:06 use meiliyoupin;
+10:57:06 set names utf8;
+10:57:06 select * from configs
+10:57:06 select * from admin_menu
+10:57:06 use meiliyoupin;
+10:57:06 set names utf8;
+10:57:06 select * from configs
+10:57:06 select * from admin_menu
+10:57:07 use meiliyoupin;
+10:57:07 set names utf8;
+10:57:07 select * from configs
+10:57:07 select * from admin_menu
+10:57:08 use meiliyoupin;
+10:57:08 set names utf8;
+10:57:08 select * from configs
+10:57:08 select * from admin_menu
+10:57:09 use meiliyoupin;
+10:57:09 set names utf8;
+10:57:09 select * from configs
+10:57:09 select * from admin_menu
+10:57:09 use meiliyoupin;
+10:57:09 set names utf8;
+10:57:09 select * from configs
+10:57:09 select * from admin_menu
+10:57:10 use meiliyoupin;
+10:57:10 set names utf8;
+10:57:10 select * from configs
+10:57:10 select * from admin_menu
+10:57:11 use meiliyoupin;
+10:57:11 set names utf8;
+10:57:11 select * from configs
+10:57:11 select * from admin_menu
+10:57:11 select * from nav order by z_index desc
+10:57:11 use meiliyoupin;
+10:57:11 set names utf8;
+10:57:11 select * from configs
+10:57:11 select * from admin_menu
+10:57:11 select * from focus_picture order by pic_index desc

@@ -14,7 +14,7 @@ if(!defined('MadMan'))
 // database host
 $config_db_host="127.0.0.1:3306";
 // database name
-$config_db_name="company";
+$config_db_name="meiliyoupin";
 // database user
 $config_db_user="root";
 

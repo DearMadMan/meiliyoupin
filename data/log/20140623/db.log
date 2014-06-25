@@ -1,0 +1,217 @@
+13:32:06 use company;
+13:32:06 set names utf8;
+13:32:06 select * from configs
+13:32:06 use company;
+13:32:06 set names utf8;
+13:32:06 select * from configs
+13:32:07 select * from admin_menu
+13:32:12 use company;
+13:32:12 set names utf8;
+13:32:12 select * from configs
+13:32:12 select * from admin_menu
+13:32:12 select * from admin where user_name='myadmin' and user_word='691c360156c27261b40c974ec0bf8f4a'
+13:32:12 use company;
+13:32:12 set names utf8;
+13:32:12 select * from configs
+13:32:12 select * from admin_menu
+13:32:14 use company;
+13:32:14 set names utf8;
+13:32:14 select * from configs
+13:32:14 select * from admin_menu
+13:32:15 use company;
+13:32:15 set names utf8;
+13:32:15 select * from configs
+13:32:15 select * from admin_menu
+13:32:16 use company;
+13:32:16 set names utf8;
+13:32:16 select * from configs
+13:32:16 select * from admin_menu
+13:32:16 use company;
+13:32:16 set names utf8;
+13:32:16 select * from configs
+13:32:16 select * from admin_menu
+13:32:16 select * from nav order by z_index desc
+13:32:19 use company;
+13:32:19 set names utf8;
+13:32:19 select * from configs
+13:32:19 select * from admin_menu
+13:32:19 select * from focus_picture order by pic_index desc
+13:32:20 use company;
+13:32:20 set names utf8;
+13:32:20 select * from configs
+13:32:20 select * from admin_menu
+13:32:21 use company;
+13:32:21 set names utf8;
+13:32:21 select * from configs
+13:32:21 select * from admin_menu
+13:32:21 select * from nav order by z_index desc
+13:32:22 use company;
+13:32:22 set names utf8;
+13:32:22 select * from configs
+13:32:22 select * from admin_menu
+13:32:22 select * from nav order by z_index desc
+13:32:23 use company;
+13:32:23 set names utf8;
+13:32:23 select * from configs
+13:32:23 select * from admin_menu
+13:32:23 select * from focus_picture order by pic_index desc
+13:32:24 use company;
+13:32:24 set names utf8;
+13:32:24 select * from configs
+13:32:24 select * from admin_menu
+13:32:25 use company;
+13:32:25 set names utf8;
+13:32:25 select * from configs
+13:32:25 select * from admin_menu
+13:32:25 select * from article_type
+13:32:26 use company;
+13:32:26 set names utf8;
+13:32:26 select * from configs
+13:32:26 select * from admin_menu
+13:32:26 select * from article_type
+13:32:26 use company;
+13:32:26 set names utf8;
+13:32:26 select * from configs
+13:32:26 select * from admin_menu
+13:32:26 select count(a.id) from articles as a left join article_type as b on a.type_id=b.id order by a.id desc
+13:32:26 select a.*,b.type_name from articles as a left join article_type as b on a.type_id=b.id order by a.id desc limit 0,20
+13:32:27 use company;
+13:32:27 set names utf8;
+13:32:27 select * from configs
+13:32:27 select * from admin_menu
+13:32:27 select * from article_type
+13:32:28 use company;
+13:32:28 set names utf8;
+13:32:28 select * from configs
+13:32:28 select * from admin_menu
+13:32:28 select * from article_type
+13:32:29 use company;
+13:32:29 set names utf8;
+13:32:29 select * from configs
+13:32:29 select * from admin_menu
+13:32:30 use company;
+13:32:30 set names utf8;
+13:32:30 select * from configs
+13:32:30 select * from admin_menu
+13:32:30 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+13:32:30 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+13:32:31 use company;
+13:32:31 set names utf8;
+13:32:31 select * from configs
+13:32:31 select * from admin_menu
+13:32:31 select * from product_type
+13:32:32 use company;
+13:32:32 set names utf8;
+13:32:32 select * from configs
+13:32:32 select * from admin_menu
+13:32:32 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+13:32:32 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+13:32:33 use company;
+13:32:33 set names utf8;
+13:32:33 select * from configs
+13:32:33 select * from admin_menu
+13:32:33 select * from product_type
+13:32:33 use company;
+13:32:33 set names utf8;
+13:32:33 select * from configs
+13:32:33 select * from admin_menu
+13:32:33 select * from product_type
+13:32:34 use company;
+13:32:34 set names utf8;
+13:32:34 select * from configs
+13:32:34 select * from admin_menu
+13:32:36 use company;
+13:32:36 set names utf8;
+13:32:36 select * from configs
+13:32:36 select * from admin_menu
+13:32:36 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+13:32:36 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+13:32:37 use company;
+13:32:37 set names utf8;
+13:32:37 select * from configs
+13:32:37 select * from admin_menu
+13:32:37 select * from product_type
+13:32:37 use company;
+13:32:37 set names utf8;
+13:32:37 select * from configs
+13:32:37 select * from admin_menu
+13:32:37 select * from product_type
+13:32:38 use company;
+13:32:38 set names utf8;
+13:32:38 select * from configs
+13:32:38 select * from admin_menu
+13:32:38 select * from product_type
+13:32:39 use company;
+13:32:39 set names utf8;
+13:32:39 select * from configs
+13:32:39 select * from admin_menu
+13:32:39 select count(a.id) from product as a left join product_type as b on a.type_id=b.id order by a.id desc
+13:32:39 select a.*,b.type_name from product as a left join product_type as b on a.type_id=b.id order by a.id desc limit 0,20
+13:32:39 use company;
+13:32:39 set names utf8;
+13:32:39 select * from configs
+13:32:39 select * from admin_menu
+13:32:39 select * from product_type
+13:32:40 use company;
+13:32:40 set names utf8;
+13:32:40 select * from configs
+13:32:40 select * from admin_menu
+13:32:40 select * from product_type
+13:32:40 use company;
+13:32:40 set names utf8;
+13:32:40 select * from configs
+13:32:40 select * from admin_menu
+13:32:40 select * from product_type
+13:32:41 use company;
+13:32:41 set names utf8;
+13:32:41 select * from configs
+13:32:41 select * from admin_menu
+13:32:42 use company;
+13:32:42 set names utf8;
+13:32:42 select * from configs
+13:32:42 select * from admin_menu
+13:32:42 select count(id) from msg order by add_time desc
+13:32:42 select * from msg order by add_time desc limit 0,20
+13:32:44 use company;
+13:32:44 set names utf8;
+13:32:44 select * from configs
+13:32:44 select * from admin_menu
+13:32:44 use company;
+13:32:44 set names utf8;
+13:32:44 select * from configs
+13:32:44 select * from admin_menu
+13:32:44 select * from nav order by z_index desc
+13:32:45 use company;
+13:32:45 set names utf8;
+13:32:45 select * from configs
+13:32:45 select * from admin_menu
+13:32:45 select * from focus_picture order by pic_index desc
+13:32:46 use company;
+13:32:46 set names utf8;
+13:32:46 select * from configs
+13:32:46 select * from admin_menu
+13:32:46 select * from nav order by z_index desc
+13:32:46 use company;
+13:32:46 set names utf8;
+13:32:46 select * from configs
+13:32:46 select * from admin_menu
+13:32:47 use company;
+13:32:47 set names utf8;
+13:32:47 select * from configs
+13:32:47 select * from admin_menu
+13:32:47 select * from nav order by z_index desc
+13:32:47 use company;
+13:32:47 set names utf8;
+13:32:47 select * from configs
+13:32:47 select * from admin_menu
+13:32:47 select * from nav order by z_index desc
+13:32:47 use company;
+13:32:47 set names utf8;
+13:32:47 select * from configs
+13:32:47 select * from admin_menu
+13:32:47 select * from focus_picture order by pic_index desc
+13:32:48 use company;
+13:32:48 set names utf8;
+13:32:48 select * from configs
+13:32:48 select * from admin_menu
+13:32:48 select * from nav order by z_index desc

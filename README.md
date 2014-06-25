@@ -21,7 +21,16 @@ MadMan-Meiliyoupin
 		<ul>
 			<li>订单列表</li>
 			<li>订单查询</li>
+			<li>订单模版</li>
 			<li>订单删除日志</li>
+		</ul>
+	</li>
+	<li><p>会员管理</p>
+		<ul>
+			<li>会员列表</li>
+			<li>会员等级</li>
+			<li>试用申请</li>
+			<li></li>
 		</ul>
 	</li>
 	<li><p>评论管理</p>
@@ -32,9 +41,8 @@ MadMan-Meiliyoupin
 	</li>
 </ol>
 
+<h2>数据库表结构：</h2>
 
-数据库相关：
-<p>??????????</p>
 
 
 MadMan-Meiliyoupin
