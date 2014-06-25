@@ -30,6 +30,6 @@ $config_timezone="PRC";
 $config_dbname="configs";
 
 //dblog
-$config_write_log=true;
+$config_write_log=false;
 define("DEBUG",true);
 ?>
