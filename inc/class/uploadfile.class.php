@@ -18,7 +18,7 @@
  * 使用方法uploadfile::SetTempDir("../images/");
  * uploadfile::Init($temp_dir="",$file_size="",$file_data_type="",$random_name="",$date_dir="")
  * $upload=uploadfile::UploadFiles($_FILES);
- * if(uploadfile::success){
+ * if(uploadfile::success()){
  * print_r($upload);
  * }
  *
@@ -104,6 +104,8 @@ class uploadfile
 					if(move_uploaded_file($value['tmp_name'][$k], $date_dir_temp.$temp_name))
 					{
 						 $return_paths[]=$date_dir_temp.$temp_name;
+						 $return_paths['temp_name'][]=$temp_name;
+						 $return_paths['date_dir_temp'][]=$date_dir_temp;
 						 self::$success=true;
 					}
 					else
@@ -146,6 +148,8 @@ class uploadfile
 					if(move_uploaded_file($value['tmp_name'], $date_dir_temp.$temp_name))
 					{
 						 $return_paths[]=$date_dir_temp.$temp_name;
+						  $return_paths['temp_name'][]=$temp_name;
+						   $return_paths['date_dir_temp'][]=$date_dir_temp;
 						 self::$success=true;
 					}
 					else

@@ -279,6 +279,25 @@ elseif($act=="message")
 
   $smarty->display("message.mad");
 }
+elseif($act=="goods_add")
+{
+    $gallery_list=array();
+    if(isset($_SESSION['goods_add']['gallery_thumb']))
+    {
+      foreach ($_SESSION['goods_add']['gallery_thumb'] as $key => $value) {
+        if(!file_exists($value))
+        {
+          //未查找到的文件清除SESSION
+          unset($_SESSION['goods_add']['gallery_thumb'][$key]);
+        }
+      }
+      $gallery_list=$_SESSION['goods_add']['gallery_thumb'];
+    }
+
+    print_r($_SESSION);die;
+    $smarty->assign("gallery_list",$gallery_list);  //已经上传但为保存的图片
+    $smarty->display("goods_add.mad");
+}
 else
 {
 	$smarty->display("index.mad");

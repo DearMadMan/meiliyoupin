@@ -193,6 +193,6 @@ $(document).ready(function () {
         $(this).uniform();
     });
       $("input[type='checkbox']").each(function () {
-        $(this).uniform();
+      $(this).uniform();
     });
 });

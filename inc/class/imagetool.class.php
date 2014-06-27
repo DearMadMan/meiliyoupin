@@ -15,6 +15,26 @@
  * 独立模块
  */
 
+
+/**
+ * 纯静态类，直接使用 使用方法如下：
+ *
+ *	$arr=array(
+ *			"width"=>$gbs["configs"]['thumb_width'],
+ *			"height"=>$gbs["configs"]['thumb_height'],
+ *			"jpeg_quality"=>90,
+ *			"watermark"=>false
+ *		);
+ *	imagetool::InitFromArray($arr);
+ *	imagetool::GetImageFromString($upload[0],"thumb");
+ *	 	$arr=array(
+ *			"width"=>$gbs["configs"]['show_width'],
+ *			"height"=>$gbs["configs"]['show_height']
+ *		);
+ *	imagetool::InitFromArray($arr);
+ *	imagetool::GetImageFromString($upload[0],"img");
+ */
+
 class imagetool
 {
 	private static $can_remove=true; //不是图片类型可删除
@@ -163,7 +183,7 @@ class imagetool
 	 * [GetImageFromString 根据一个path压缩一张图片并返回路径]
 	 * @param [type] $path [description]
 	 */
-	public static function GetImageFromString($path)
+	public static function GetImageFromString($path,$thumb_prefix="thumb")
 	{
 
 		$img=self::ImageInfo($path);
@@ -197,11 +217,11 @@ class imagetool
 			{
 				$str=substr($path,strripos($path,"/")+1);
 				$strp=substr($path,0,strripos($path,"/")+1);
-				$path=$strp."thumb_".$str;
+				$path=$strp.$thumb_prefix."_".$str;
 			}
 			else
 			{
-				$path="thumb_".$path;
+				$path=$thumb_prefix."_".$path;
 			}
 
 

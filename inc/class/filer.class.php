@@ -109,6 +109,22 @@ class filer
 		return true;
 	}
 
+	//文件删除操作
+	public function RemoveFile($path)
+	{
+			if(!file_exists($path))
+			{
+				return false;
+			}
+
+			if(!unlink($path))
+			{
+				return false;
+			}
+			return true;
+
+	}
+
 }
 
 ?>

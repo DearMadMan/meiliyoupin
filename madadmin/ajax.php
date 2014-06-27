@@ -229,6 +229,70 @@ elseif($act=="message_delete")
 	}
 	EchoJson($arr,"删除失败!","");
 }
+elseif($act=="gallery_delete")
+{
+	//进行图片路径分析
+	if(!empty($_POST['path']))
+	{
+		$path=trim($_POST['path']);
+		$temp_dir=substr($path,0, strripos($path,"/")+1);
+		$img_name=substr($path, strripos($path,"/")+1);
+		$real_name="";
+		if(strpos($img_name,"_"))
+		{
+			$temp=explode("_",$img_name);
+			$real_name=$temp[1];
+		}
+		else
+		{
+			$real_name=$img_name;
+		}
+		//删除路径图片原图及各种压缩图
+		$filer=filer::GetInstance();
+		$ok=$filer->RemoveFile($temp_dir.$real_name);
+		if($ok)
+		{
+			$keys=array_search($temp_dir.$real_name, $_SESSION['goods_add']["gallery_origin"]);
+			if($keys!==null)
+			{
+				unset($_SESSION['goods_add']["gallery_origin"][$keys]);
+			}
+		}
+		$ok=$filer->RemoveFile($temp_dir."thumb_".$real_name);
+
+		if($ok)
+		{
+			$keys=array_search($temp_dir."thumb_".$real_name, $_SESSION['goods_add']["gallery_thumb"]);
+			if($keys!==null)
+			{
+				unset($_SESSION['goods_add']["gallery_thumb"][$keys]);
+			}
+		}
+
+
+
+		$ok=$filer->RemoveFile($temp_dir."img_".$real_name);
+
+		if($ok)
+		{
+			$keys=array_search($temp_dir."img_".$real_name, $_SESSION['goods_add']["gallery_img"]);
+			if($keys!==null)
+			{
+				unset($_SESSION['goods_add']["gallery_img"][$keys]);
+			}
+		}
+
+		$ok=$ok?"ok":"error";
+		EchoJson($arr,$ok);
+	}
+	else
+	{
+		EchoJson($arr,"未发现路径！");
+	}
+
+
+	//清除该图片相关SESSION
+}
 function AddToTableAndReJson($table,$must,$data,$arr)
 {
 	$db=$GLOBALS['db'];

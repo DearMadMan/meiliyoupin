@@ -12,3 +12,53 @@
 
 
 #minibar .progress-mini{height: 6px;}
+
+
+.md-drag{
+	width: 100%;
+	height: 200px;
+	background: #fff;
+	border: 4px dotted #eee;
+	text-align: center;
+	color: #ccc;
+	font-size: 20px;
+	line-height: 200px;
+	font-weight: bold;
+}
+
+#gallery{
+width: 100%;
+list-style: none;
+overflow: hidden;
+}
+#gallery li{float: left;
+margin: 0 10px 10px 0px;
+min-width: 7%;
+min-height: 100px;
+max-height: 100px;
+max-width: 100px;
+overflow: hidden;
+position: relative;
+}
+#gallery li img{
+	min-height: 70px;
+	width: 100%;
+	height: auto;
+}
+#gallery li span.progress{
+position: absolute;
+top: 0;
+width: 100%;
+height: 2px;
+background: red;
+}
+
+#gallery li span.close{
+position: absolute;
+top: 1px;
+right:1px;
+display: none;
+color: red;
+z-index: 99;
+}
+

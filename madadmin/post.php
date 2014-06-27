@@ -245,7 +245,7 @@ elseif($act=="product_edit")
     if(IsMust($must,$_POST))
     {
       array_shift($must);
-	 
+
       $must[]="add_time";
         $data=array(
                 intval($_POST['type_id']),
@@ -264,6 +264,7 @@ elseif($act=="product_edit")
 }
 else
 {
+  print_r($_REQUEST);
 	 ShowTips("产品更新失败！请稍填写完整数据！");
 }
 ?>
