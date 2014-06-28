@@ -31,6 +31,65 @@
 
 <body>
 	{include file='header.mad'} {include file='menu.mad'}
+
+
+    <div class="hidiv">
+
+
+        <div class="container-fluid">
+
+            <div class="row-fluid">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon">
+                            <i class="icon-align-justify"></i>
+                        </span>
+                        <h5>属性信息</h5>
+                    </div>
+           <div class="widget-content">
+
+           	<div class="form-horizontal">
+            <div class="control-group">
+              <label class="control-label">属性名称 :</label>
+              <div class="controls">
+                <input id="attr_name" name="attr_name" type="text" class="span11" placeholder="属性名称" value="">
+              </div>
+            </div>
+
+
+
+            <div class="control-group">
+              <label class="control-label">追加价格 :</label>
+              <div class="controls">
+                    <input id="attr_price" name="attr_price" type="text" class="span11" placeholder="对该属性追加价格" value="">
+              </div>
+            </div>
+
+</div>
+
+                            <div class="form-actions ">
+                            	<input type="hidden" id="attr_id" name="attr_id">
+                                <button id="save"  type="submit" class="btn btn-success span3 offset3">Save</button>
+                                <button type="button" onclick="NavCanel();" class="btn btn-primary span3">Canel</button>
+
+                            </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
 	<!--main-container-part-->
 	<div id="content">
 		{include file="breadcrumbs.mad"}
@@ -222,7 +281,55 @@
 							</div>
 						</div>
 					</div>
-					<div id="tab4" class="tab-pane">tab4</div>
+					<div id="tab4" class="tab-pane">
+						<div class="row-fluid">
+							<div class="span12">
+								<div class="widget-box nomargin-top">
+									<div class="widget-title">
+										<span class="icon">
+											<i class="icon-th"></i>
+										</span>
+										<a id="addattr" href="javascript:;">
+										<h5>添加属性</h5>
+										</a>
+									</div>
+									<div class="widget-content nopadding">
+										<table class="table table-bordered table-striped">
+											<thead>
+												<tr>
+													<th>属性名称</th>
+													<th>增加价格</th>
+													<th>编辑</th>
+												</tr>
+											</thead>
+											<tbody id="attr_tbody">
+												{foreach $attr_list as $k=>$v}
+												<tr data={$k}>
+													<td>{$v[0]}</td>
+													<td>{$v[1]}</td>
+													<td>
+											 <a href="javascript:;" onclick="EditAttr(this);">
+											  <i class="icon-edit"></i>
+                                            编辑
+                                        	 </a>
+                                       		 &nbsp;
+                                      	     <a href="javascript:;" onclick="DeleteAttr(this);" >
+                                            <i class="icon-trash"></i>
+                                            删除
+                                       		 </a>
+													</td>
+												</tr>
+												{/foreach}
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+					</div>
 							<div class="form-actions ">
 							<button type="submit" class="btn btn-success span3 offset3">Save</button>
 							<button type="reset" class="btn btn-primary span3">Reset</button>

@@ -294,8 +294,15 @@ elseif($act=="goods_add")
       $gallery_list=$_SESSION['goods_add']['gallery_thumb'];
     }
 
-    print_r($_SESSION);die;
+ //商品属性
+    $attr_list=array();
+    if(isset($_SESSION['goods_add']['attr']))
+    {
+      $attr_list=$_SESSION['goods_add']['attr'];
+    }
+
     $smarty->assign("gallery_list",$gallery_list);  //已经上传但为保存的图片
+    $smarty->assign("attr_list",$attr_list);
     $smarty->display("goods_add.mad");
 }
 else

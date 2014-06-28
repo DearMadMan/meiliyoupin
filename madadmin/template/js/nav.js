@@ -94,7 +94,7 @@ function NavCanel()
 
 function NavAdd()
 {
-    SetHidiv("add","","",0,"");
+    SetHidiv("add","","",0,0);
     $("#is_blank").removeAttr("checked");
     $("#is_blank").val(0);
     $.uniform.update();

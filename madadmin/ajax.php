@@ -293,6 +293,77 @@ elseif($act=="gallery_delete")
 
 	//清除该图片相关SESSION
 }
+elseif($act=="goods_add_addattr")
+{
+	$attr_name="";
+	if(isset($_POST['attr_name']))
+	{
+		$attr_name=$_POST['attr_name'];
+	}
+	if(!empty($attr_name))
+	{
+		$_SESSION['goods_add']["attr"][]=array($attr_name,floatval($_POST['attr_price']));
+		end($_SESSION['goods_add']["attr"]);
+		$key=key($_SESSION['goods_add']["attr"]);
+		$data=$_SESSION['goods_add']['attr'][$key];
+		$data[]=$key;
+		EchoJson($arr,"ok",$data);
+	}
+	EchoJson($arr,"error");
+}
+elseif($act=="get_attr")  //获取商品属性
+{
+	$attr_key="";
+	if(isset($_POST['attr_key']))
+	{
+		if(is_numeric($_POST['attr_key']))
+		{
+			$attr_key=intval($_POST['attr_key']);
+		}
+	}
+	if($attr_key!="")
+	{
+		if(isset($_SESSION['goods_add']['attr'][$attr_key]))
+		{
+				EchoJson($arr,"ok",$_SESSION['goods_add']['attr'][$attr_key]);
+		}
+		else
+		{
+			EchoJson($arr,"该条属性不存在！");
+		}
+	}
+	EchoJson($arr,"error");
+}
+elseif($act=="goods_add_edit_attr")
+{
+	$attr_key="";
+	if(isset($_POST['attr_key']))
+	{
+		if(is_numeric($_POST['attr_key']))
+		{
+			$attr_key=intval($_POST['attr_key']);
+		}
+	}
+
+
+	if( ($attr_key!=="") && ($_POST['attr_name']!=="") )
+	{
+
+		if(isset($_SESSION['goods_add']['attr'][$attr_key]))
+		{
+			$attr_name=trim($_POST['attr_name']);
+			$attr_price=floatval($_POST['attr_price']);
+			$_SESSION['goods_add']['attr'][$attr_key]=array($attr_name,$attr_price);
+
+				EchoJson($arr,"ok",$_SESSION['goods_add']['attr'][$attr_key]);
+		}
+		else
+		{
+			EchoJson($arr,"该条属性不存在！");
+		}
+	}
+	EchoJson($arr,"error");
+}
 function AddToTableAndReJson($table,$must,$data,$arr)
 {
 	$db=$GLOBALS['db'];

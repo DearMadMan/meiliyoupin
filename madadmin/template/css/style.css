@@ -2,7 +2,8 @@
 .green{color: #51a351;}
 .m-l-30{margin-left: 30px;}
 .pos-r{position: relative;}
-
+.nomargin-top{margin-top: 0px;}
+.flr{float: right;}
 .logo-pic{position: absolute;overflow: hidden;display: none;z-index: 99;right: 0;top:-2px;border: 1px dashed red;}
 .logo-icon{line-height: 28px;}
 
@@ -62,3 +63,4 @@ color: red;
 z-index: 99;
 }
 
+#addattr h5:hover{color: #5bb75b;}

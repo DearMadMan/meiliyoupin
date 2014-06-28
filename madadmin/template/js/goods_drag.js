@@ -54,7 +54,40 @@
 							      $(this).children(".close").css("display","none");
 							  }
 							);
-
+							close.click(function(){
+								if(confirm("确定要删除该图片吗？"))
+								{
+									var li=$(this).parent();
+									//ajax请求
+									$.ajax({
+										type:"post",
+										dataType:"json",
+										url:"ajax.php",
+										data:"act=gallery_delete&path="+li.attr("data"),
+										cache:false,
+										success:function(msg){
+											if(msg.error=="ok")
+											{
+												li.fadeOut(300,function(){
+													li.remove();
+												});
+											}
+											else
+											{
+												alert(msg.error);
+											}
+										},
+										complete:function(msg){
+											console.log(msg);
+										}
+									});
+								}
+								else
+								{
+									return false;
+								}
+							});
+							//绑定删除
 						}
 						reader.readAsDataURL(f);
 					}

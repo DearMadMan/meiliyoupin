@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-06-27 11:27:34
+<?php /* Smarty version Smarty-3.1.16, created on 2014-06-27 17:32:38
          compiled from "E:\apache\www\temp\d\madadmin\template\goods_add.mad" */ ?>
 <?php /*%%SmartyHeaderCode:1538053aa94f1438ce9-51146647%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '81f0d93079e34b9fbdc87caaa35b11a592227a4d' => 
     array (
       0 => 'E:\\apache\\www\\temp\\d\\madadmin\\template\\goods_add.mad',
-      1 => 1403839491,
+      1 => 1403861550,
       2 => 'file',
     ),
   ),
@@ -25,6 +25,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'v' => 0,
     'mad_configs' => 0,
     'gallery_list' => 0,
+    'attr_list' => 0,
+    'k' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -84,6 +86,65 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <body>
 	<?php echo $_smarty_tpl->getSubTemplate ('header.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
  <?php echo $_smarty_tpl->getSubTemplate ('menu.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
+
+
+    <div class="hidiv">
+
+
+        <div class="container-fluid">
+
+            <div class="row-fluid">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon">
+                            <i class="icon-align-justify"></i>
+                        </span>
+                        <h5>属性信息</h5>
+                    </div>
+           <div class="widget-content">
+
+           	<div class="form-horizontal">
+            <div class="control-group">
+              <label class="control-label">属性名称 :</label>
+              <div class="controls">
+                <input id="attr_name" name="attr_name" type="text" class="span11" placeholder="属性名称" value="">
+              </div>
+            </div>
+
+
+
+            <div class="control-group">
+              <label class="control-label">追加价格 :</label>
+              <div class="controls">
+                    <input id="attr_price" name="attr_price" type="text" class="span11" placeholder="对该属性追加价格" value="">
+              </div>
+            </div>
+
+</div>
+
+                            <div class="form-actions ">
+                            	<input type="hidden" id="attr_id" name="attr_id">
+                                <button id="save"  type="submit" class="btn btn-success span3 offset3">Save</button>
+                                <button type="button" onclick="NavCanel();" class="btn btn-primary span3">Canel</button>
+
+                            </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
 
 	<!--main-container-part-->
 	<div id="content">
@@ -290,7 +351,64 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 							</div>
 						</div>
 					</div>
-					<div id="tab4" class="tab-pane">tab4</div>
+					<div id="tab4" class="tab-pane">
+						<div class="row-fluid">
+							<div class="span12">
+								<div class="widget-box nomargin-top">
+									<div class="widget-title">
+										<span class="icon">
+											<i class="icon-th"></i>
+										</span>
+										<a id="addattr" href="javascript:;">
+										<h5>添加属性</h5>
+										</a>
+									</div>
+									<div class="widget-content nopadding">
+										<table class="table table-bordered table-striped">
+											<thead>
+												<tr>
+													<th>属性名称</th>
+													<th>增加价格</th>
+													<th>编辑</th>
+												</tr>
+											</thead>
+											<tbody id="attr_tbody">
+												<?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
+ $_smarty_tpl->tpl_vars['k'] = new Smarty_Variable;
+ $_from = $_smarty_tpl->tpl_vars['attr_list']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->key => $_smarty_tpl->tpl_vars['v']->value) {
+$_smarty_tpl->tpl_vars['v']->_loop = true;
+ $_smarty_tpl->tpl_vars['k']->value = $_smarty_tpl->tpl_vars['v']->key;
+?>
+												<tr data=<?php echo $_smarty_tpl->tpl_vars['k']->value;?>
+>
+													<td><?php echo $_smarty_tpl->tpl_vars['v']->value[0];?>
+</td>
+													<td><?php echo $_smarty_tpl->tpl_vars['v']->value[1];?>
+</td>
+													<td>
+											 <a href="javascript:;" onclick="EditAttr(this);">
+											  <i class="icon-edit"></i>
+                                            编辑
+                                        	 </a>
+                                       		 &nbsp;
+                                      	     <a href="javascript:;" onclick="DeleteAttr(this);" >
+                                            <i class="icon-trash"></i>
+                                            删除
+                                       		 </a>
+													</td>
+												</tr>
+												<?php } ?>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+					</div>
 							<div class="form-actions ">
 							<button type="submit" class="btn btn-success span3 offset3">Save</button>
 							<button type="reset" class="btn btn-primary span3">Reset</button>
