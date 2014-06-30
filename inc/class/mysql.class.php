@@ -69,6 +69,14 @@ class mysql extends db
     $sql="select $need from $table $where";
     return $this->getRow($sql);
   }
+
+  public function GetAllFromTable($table)
+  {
+      $sql="select * from $table";
+      return $this->getAll($sql);
+  }
+
+
  	 public function Query($sql)
  	{
  		$result=mysql_query($sql);

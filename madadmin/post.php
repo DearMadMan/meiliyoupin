@@ -262,6 +262,53 @@ elseif($act=="product_edit")
     }
      ShowTips("产品更新失败！请稍后尝试！");
 }
+elseif($act=="goods_add")
+{
+  print_r($_POST);
+  print_r($_SESSION);
+  die;
+}
+elseif($act=="goods_type_add")
+{
+  $must=array("type_name","parent_id");
+  if(IsMust($must,$_POST))
+  {
+    $data=array(
+                trim($_POST['type_name']),
+                intval($_POST['parent_id'])
+                );
+     $res=$db->autoExcute("goods_type","",$must,$data);
+        if($res)
+        {
+          ShowTips("添加分类成功！");
+        }
+  }
+  ShowTips("Something Wrong!");
+}
+elseif($act=="goods_type_edit")
+{
+  $must=array("id","type_name","parent_id");
+  if(IsMust($must,$_POST))
+  {
+    $id=intval($_POST['id']);
+    $types=$db->getAllFromTable("goods_type");
+    if(Is_child($types,$id,intval($_POST['parent_id'])))
+    {
+      ShowTips("目标分类是当前分类的子分类！请重新选择！");
+    }
+  array_shift($must);
+    $data=array(
+                trim($_POST['type_name']),
+                intval($_POST['parent_id'])
+                );
+     $res=$db->autoExcute("goods_type","id=$id",$must,$data,"update");
+        if($res)
+        {
+          ShowTips("更新分类成功！");
+        }
+  }
+  ShowTips("Something Wrong!");
+}
 else
 {
   print_r($_REQUEST);

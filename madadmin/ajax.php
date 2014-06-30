@@ -364,6 +364,33 @@ elseif($act=="goods_add_edit_attr")
 	}
 	EchoJson($arr,"error");
 }
+elseif($act=="goods_add_delete_attr")
+{
+	$attr_key="";
+	if(isset($_POST['attr_key']))
+	{
+		if(is_numeric($_POST['attr_key']))
+		{
+			$attr_key=intval($_POST['attr_key']);
+		}
+	}
+
+	if( ($attr_key!==""))
+	{
+
+		if(isset($_SESSION['goods_add']['attr'][$attr_key]))
+		{
+			unset($_SESSION['goods_add']['attr'][$attr_key]);
+			EchoJson($arr,"ok");
+		}
+		else
+		{
+			EchoJson($arr,"该条属性不存在！");
+		}
+	}
+
+	EchoJson($arr,"error");
+}
 function AddToTableAndReJson($table,$must,$data,$arr)
 {
 	$db=$GLOBALS['db'];

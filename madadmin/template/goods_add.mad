@@ -134,20 +134,9 @@
 								<label class="control-label">分类</label>
 								<div class="controls">
 									<div class="select2-container">
-										<!--     <a href="#" onclick="return false;" class="select2-choice" tabindex="0">
-										<span>First option</span> <abbr class="select2-search-choice-close" style="display:none;"></abbr>
-										<div> <b></b>
-										</div>
-									</a>
-									-->
-									<div class="select2-drop select2-with-searchbox select2-offscreen" style="display:block;">
 
-										<div class="select2-search">
-											<input type="text" class="select2-input" autocomplete="off" tabindex="0"></div>
-										<ul class="select2-results"></ul>
-									</div>
 									<select name="type_id" style="display:none;">
-										{foreach $type_list as $v}
+										{foreach $types as $v}
 										<option value="{$v.id}">{$v.type_name}</option>
 										{/foreach}
 									</select>
@@ -192,14 +181,14 @@
             <div class="control-group">
               <label class="control-label">起始时间</label>
               <div class="controls">
-                <input type="text" data-date="10-02-2013" data-date-format="dd-mm-yyyy" value="09-02-2013" class="datepicker span11">
+                <input type="text" name="groupon_start_time" data-date="10-02-2013" data-date-format="dd-mm-yyyy" value="09-02-2013" class="datepicker span11">
                 <span class="help-block">时间格式 (日期-月份-年)</span> </div>
             </div>
 
             <div class="control-group">
               <label class="control-label">结束时间</label>
               <div class="controls">
-                <input type="text" data-date="01-02-2013" data-date-format="dd-mm-yyyy" value="01-02-2013" class="datepicker span11">
+                <input type="text" name="groupon_end_time"  data-date="01-02-2013" data-date-format="dd-mm-yyyy" value="01-02-2013" class="datepicker span11">
                 <span class="help-block">时间格式 (日期-月份-年)</span> </div>
             </div>
 
@@ -294,7 +283,7 @@
 										</a>
 									</div>
 									<div class="widget-content nopadding">
-										<table class="table table-bordered table-striped">
+										<table class="table table-bordered">
 											<thead>
 												<tr>
 													<th>属性名称</th>

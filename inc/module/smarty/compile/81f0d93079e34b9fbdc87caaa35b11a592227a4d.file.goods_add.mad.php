@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-06-27 17:32:38
+<?php /* Smarty version Smarty-3.1.16, created on 2014-06-30 11:34:31
          compiled from "E:\apache\www\temp\d\madadmin\template\goods_add.mad" */ ?>
 <?php /*%%SmartyHeaderCode:1538053aa94f1438ce9-51146647%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '81f0d93079e34b9fbdc87caaa35b11a592227a4d' => 
     array (
       0 => 'E:\\apache\\www\\temp\\d\\madadmin\\template\\goods_add.mad',
-      1 => 1403861550,
+      1 => 1404099265,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   array (
     'vp' => 0,
     'ckeditor_path' => 0,
-    'type_list' => 0,
+    'types' => 0,
     'v' => 0,
     'mad_configs' => 0,
     'gallery_list' => 0,
@@ -191,21 +191,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 								<label class="control-label">分类</label>
 								<div class="controls">
 									<div class="select2-container">
-										<!--     <a href="#" onclick="return false;" class="select2-choice" tabindex="0">
-										<span>First option</span> <abbr class="select2-search-choice-close" style="display:none;"></abbr>
-										<div> <b></b>
-										</div>
-									</a>
-									-->
-									<div class="select2-drop select2-with-searchbox select2-offscreen" style="display:block;">
 
-										<div class="select2-search">
-											<input type="text" class="select2-input" autocomplete="off" tabindex="0"></div>
-										<ul class="select2-results"></ul>
-									</div>
 									<select name="type_id" style="display:none;">
 										<?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['type_list']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+ $_from = $_smarty_tpl->tpl_vars['types']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['v']->key => $_smarty_tpl->tpl_vars['v']->value) {
 $_smarty_tpl->tpl_vars['v']->_loop = true;
 ?>
@@ -255,14 +244,14 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
             <div class="control-group">
               <label class="control-label">起始时间</label>
               <div class="controls">
-                <input type="text" data-date="10-02-2013" data-date-format="dd-mm-yyyy" value="09-02-2013" class="datepicker span11">
+                <input type="text" name="groupon_start_time" data-date="10-02-2013" data-date-format="dd-mm-yyyy" value="09-02-2013" class="datepicker span11">
                 <span class="help-block">时间格式 (日期-月份-年)</span> </div>
             </div>
 
             <div class="control-group">
               <label class="control-label">结束时间</label>
               <div class="controls">
-                <input type="text" data-date="01-02-2013" data-date-format="dd-mm-yyyy" value="01-02-2013" class="datepicker span11">
+                <input type="text" name="groupon_end_time"  data-date="01-02-2013" data-date-format="dd-mm-yyyy" value="01-02-2013" class="datepicker span11">
                 <span class="help-block">时间格式 (日期-月份-年)</span> </div>
             </div>
 
@@ -364,7 +353,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 										</a>
 									</div>
 									<div class="widget-content nopadding">
-										<table class="table table-bordered table-striped">
+										<table class="table table-bordered">
 											<thead>
 												<tr>
 													<th>属性名称</th>

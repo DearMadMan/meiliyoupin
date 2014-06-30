@@ -7,7 +7,7 @@ create table admin (
     user_name varchar(255) default '',
     user_word varchar(255) default ''
     )engine=myisam default charset=utf8;
-    
+
 ######后台菜单
 create table admin_menu(
     id int auto_increment primary key,
@@ -140,7 +140,7 @@ insert into configs (cf_name,cf_value) values("default_template","default")
 ######后台菜单数据接入
 
 ###一级菜单接入
-insert into admin_menu(parent_id,menu_name,menu_url) 
+insert into admin_menu(parent_id,menu_name,menu_url)
 values(0,"系统设置",""),
 (0,"商品管理",""),
 (0,"订单管理",""),
@@ -148,7 +148,7 @@ values(0,"系统设置",""),
 (0,"评论管理","");
 
 ###系统设置
-insert into admin_menu(parent_id,menu_name,menu_url) 
+insert into admin_menu(parent_id,menu_name,menu_url)
 values(1,"站点信息","index.php?act=site_info"),
 (1,"配送方式","index.php?act=shipping_type"),
 (1,"支付方式","index.php?act=pay_type"),
@@ -157,14 +157,15 @@ values(1,"站点信息","index.php?act=site_info"),
 
 
 ###商品管理
-insert into admin_menu(parent_id,menu_name,menu_url) 
+insert into admin_menu(parent_id,menu_name,menu_url)
 values(2,"商品列表","index.php?act=goods_list"),
 (2,"添加商品","index.php?act=goods_add"),
-(2,"商品分类","index.php?act=goods_type"),
+(2,"商品分类","index.php?act=goods_type_list"),
+(2,"添加分类","index.php?act=goods_type_add"),
 (2,"商品回收站","index.php?act=goods_recycle");
 
 ###订单管理
-insert into admin_menu(parent_id,menu_name,menu_url) 
+insert into admin_menu(parent_id,menu_name,menu_url)
 values(3,"订单列表","index.php?act=order_list"),
 (3,"订单查询","index.php?act=order_search"),
 (3,"打印模版","index.php?act=print_template"),
@@ -172,13 +173,13 @@ values(3,"订单列表","index.php?act=order_list"),
 
 
 ###文章管理
-insert into admin_menu(parent_id,menu_name,menu_url) 
+insert into admin_menu(parent_id,menu_name,menu_url)
 values(4,"文章列表","index.php?act=article_list"),
 (4,"添加文章","index.php?act=article_add"),
 (4,"文章分类","index.php?act=article_type_list"),
 (4,"添加分类","index.php?act=article_type_add");
 
 ###评论管理
-insert into admin_menu(parent_id,menu_name,menu_url) 
+insert into admin_menu(parent_id,menu_name,menu_url)
 values(5,"评论列表","index.php?act=goods_comment"),
 (5,"留言管理","index.php?act=user_message");

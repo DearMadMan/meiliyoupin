@@ -63,7 +63,7 @@ function IsMust($must_arr,$data)
           }
           else
           {
-          	if($data[$value]=="")
+          	if($data[$value]==="")
           	{
           		return false;
           	}
@@ -113,7 +113,89 @@ function ShowTips($msg)
 	die();
 }
 
+/**
+ * [GetRecursionList 递归排序level]
+ * @param [type]  $parent_id [description]
+ * @param [type]  $data      [description]
+ * @param integer $level     [description]
+ */
+ function GetRecursionList($parent_id,$data,$level=0)
+{
+	if(empty($data))
+	{
+		return false;
+	}
+	$level++;
+ 	static $arr=array();
+	foreach($data as $k=>$v)
+	{
+		if($v['parent_id']==$parent_id)
+		{
+			$v['level']=$level;
+			$arr[]=$v;
+			unset($data[$k]);
+			GetRecursionList($v['id'], $data,$level);
+		}
 
+	}
+	return $arr;
+}
+/**
+ * [Is_child 判断是否是目标节点的子节点]
+ * @param [type] $data      [树数组]
+ * @param [type] $target_id [目标节点ID]
+ * @param [type] $source_id [子节点ID]
+ */
+function Is_child($data,$target_id,$source_id)
+{
+	if($target_id==0)
+	{
+		return false;
+	}
+
+	$count=count($data);
+	for($i=$count-1;$i>=0;$i--)
+	{
+		foreach ($data as $key => $value) {
+			if($value['id']==$source_id)
+			{
+
+				if($value['parent_id']==$target_id)
+				{
+					return true;
+				}
+				if($value['parent_id']==0)
+				{
+					return false;
+				}
+				$source_id=$value['parent_id'];
+			}
+		}
+	}
+
+}
+
+/**
+ * [Has_child 判断某节点下是否有子节点]
+ * @param [type] $data      [节点数组]
+ * @param [type] $target_id [目标ID]
+ */
+function Has_child($data,$target_id)
+{
+	if($target_id==0)
+	{
+		return false;
+	}
+
+	foreach ($data as $key => $value) {
+			if($value['parent_id']==$target_id)
+			{
+				return true;
+			}
+		}
+
+	return false;
+}
 
 /****************javascript******************/
 function JsAlert($msg)

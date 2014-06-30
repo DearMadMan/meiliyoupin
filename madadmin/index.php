@@ -301,9 +301,77 @@ elseif($act=="goods_add")
       $attr_list=$_SESSION['goods_add']['attr'];
     }
 
+ //商品分类
+ $types=$db->getAllFromTable("goods_type");
+    $smarty->assign("types",$types);
     $smarty->assign("gallery_list",$gallery_list);  //已经上传但为保存的图片
     $smarty->assign("attr_list",$attr_list);
     $smarty->display("goods_add.mad");
+}
+elseif($act=="goods_type_list")
+{
+  $sql="select * from goods_type";
+  $rows=$db->getAll($sql);
+  $arr=GetRecursionList(0,$rows);
+
+  $smarty->assign("rows",$arr);
+  $smarty->display("goods_type_list.mad");
+}
+elseif($act=="goods_type_add")
+{
+  $sql="select * from goods_type";
+  $rows=$db->getAll($sql);
+  $smarty->assign("rows",$rows);
+  $smarty->display("goods_type_add.mad");
+}
+elseif($act=="goods_type_edit")
+{
+   $id=0;
+   if(isset($_REQUEST['id']))
+   {
+       $id=intval($_REQUEST['id']) ;
+   }
+   $sql="select * from goods_type where id='$id'";
+   $res=$db->GetRow($sql);
+   if(empty($res))
+   {
+     ShowTips("该分类不存在,请重新尝试!");
+   }
+  $sql="select * from goods_type";
+  $rows=$db->getAll($sql);
+  $smarty->assign("rows",$rows);
+  $smarty->assign("type",$res);
+  $smarty->display("goods_type_edit.mad");
+}
+elseif($act=="goods_type_delete")
+{
+   if(isset($_GET['id']))
+   {
+      $id=intval($_GET['id']);
+      if($id!=0)
+      {
+        $row=$db->GetRowFromTable("goods_type","where id=$id");
+        if(empty($row))
+        {
+          ShowTips("分类不存在！");
+        }
+        $types=$db->getAllFromTable("goods_type");
+        if(has_child($types,$id))
+        {
+           ShowTips("该分类下存在子分类，请先转移其子分类！");
+        }
+        $sql="delete from goods_type where id=$id";
+        $db->Query($sql);
+        if($db->GetAffectedRows()>0)
+        {
+          ShowTips("删除分类成功！");
+        }
+        else{
+          ShowTips("删除分类失败！请稍后重新尝试！");
+        }
+      }
+   }
+   ShowTips("Something Wrong!");
 }
 else
 {

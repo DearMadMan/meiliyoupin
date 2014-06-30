@@ -106,8 +106,26 @@ function AddAttr()
 	 			var td_name=$("<td>");
 	 			var td_price=$("<td>");
 	 			var td_edit=$("<td>");
+	 			var a_edit=$("<a>");
+	 			a_edit.attr("href","javascript:;");
+	 			a_edit.attr("onclick","EditAttr(this);");
 
+	 			var i_edit=$("<i>");
+	 			i_edit.addClass("icon-edit");
+	 			a_edit.append(i_edit);
+	 			a_edit.append(" 编辑");
 
+	 			var a_delete=$("<a>");
+	 			a_delete.attr("href","javascript:;");
+	 			a_delete.attr("onclick","DeleteAttr(this);");
+	 			var i_delete=$("<i>");
+	 			i_delete.addClass("icon-trash");
+	 			a_delete.append(i_delete);
+	 			a_delete.append(" 删除");
+
+	 			td_edit.append(a_edit);
+	 			td_edit.append("&nbsp;");
+	 			td_edit.append(a_delete);
 	 			td_name.text(msg.str[0]);
 	 			td_price.text(msg.str[1]);
 	 			tr.attr("data",msg.str[2]);
@@ -211,4 +229,40 @@ function EditToSave(obj)
 			console.log(msg);
 		}
 	});
+}
+
+/*删除属性*/
+function DeleteAttr(obj)
+{
+	obj=$(obj);
+	var tr=obj.parents("tr").eq(0);
+	if(!confirm("确定要删除该属性吗？"))
+	{
+		return false;
+	}
+
+	$.ajax({
+		type:"POST",
+		dataType:"json",
+		url:"ajax.php",
+		cache:false,
+		data:"act=goods_add_delete_attr&attr_key="+tr.attr("data"),
+		success:function(msg){
+			if(msg.error=="ok")
+			{
+				tr.css("background","#D8FDD8");
+				tr.fadeOut(300,function(){
+					tr.remove();
+				});
+			}
+			else
+			{
+				alert(msg.error);
+			}
+		},
+		complete:function(msg){
+			console.log(msg);
+		}
+	});
+
 }
