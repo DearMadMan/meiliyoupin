@@ -380,6 +380,90 @@ elseif($act=="goods_type_delete")
    }
    ShowTips("Something Wrong!");
 }
+elseif($act=="goods_list")
+{
+  $pagetool=pagetool::GetInstance();
+    if(!isset($_GET['pageNow']))
+    {
+
+        $_GET['pageNow']=0;
+    }
+    $pageNow=intval($_GET['pageNow']);
+    $pagePath='index.php?act=goods_list';
+    $dfNum=20;
+    $sql="select * from goods where is_delete=0 order by add_time desc";
+    $db=$GLOBALS['db'];
+    $pagetool->setNeed($db,$sql,$dfNum,$pageNow,$pagePath,"id");
+    $res=$pagetool->getAll();
+    if(!empty($res))
+    {
+       $smarty->assign("goods_list",$res['res']);
+       $smarty->assign("pre",$res['pre']);
+       $smarty->assign("next",$res['next']);
+       $smarty->assign("more",$res['more']);
+       $smarty->assign("last",$res['last']);
+       $smarty->assign("now",$res['now']);
+
+    }
+    else
+    {
+         $smarty->assign("goods_list",array());
+    }
+
+
+   $smarty->display("goods_list.mad");
+}
+elseif($act=="goods_delete")
+{
+  if(isset($_GET['id']))
+  {
+    $id=intval($_GET['id']);
+    if(!empty($id))
+    {
+      $fields=array("is_delete");
+      $data=array(1);
+      $res=$db->autoExcute("goods","id=$id",$fields,$data,"update");
+      if($res)
+      {
+        ShowTips("商品删除成功！");
+      }
+    }
+  }
+ShowTips("Something Wrong!");
+}
+elseif($act=="goods_recycle")
+{
+  $pagetool=pagetool::GetInstance();
+    if(!isset($_GET['pageNow']))
+    {
+
+        $_GET['pageNow']=0;
+    }
+    $pageNow=intval($_GET['pageNow']);
+    $pagePath='index.php?act=goods_recycle';
+    $dfNum=20;
+    $sql="select * from goods where is_delete=1 order by add_time desc";
+    $db=$GLOBALS['db'];
+    $pagetool->setNeed($db,$sql,$dfNum,$pageNow,$pagePath,"id");
+    $res=$pagetool->getAll();
+    if(!empty($res))
+    {
+       $smarty->assign("goods_list",$res['res']);
+       $smarty->assign("pre",$res['pre']);
+       $smarty->assign("next",$res['next']);
+       $smarty->assign("more",$res['more']);
+       $smarty->assign("last",$res['last']);
+       $smarty->assign("now",$res['now']);
+
+    }
+    else
+    {
+         $smarty->assign("goods_list",array());
+    }
+
+
+   $smarty->display("goods_recycle.mad");
+}
 else
 {
 	$smarty->display("index.mad");

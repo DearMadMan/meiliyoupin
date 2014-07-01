@@ -391,6 +391,51 @@ elseif($act=="goods_add_delete_attr")
 
 	EchoJson($arr,"error");
 }
+elseif($act=="change_sale_status")
+{
+	if(isset($_POST['id']))
+	{
+		$id=intval($_POST["id"]);
+		if(!empty($id))
+		{
+			$row=$db->getRowFromTable("goods","where id=$id");
+			if(!empty($row))
+			{
+				$sale=intval($row['is_on_sale']);
+				$sale=abs($sale-1);
+				$sql="update goods set is_on_sale=$sale where id=$id";
+				$db->Query($sql);
+				if($db->GetAffectedRows()>0)
+				{
+					EchoJson($arr,"ok",$sale);
+				}
+			}
+		}
+	}
+	EchoJson($arr,"error");
+}
+elseif($act=="wrench")
+{
+	if(isset($_POST['id']))
+	{
+		$id=intval($_POST["id"]);
+		if(!empty($id))
+		{
+			$row=$db->getRowFromTable("goods","where id=$id");
+			if(!empty($row))
+			{
+
+				$sql="update goods set is_delete=0 where id=$id";
+				$db->Query($sql);
+				if($db->GetAffectedRows()>0)
+				{
+					EchoJson($arr,"ok");
+				}
+			}
+		}
+	}
+	EchoJson($arr,"error");
+}
 function AddToTableAndReJson($table,$must,$data,$arr)
 {
 	$db=$GLOBALS['db'];

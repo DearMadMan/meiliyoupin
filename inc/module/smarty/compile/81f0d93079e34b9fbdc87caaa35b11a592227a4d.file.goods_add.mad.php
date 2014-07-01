@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-06-30 16:12:12
+<?php /* Smarty version Smarty-3.1.16, created on 2014-07-01 10:32:20
          compiled from "E:\apache\www\temp\d\madadmin\template\goods_add.mad" */ ?>
 <?php /*%%SmartyHeaderCode:1538053aa94f1438ce9-51146647%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '81f0d93079e34b9fbdc87caaa35b11a592227a4d' => 
     array (
       0 => 'E:\\apache\\www\\temp\\d\\madadmin\\template\\goods_add.mad',
-      1 => 1404115738,
+      1 => 1404179768,
       2 => 'file',
     ),
   ),
@@ -213,26 +213,26 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 							<div class="control-group">
 								<label class="control-label">库存</label>
 								<div class="controls">
-									<input name="goods_number" type="text" class="span11" placeholder="库存"></div>
+									<input name="goods_number" value="99999" type="text" class="span11" placeholder="库存"></div>
 							</div>
 
 
 							<div class="control-group">
 								<label class="control-label">重量(g)</label>
 								<div class="controls">
-									<input name="goods_weight" type="text" class="span11" placeholder="重量(g)"></div>
+									<input name="goods_weight" type="text" value="20" class="span11" placeholder="重量(g)"></div>
 							</div>
 
 							<div class="control-group">
 								<label class="control-label">店铺价格</label>
 								<div class="controls">
-									<input name="shop_price" type="text" class="span11" placeholder="店铺价格"></div>
+									<input name="shop_price" type="text" value="12.00" class="span11" placeholder="店铺价格"></div>
 							</div>
 
 							<div class="control-group">
 								<label class="control-label">市场价格</label>
 								<div class="controls">
-									<input name="market_price" type="text" class="span11" placeholder="市场价格"></div>
+									<input name="market_price" type="text" value="18.00" class="span11" placeholder="市场价格"></div>
 							</div>
 
  			<div class="control-group">
