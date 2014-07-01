@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-06-30 11:34:31
+<?php /* Smarty version Smarty-3.1.16, created on 2014-06-30 16:12:12
          compiled from "E:\apache\www\temp\d\madadmin\template\goods_add.mad" */ ?>
 <?php /*%%SmartyHeaderCode:1538053aa94f1438ce9-51146647%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '81f0d93079e34b9fbdc87caaa35b11a592227a4d' => 
     array (
       0 => 'E:\\apache\\www\\temp\\d\\madadmin\\template\\goods_add.mad',
-      1 => 1404099265,
+      1 => 1404115738,
       2 => 'file',
     ),
   ),
@@ -21,6 +21,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   array (
     'vp' => 0,
     'ckeditor_path' => 0,
+    'goods_sn' => 0,
     'types' => 0,
     'v' => 0,
     'mad_configs' => 0,
@@ -185,7 +186,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 							<div class="control-group">
 								<label class="control-label">商品货号</label>
 								<div class="controls">
-									<input name="goods_sn" type="text" class="span11" placeholder="商品货号"></div>
+									<input name="goods_sn" type="text" value="<?php echo $_smarty_tpl->tpl_vars['goods_sn']->value;?>
+" class="span11" placeholder="商品货号"></div>
 							</div>
 							<div class="control-group">
 								<label class="control-label">分类</label>
@@ -224,7 +226,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 							<div class="control-group">
 								<label class="control-label">店铺价格</label>
 								<div class="controls">
-									<input name="goods_price" type="text" class="span11" placeholder="店铺价格"></div>
+									<input name="shop_price" type="text" class="span11" placeholder="店铺价格"></div>
 							</div>
 
 							<div class="control-group">
@@ -258,7 +260,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 						<div class="control-group">
 							<label class="control-label">图片URL:</label>
 							<div class="controls">
-								<input id="product_imgurl" name="product_imgurl" type="text" class="span11" placeholder="主图URL,该地址在图片上传后自动获取"></div>
+								<input id="product_imgurl" name="goods_img" type="text" class="span11" placeholder="主图URL,该地址在图片上传后自动获取"></div>
 						</div>
 
 						<div class="control-group">
@@ -416,8 +418,6 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 <!--end-main-container-part-->
 <?php echo $_smarty_tpl->getSubTemplate ('footer.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
-<script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
-/js/product.js"></script>
 <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
 /js/goods_drag.js"></script>
 <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>

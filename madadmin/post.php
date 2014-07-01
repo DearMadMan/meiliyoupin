@@ -81,6 +81,29 @@ elseif($act=="upload_image")
   uploadfile::Init("",4096,$file_data_type);
   $upload=uploadfile::UploadFiles($_FILES);
   if(uploadfile::success()){
+
+    //判断是否需要进行压缩处理
+    if(isset($_REQUEST['need_compress']))
+    {
+      if($_REQUEST['need_compress']==1)
+      {
+          $arr=array(
+              "width"=>$gbs["configs"]['thumb_width'],
+              "height"=>$gbs["configs"]['thumb_height'],
+              "jpeg_quality"=>90,
+              "watermark"=>false
+            );
+          imagetool::InitFromArray($arr);
+            $thumb=imagetool::GetImageFromString($upload[0],"thumb");
+            $arr=array(
+              "width"=>$gbs["configs"]['show_width'],
+              "height"=>$gbs["configs"]['show_height']
+            );
+          imagetool::InitFromArray($arr);
+          $img=imagetool::GetImageFromString($upload[0],"img");
+      }
+    }
+
     echo $upload[0];
    }
    else
@@ -264,9 +287,116 @@ elseif($act=="product_edit")
 }
 elseif($act=="goods_add")
 {
-  print_r($_POST);
-  print_r($_SESSION);
-  die;
+
+  $must=array("goods_name","goods_sn","type_id","goods_number","goods_weight","shop_price","market_price");
+
+  if(IsMust($must,$_POST))
+  {
+    $is_groupon=false;
+    $start_time="";
+    $end_time="";
+    if(isset($_POST['is_groupon']))
+    {
+      if($_POST['is_groupon']=="on")
+      {
+        $is_groupon=true;
+        $start_time=strtotime($_POST['groupon_start_time']);
+        $end_time=strtotime($_POST['groupon_end_time']);
+      }
+
+    }
+    //写入商品表
+    $thumb_img="";
+    $goods_img="";
+    $original_img="";
+    if(!empty($_POST['goods_img']))  //原始图片
+    {
+      $original_img=$_POST['goods_img'];
+      $temp_name=substr($original_img,strripos($original_img,"/")+1);
+      $temp_dir=substr($original_img,0,strripos($original_img,"/")+1);
+      if(file_exists($temp_dir."img_".$temp_name))
+      {
+        $goods_img=$temp_dir."img_".$temp_name;
+      }
+      if(file_exists($temp_dir."thumb_".$temp_name))
+      {
+        $thumb_img=$temp_dir."thumb_".$temp_name;
+      }
+    }
+
+    $must[]="goods_brief";
+    $must[]="goods_desc";
+    $must[]="thumb_img";
+    $must[]="goods_img";
+    $must[]="original_img";
+    $must[]="add_time";
+    $data=array(
+              $_POST['goods_name'],
+              $_POST['goods_sn'],
+              intval($_POST['type_id']),
+              intval($_POST['goods_number']),
+              intval($_POST['goods_weight']),
+              floatval($_POST['shop_price']),
+              floatval($_POST['market_price']),
+              $_POST['goods_brief'],
+              $_POST['goods_desc'],
+              $thumb_img,
+              $goods_img,
+              $original_img,
+              time()
+      );
+
+    //团购判断
+    if($is_groupon)
+    {
+      $must[]="is_groupon";
+      $must[]="groupon_start_time";
+      $must[]="groupon_end_time";
+
+      $data[]=1;
+      $data[]=$start_time;
+      $data[]=$end_time;
+    }
+
+    $res=$db->autoExcute("goods","",$must,$data);
+    if($res)
+    {
+      $id=$db->getInsertId();
+        //商品相册入库
+      if(isset($_SESSION['goods_add']['gallery_img']))
+      {
+        $goods_add=$_SESSION['goods_add'];
+        foreach ($goods_add['gallery_img'] as $key => $value) {
+          $fieds=array("goods_id","img_url","thumb_url","original_url");
+          $data=array(
+                  $id,
+                  $goods_add['gallery_img'][$key],
+                  $goods_add['gallery_thumb'][$key],
+                  $goods_add['gallery_origin'][$key]
+            );
+          $db->autoExcute("goods_gallery","",$fieds,$data);
+        }
+
+      }
+        //商品属性入库
+      if(isset($_SESSION['goods_add']['attr']))
+      {
+        $attr=$_SESSION['goods_add']['attr'];
+        foreach ($attr as $key => $value) {
+          $fieds=array("goods_id","attr_name","add_price");
+          $data=array(
+                  $id,
+                  $value[0],
+                  floatval($value[1])
+            );
+          $db->autoExcute("goods_attr","",$fieds,$data);
+        }
+      }
+      unset($_SESSION['goods_add']);
+      ShowTips("商品添加成功！");
+    }
+  }
+  ShowTips("Something Wrong!");
 }
 elseif($act=="goods_type_add")
 {

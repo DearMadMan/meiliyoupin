@@ -302,7 +302,14 @@ elseif($act=="goods_add")
     }
 
  //商品分类
- $types=$db->getAllFromTable("goods_type");
+    $types=$db->getAllFromTable("goods_type");
+ //商品货号
+    $sql="select count(id) from goods";
+    $goods_sn=$db->getOne($sql);
+    $goods_sn="MAD".str_pad($goods_sn,8,"0",STR_PAD_LEFT);
+
+
+    $smarty->assign("goods_sn",$goods_sn);
     $smarty->assign("types",$types);
     $smarty->assign("gallery_list",$gallery_list);  //已经上传但为保存的图片
     $smarty->assign("attr_list",$attr_list);

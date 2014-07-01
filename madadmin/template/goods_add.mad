@@ -128,7 +128,7 @@
 							<div class="control-group">
 								<label class="control-label">商品货号</label>
 								<div class="controls">
-									<input name="goods_sn" type="text" class="span11" placeholder="商品货号"></div>
+									<input name="goods_sn" type="text" value="{$goods_sn}" class="span11" placeholder="商品货号"></div>
 							</div>
 							<div class="control-group">
 								<label class="control-label">分类</label>
@@ -161,7 +161,7 @@
 							<div class="control-group">
 								<label class="control-label">店铺价格</label>
 								<div class="controls">
-									<input name="goods_price" type="text" class="span11" placeholder="店铺价格"></div>
+									<input name="shop_price" type="text" class="span11" placeholder="店铺价格"></div>
 							</div>
 
 							<div class="control-group">
@@ -195,7 +195,7 @@
 						<div class="control-group">
 							<label class="control-label">图片URL:</label>
 							<div class="controls">
-								<input id="product_imgurl" name="product_imgurl" type="text" class="span11" placeholder="主图URL,该地址在图片上传后自动获取"></div>
+								<input id="product_imgurl" name="goods_img" type="text" class="span11" placeholder="主图URL,该地址在图片上传后自动获取"></div>
 						</div>
 
 						<div class="control-group">
@@ -336,7 +336,6 @@
 
 <!--end-main-container-part-->
 {include file='footer.mad'}
-<script src="{$vp}/js/product.js"></script>
 <script src="{$vp}/js/goods_drag.js"></script>
 <script src="{$vp}/js/goods_add.js"></script>
 </body>
