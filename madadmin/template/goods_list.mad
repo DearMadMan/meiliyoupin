@@ -82,12 +82,12 @@
                                     <td class="txt-ct" data="{$v.id}"><a href="javascript:;" onclick="ChangeStatus(this);"><i class="{if $v.is_on_sale eq 1}icon-ok{else}icon-remove{/if}"></i></a></td>
                                     <td>{$v.goods_number}</td>
                                     <td>{$v.add_time|date_format:"%Y-%m-%d"}</td>
-                                    <td>
+                                    <td data="{$v.id}">
                                         <a href="index.php?act=goods_edit&id={$v.id}"> <i class="icon-edit"></i>
                                             编辑
                                         </a>
                                         &nbsp;
-                                        <a href="index.php?act=goods_delete&id={$v.id}" onclick="if(!confirm('确定要删除该商品吗'))return false;">
+                                        <a href="javascript:;" onclick="recycle(this);">
                                             <i class="icon-trash"></i>
                                             删除
                                         </a>

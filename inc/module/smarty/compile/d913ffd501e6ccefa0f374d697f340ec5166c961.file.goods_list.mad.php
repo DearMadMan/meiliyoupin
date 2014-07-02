@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-07-01 11:17:55
+<?php /* Smarty version Smarty-3.1.16, created on 2014-07-01 17:37:39
          compiled from "E:\apache\www\temp\d\madadmin\template\goods_list.mad" */ ?>
 <?php /*%%SmartyHeaderCode:1472553b20ed3734f56-02368385%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd913ffd501e6ccefa0f374d697f340ec5166c961' => 
     array (
       0 => 'E:\\apache\\www\\temp\\d\\madadmin\\template\\goods_list.mad',
-      1 => 1404182878,
+      1 => 1404207458,
       2 => 'file',
     ),
   ),
@@ -149,14 +149,14 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 </td>
                                     <td><?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['v']->value['add_time'],"%Y-%m-%d");?>
 </td>
-                                    <td>
+                                    <td data="<?php echo $_smarty_tpl->tpl_vars['v']->value['id'];?>
+">
                                         <a href="index.php?act=goods_edit&id=<?php echo $_smarty_tpl->tpl_vars['v']->value['id'];?>
 "> <i class="icon-edit"></i>
                                             编辑
                                         </a>
                                         &nbsp;
-                                        <a href="index.php?act=goods_delete&id=<?php echo $_smarty_tpl->tpl_vars['v']->value['id'];?>
-" onclick="if(!confirm('确定要删除该商品吗'))return false;">
+                                        <a href="javascript:;" onclick="recycle(this);">
                                             <i class="icon-trash"></i>
                                             删除
                                         </a>

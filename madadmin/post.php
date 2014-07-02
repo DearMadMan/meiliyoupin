@@ -398,6 +398,93 @@ elseif($act=="goods_add")
   }
   ShowTips("Something Wrong!");
 }
+elseif($act=="goods_edit")
+{
+   $must=array("id","goods_name","goods_sn","type_id","goods_number","goods_weight","shop_price","market_price");
+
+  if(IsMust($must,$_POST))
+  {
+    $goods_id=intval($_POST["id"]);
+    array_shift($must);
+    $is_groupon=false;
+    $start_time="";
+    $end_time="";
+    if(isset($_POST['is_groupon']))
+    {
+      if($_POST['is_groupon']=="on")
+      {
+        $is_groupon=true;
+        $start_time=strtotime($_POST['groupon_start_time']);
+        $end_time=strtotime($_POST['groupon_end_time']);
+      }
+
+    }
+    //写入商品表
+    $thumb_img="";
+    $goods_img="";
+    $original_img="";
+    if(!empty($_POST['goods_img']))  //原始图片
+    {
+      $original_img=$_POST['goods_img'];
+      $temp_name=substr($original_img,strripos($original_img,"/")+1);
+      $temp_dir=substr($original_img,0,strripos($original_img,"/")+1);
+      if(file_exists($temp_dir."img_".$temp_name))
+      {
+        $goods_img=$temp_dir."img_".$temp_name;
+      }
+      if(file_exists($temp_dir."thumb_".$temp_name))
+      {
+        $thumb_img=$temp_dir."thumb_".$temp_name;
+      }
+    }
+
+    $must[]="goods_brief";
+    $must[]="goods_desc";
+    $must[]="thumb_img";
+    $must[]="goods_img";
+    $must[]="original_img";
+    $must[]="add_time";
+    $data=array(
+              $_POST['goods_name'],
+              $_POST['goods_sn'],
+              intval($_POST['type_id']),
+              intval($_POST['goods_number']),
+              intval($_POST['goods_weight']),
+              floatval($_POST['shop_price']),
+              floatval($_POST['market_price']),
+              $_POST['goods_brief'],
+              $_POST['goods_desc'],
+              $thumb_img,
+              $goods_img,
+              $original_img,
+              time()
+      );
+
+    //团购判断
+    if($is_groupon)
+    {
+      $must[]="is_groupon";
+      $must[]="groupon_start_time";
+      $must[]="groupon_end_time";
+
+      $data[]=1;
+      $data[]=$start_time;
+      $data[]=$end_time;
+    }
+    else
+    {
+      $must[]="is_groupon";
+      $data[]=0;
+    }
+
+    $res=$db->autoExcute("goods","id=$goods_id",$must,$data,"update");
+    if($res)
+    {
+      ShowTips("商品修改成功！");
+    }
+  }
+  ShowTips("Something Wrong!");
+}
 elseif($act=="goods_type_add")
 {
   $must=array("type_name","parent_id");

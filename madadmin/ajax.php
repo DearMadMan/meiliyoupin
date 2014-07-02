@@ -293,6 +293,43 @@ elseif($act=="gallery_delete")
 
 	//清除该图片相关SESSION
 }
+elseif($act=="goods_edit_gallery_delete")
+{
+	//进行数据判断
+	$must=array("gallery_id","path");
+
+	if(IsMust($must,$_POST))
+	{
+		$gallery_id=intval($_POST['gallery_id']);
+		$res=$db->AutoExcute("goods_gallery","id=$gallery_id");
+		if(!$res)
+		{
+			EchoJson($arr,"该相册早已删除！");
+		}
+		// 匹配路径图片删除
+
+		$path=trim($_POST['path']);
+		$temp_dir=substr($path,0, strripos($path,"/")+1);
+		$img_name=substr($path, strripos($path,"/")+1);
+		$real_name="";
+		if(strpos($img_name,"_"))
+		{
+			$temp=explode("_",$img_name);
+			$real_name=$temp[1];
+		}
+		else
+		{
+			$real_name=$img_name;
+		}
+		$filer=filer::GetInstance();
+		$ok=$filer->RemoveFile($temp_dir.$real_name);
+		$ok=$filer->RemoveFile($temp_dir."thumb_".$real_name);
+		$ok=$filer->RemoveFile($temp_dir."img_".$real_name);
+		EchoJson($arr,"ok");
+	}
+	EchoJson($arr,"未发现路径！");
+
+}
 elseif($act=="goods_add_addattr")
 {
 	$attr_name="";
@@ -309,6 +346,39 @@ elseif($act=="goods_add_addattr")
 		$data[]=$key;
 		EchoJson($arr,"ok",$data);
 	}
+	EchoJson($arr,"error");
+}
+elseif($act=="goods_edit_addattr")
+{
+	$attr_name="";
+	$attr_price=0;
+	$goods_id=0;
+	if(isset($_POST['goods_id']))
+	{
+		$goods_id=intval($_POST['goods_id']);
+		if(!empty($goods_id))
+		{
+			if(isset($_POST['attr_name']))
+			{
+				$attr_name=$_POST['attr_name'];
+			}
+			if(isset($_POST['attr_price']))
+			{
+				$attr_price=floatval($_POST['attr_price']);
+			}
+			$fileds=array("goods_id","attr_name","add_price");
+			$data=array($goods_id,$attr_name,$attr_price);
+			$res=$db->AutoExcute("goods_attr","",$fileds,$data);
+			if($res)
+			{
+				$insertId=$db->getInsertId();
+				$data=array($attr_name,$attr_price,$insertId);
+				EchoJson($arr,"ok",$data);
+			}
+		}
+	}
+
+
 	EchoJson($arr,"error");
 }
 elseif($act=="get_attr")  //获取商品属性
@@ -364,6 +434,37 @@ elseif($act=="goods_add_edit_attr")
 	}
 	EchoJson($arr,"error");
 }
+elseif($act=="goods_edit_edit_attr")
+{
+	$attr_key="";
+	if(isset($_POST['attr_key']))
+	{
+		if(is_numeric($_POST['attr_key']))
+		{
+			$attr_key=intval($_POST['attr_key']);
+		}
+	}
+
+
+	if( ($attr_key!=="") && ($_POST['attr_name']!=="") )
+	{
+		$row=$db->getRowFromTable("goods_attr","where id=$attr_key");
+		if(empty($row))
+		{
+			EchoJson($arr,"error");
+		}
+		$fields=array("attr_name","add_price");
+		$data=array($_POST['attr_name'],floatval($_POST['attr_price']));
+		$res=$db->autoExcute("goods_attr","id=$attr_key",$fields,$data,"update");
+		if($res)
+		{
+
+			EchoJson($arr,"ok",$data);
+		}
+
+	}
+	EchoJson($arr,"error");
+}
 elseif($act=="goods_add_delete_attr")
 {
 	$attr_key="";
@@ -389,6 +490,24 @@ elseif($act=="goods_add_delete_attr")
 		}
 	}
 
+	EchoJson($arr,"error");
+}
+elseif($act=="goods_edit_delete_attr")
+{
+	$must=array("attr_key");
+	if(IsMust($must,$_POST))
+	{
+		$attr_id=intval($_POST['attr_key']);
+		$row=$db->getRowFromTable("goods_attr","where id=$attr_id");
+		if(!empty($row))
+		{
+			$res=$db->autoExcute("goods_attr","id=$attr_id");
+			if($res)
+			{
+				EchoJson($arr,"ok");
+			}
+		}
+	}
 	EchoJson($arr,"error");
 }
 elseif($act=="change_sale_status")
@@ -426,6 +545,30 @@ elseif($act=="wrench")
 			{
 
 				$sql="update goods set is_delete=0 where id=$id";
+				$db->Query($sql);
+				if($db->GetAffectedRows()>0)
+				{
+					EchoJson($arr,"ok");
+				}
+			}
+		}
+	}
+	EchoJson($arr,"error");
+}
+elseif($act=="recycle")
+{
+	if(isset($_POST['id']))
+	{
+		$id=intval($_POST["id"]);
+
+		if(!empty($id))
+		{
+
+			$row=$db->getRowFromTable("goods","where id=$id");
+			if(!empty($row))
+			{
+
+				$sql="update goods set is_delete=1 where id=$id";
 				$db->Query($sql);
 				if($db->GetAffectedRows()>0)
 				{

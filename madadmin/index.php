@@ -315,6 +315,54 @@ elseif($act=="goods_add")
     $smarty->assign("attr_list",$attr_list);
     $smarty->display("goods_add.mad");
 }
+elseif($act=="goods_edit")
+{
+  if(isset($_GET['id']))
+  {
+    $id=intval($_GET['id']);
+    if(!empty($id))
+    {
+      $row=$db->GetRowFromTable("goods","where id=$id");
+      if(!empty($row))
+      {
+        //商品分类
+         $types=$db->getAllFromTable("goods_type");
+
+        //商品相册
+        $sql="select * from goods_gallery where goods_id=$id";
+        $gallery_list=$db->getAll($sql);
+
+        //商品属性
+        $sql="select * from goods_attr where goods_id=$id";
+        $attr_list=$db->getAll($sql);
+
+        //团购时间
+        if(!empty($row['groupon_start_time']))
+        {
+          $groupon_start_time=$row['groupon_start_time'];
+          $groupon_start_time=date("d-m-Y",$groupon_start_time);
+          $row['groupon_start_time']=$groupon_start_time;
+        }
+
+         if(!empty($row['groupon_end_time']))
+        {
+          $groupon_end_time=$row['groupon_end_time'];
+          $groupon_end_time=date("d-m-Y",$groupon_end_time);
+          $row['groupon_end_time']=$groupon_end_time;
+        }
+
+        $smarty->assign("attr_list",$attr_list);
+        $smarty->assign("gallery_list",$gallery_list);
+        $smarty->assign("goods",$row);
+        $smarty->assign("types",$types);
+        $smarty->display("goods_edit.mad");
+        die();
+      }
+    }
+
+  }
+  ShowTips("Something Wrong!");
+}
 elseif($act=="goods_type_list")
 {
   $sql="select * from goods_type";
