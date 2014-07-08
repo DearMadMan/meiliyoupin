@@ -38,6 +38,14 @@ create table article_type(
     parent_id int default 0
     )engine=myisam default charset=utf8;
 
+######商品品牌表
+create table goods_brand(
+    id int auto_increment primary key,
+    type_name varchar(255) default '',
+    parent_id int default 0
+    )engine=myisam default charset=utf8;
+
+
 ######焦点图
 create table focus_picture (
     id int auto_increment primary key,
@@ -76,6 +84,7 @@ create table goods(
     id int auto_increment primary key,
     goods_name varchar(255) default "",
     type_id int default 0,
+    brand_id int default 0,
     goods_sn varchar(255) default "",
     click_count int default 0,
     goods_number int default 0,
@@ -90,6 +99,7 @@ create table goods(
     is_on_sale int default 1,
     is_delete int default 0,
     is_groupon int default 0,
+    shipping_free int default 0,
     groupon_start_time varchar(255) default "",
     groupon_end_time varchar(255) default "",
     add_time varchar(255) default ""
@@ -123,6 +133,55 @@ create table goods(
         type_name varchar(255) default '',
         parent_id int default 0
         )engine=myisam default charset=utf8;
+        
+        
+    ###### users 用户表
+    create table users(
+        id int auto_increment primary key,
+        user_nick varchar(255) default '',
+        user_name varchar(255) default '',
+        user_qq varchar(255) default '',
+        user_email varchar(255) default '',
+        user_money float default 0,
+        user_points int default 0,
+        user_level int default 0,
+        referrer_id int default 0,
+        reg_time varchar(255) default '',
+        last_login varchar(255) default '',
+        last_id varchar(255) default ''
+        )engine=myisam default charset=utf8;
+        
+        
+    ###### user_level 会员等级表
+    create table user_level(
+        id int auto_increment primary key,
+        level_name varchar(255) default '',
+        need_points int default 0,
+        discount int default 100
+        )engine=myisam default charset=utf8;
+        
+    ###### user_coupon 优惠券
+    create table user_coupon (
+        id int auto_increment primary key,
+        user_id int default 0,
+        security_code varchar(255) default '',
+        coupon_type int default 0,
+        is_used int default 0
+        )engine=myisam default charset=ut8;
+        
+        
+    ###### coupon_type 优惠券分类   
+    ###添加后的优惠券分类不建议删除
+    create table coupon_type (
+        id int auto_increment primary key,
+        type_name varchar(255) default '',
+        need_money float default 0,
+        discount_money float default 0,
+        need_brands varchar(255) default '',
+        need_goods varchar(255) default '',
+        img_url varchar(255) default ''
+        )engine=myisam default charset=utf8;
+    
 
 ##############################数据####################################
 ###管理员接入
@@ -134,7 +193,20 @@ insert into configs (cf_name,cf_value) values("default_template","default")
 ,("site_dis","MadCms是一款对SEO非常友好的企业建站系统。系统内置SEO优化机制,界面简洁、方便操作。十年专注,已然成为企业建站服务的领导品牌。")
 ,("keyword","MadCms|企业CMS|企业CMS系统|企业建站")
 ,("email","admin@dearmadman.com")
-,("logo","images/logo.jpg");
+,("logo","images/logo.jpg")
+,("thumb_width","200")
+,("thumb_height","200")
+,("show_width","400")
+,("show_height","400")
+
+,("groupon_thumb_width","400")
+,("groupon_thumb_height","400")
+,("groupon_show_width","960")
+,("groupon_show_height","400")
+
+,("pic_quality","90")
+
+;
 
 
 ######后台菜单数据接入

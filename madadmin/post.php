@@ -356,6 +356,52 @@ elseif($act=="goods_add")
       $data[]=1;
       $data[]=$start_time;
       $data[]=$end_time;
+
+
+      //进行团购商品图片处理
+      if(!empty($original_img))
+      {
+          $arr=array(
+              "width"=>$gbs["configs"]['groupon_thumb_width'],
+              "height"=>$gbs["configs"]['groupon_thumb_height'],
+              "jpeg_quality"=>$gbs["configs"]['pic_quality'],
+              "watermark"=>false
+            );
+          imagetool::InitFromArray($arr);
+            $thumb=imagetool::GetImageFromString($original_img,"thumb");
+            $arr=array(
+              "width"=>$gbs["configs"]['groupon_show_width'],
+              "height"=>$gbs["configs"]['groupon_show_height']
+            );
+          imagetool::InitFromArray($arr);
+          $img=imagetool::GetImageFromString($original_img,"img");
+
+      }
+
+
+    }
+    else
+    {
+      //非团购商品图片处理
+      if(!empty($original_img))
+      {
+          $arr=array(
+              "width"=>$gbs["configs"]['thumb_width'],
+              "height"=>$gbs["configs"]['thumb_height'],
+              "jpeg_quality"=>$gbs["configs"]['pic_quality'],
+              "watermark"=>false
+            );
+          imagetool::InitFromArray($arr);
+            $thumb=imagetool::GetImageFromString($original_img,"thumb");
+            $arr=array(
+              "width"=>$gbs["configs"]['show_width'],
+              "height"=>$gbs["configs"]['show_height']
+            );
+          imagetool::InitFromArray($arr);
+          $img=imagetool::GetImageFromString($original_img,"img");
+
+      }
+
     }
 
     $res=$db->autoExcute("goods","",$must,$data);
@@ -470,11 +516,56 @@ elseif($act=="goods_edit")
       $data[]=1;
       $data[]=$start_time;
       $data[]=$end_time;
+
+      //进行团购商品图片处理
+      if(!empty($original_img))
+      {
+          $arr=array(
+              "width"=>$gbs["configs"]['groupon_thumb_width'],
+              "height"=>$gbs["configs"]['groupon_thumb_height'],
+              "jpeg_quality"=>$gbs["configs"]['pic_quality'],
+              "watermark"=>false
+            );
+          imagetool::InitFromArray($arr);
+            $thumb=imagetool::GetImageFromString($original_img,"thumb");
+            $arr=array(
+              "width"=>$gbs["configs"]['groupon_show_width'],
+              "height"=>$gbs["configs"]['groupon_show_height']
+            );
+          imagetool::InitFromArray($arr);
+          $img=imagetool::GetImageFromString($original_img,"img");
+
+      }
+
+
     }
     else
     {
       $must[]="is_groupon";
       $data[]=0;
+
+      //非团购商品图片处理
+      if(!empty($original_img))
+      {
+          $arr=array(
+              "width"=>$gbs["configs"]['thumb_width'],
+              "height"=>$gbs["configs"]['thumb_height'],
+              "jpeg_quality"=>$gbs["configs"]['pic_quality'],
+              "watermark"=>false
+            );
+          imagetool::InitFromArray($arr);
+            $thumb=imagetool::GetImageFromString($original_img,"thumb");
+            $arr=array(
+              "width"=>$gbs["configs"]['show_width'],
+              "height"=>$gbs["configs"]['show_height']
+            );
+          imagetool::InitFromArray($arr);
+          $img=imagetool::GetImageFromString($original_img,"img");
+
+      }
+
+
+
     }
 
     $res=$db->autoExcute("goods","id=$goods_id",$must,$data,"update");

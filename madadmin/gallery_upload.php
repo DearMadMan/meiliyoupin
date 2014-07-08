@@ -43,7 +43,7 @@ if($act=="edit")
 	 	$arr=array(
 	 			"width"=>$gbs["configs"]['thumb_width'],
 	 			"height"=>$gbs["configs"]['thumb_height'],
-	 			"jpeg_quality"=>90,
+	 			"jpeg_quality"=>$gbs["configs"]['pic_quality'],
 	 			"watermark"=>false
 	 		);
 	 	imagetool::InitFromArray($arr);
@@ -97,7 +97,7 @@ elseif($act=="add")
 	 	$arr=array(
 	 			"width"=>$gbs["configs"]['thumb_width'],
 	 			"height"=>$gbs["configs"]['thumb_height'],
-	 			"jpeg_quality"=>90,
+	 			"jpeg_quality"=>$gbs["configs"]['pic_quality'],
 	 			"watermark"=>false
 	 		);
 	 	imagetool::InitFromArray($arr);

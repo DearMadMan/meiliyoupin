@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-06-30 11:23:58
+<?php /* Smarty version Smarty-3.1.16, created on 2014-07-08 16:57:51
          compiled from "E:\apache\www\temp\d\madadmin\template\goods_type_edit.mad" */ ?>
 <?php /*%%SmartyHeaderCode:487253b0d00ae6fc26-31476102%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '94cc0ee04f870e05024ae1cfb54e629c922803bf' => 
     array (
       0 => 'E:\\apache\\www\\temp\\d\\madadmin\\template\\goods_type_edit.mad',
-      1 => 1404098425,
+      1 => 1404099334,
       2 => 'file',
     ),
   ),
@@ -114,7 +114,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                 </div>
                             </div>
 
-                <input type="hidden" name="parent_id" value="0">
+
 
 
                             <div class="control-group">
