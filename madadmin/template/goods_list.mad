@@ -26,7 +26,7 @@
 
     <link rel="stylesheet" href="{$vp}/css/datepicker.css" />
     <script src="{$vp}/js/bootstrap-datepicker.js"></script>
-
+    <link rel="stylesheet" href="{$vp}/css/style.css">
 </head>
 
 <body>
@@ -47,6 +47,23 @@
 <span class="icon"><i class="icon-bookmark"></i></span>
 <h5>全局设置</h5>
 </div>
+
+
+
+ <div class="widget-content nopadding ">
+        <form class="form-horizontal" action="index.php?act=goods_list" method="post">
+          <div class="control-group">
+              <label class="control-label">Search :</label>
+              <div id="searchDiv" class="controls">
+                <input  name="search" type="text" class="span4" placeholder="搜索关键字">
+                <button id="searchaBtn" type="submit" class="tip-bottom"><i class="icon-search"></i></button>
+              </div>
+          </div>
+        </form>
+    </div>
+
+
+
 </div>
 
 

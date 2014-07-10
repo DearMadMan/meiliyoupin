@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-07-01 17:37:39
+<?php /* Smarty version Smarty-3.1.16, created on 2014-07-10 15:35:25
          compiled from "E:\apache\www\temp\d\madadmin\template\goods_list.mad" */ ?>
 <?php /*%%SmartyHeaderCode:1472553b20ed3734f56-02368385%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd913ffd501e6ccefa0f374d697f340ec5166c961' => 
     array (
       0 => 'E:\\apache\\www\\temp\\d\\madadmin\\template\\goods_list.mad',
-      1 => 1404207458,
+      1 => 1404977723,
       2 => 'file',
     ),
   ),
@@ -80,7 +80,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 /css/datepicker.css" />
     <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
 /js/bootstrap-datepicker.js"></script>
-
+    <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/css/style.css">
 </head>
 
 <body>
@@ -104,6 +105,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <span class="icon"><i class="icon-bookmark"></i></span>
 <h5>全局设置</h5>
 </div>
+
+
+
+ <div class="widget-content nopadding ">
+        <form class="form-horizontal" action="index.php?act=goods_list" method="post">
+          <div class="control-group">
+              <label class="control-label">Search :</label>
+              <div id="searchDiv" class="controls">
+                <input  name="search" type="text" class="span4" placeholder="搜索关键字">
+                <button id="searchaBtn" type="submit" class="tip-bottom"><i class="icon-search"></i></button>
+              </div>
+          </div>
+        </form>
+    </div>
+
+
+
 </div>
 
 

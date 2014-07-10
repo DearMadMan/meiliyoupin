@@ -440,6 +440,17 @@ elseif($act=="goods_list")
     $pagePath='index.php?act=goods_list';
     $dfNum=20;
     $sql="select * from goods where is_delete=0 order by add_time desc";
+
+     if(isset($_POST['search']))
+    {
+      $search=trim($_POST['search']);
+      if(!empty($search))
+      {
+        $sql="select * from goods where is_delete=0 and goods_name like '%$search%' order by add_time desc";
+      }
+    }
+
+
     $db=$GLOBALS['db'];
     $pagetool->setNeed($db,$sql,$dfNum,$pageNow,$pagePath,"id");
     $res=$pagetool->getAll();
