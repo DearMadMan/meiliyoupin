@@ -52,6 +52,7 @@
           <div class="widget-content">
             <div class="error_ex">
               <h3>{$tips}</h3>
+             <a class="btn btn-success btn-big"  href="javascript:history.go(-1);">Back to Last</a>
               <a class="btn btn-warning btn-big"  href="index.php">Back to Home</a> </div>
           </div>
         </div>

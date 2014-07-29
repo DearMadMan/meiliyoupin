@@ -1,0 +1,12 @@
+/*
+    @Author：fx Time：2014-7-15 14:29:45;
+*/
+.ML-cart-free{
+    background: url(../images/free_freight.jpg) no-repeat 0 center;
+    padding-left: 50px;
+    line-height: 34px;
+}
+.ML-cart-goods table{
+    background: #fff;
+ border-bottom: 1px solid #ddd;
+}

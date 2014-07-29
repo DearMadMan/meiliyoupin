@@ -1,0 +1,7 @@
+首页-tpl_index.html
+详情页-tpl_item.html
+文件夹：
+存放产品类型图片-img
+存放素材类图片-images
+
+By time：2014-7-8 16:09:53

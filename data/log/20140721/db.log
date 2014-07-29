@@ -1,0 +1,1096 @@
+08:51:36 use meiliyoupin;
+08:51:36 set names utf8;
+08:51:36 select * from configs
+08:51:36 use meiliyoupin;
+08:51:36 set names utf8;
+08:51:36 select * from configs
+08:51:36 select * from goods where id = 1 and is_delete = 0
+08:51:36 use meiliyoupin;
+08:51:36 set names utf8;
+08:51:36 select * from configs
+08:51:36 select * from admin_menu
+08:51:37 use meiliyoupin;
+08:51:37 set names utf8;
+08:51:37 select * from configs
+08:51:37 select * from goods where id = 1 and is_delete = 0
+08:51:42 use meiliyoupin;
+08:51:42 set names utf8;
+08:51:42 select * from configs
+08:51:42 select * from admin_menu
+08:51:42 select * from admin where user_name='myadmin' and user_word='691c360156c27261b40c974ec0bf8f4a'
+08:51:42 use meiliyoupin;
+08:51:42 set names utf8;
+08:51:42 select * from configs
+08:51:42 select * from admin_menu
+08:52:03 use meiliyoupin;
+08:52:03 set names utf8;
+08:52:03 select * from configs
+08:52:03 select * from admin_menu
+08:53:16 use meiliyoupin;
+08:53:16 set names utf8;
+08:53:16 select * from configs
+08:53:16 select * from admin_menu
+08:53:17 use meiliyoupin;
+08:53:17 set names utf8;
+08:53:17 select * from configs
+08:53:17 select * from admin_menu
+08:53:18 use meiliyoupin;
+08:53:18 set names utf8;
+08:53:18 select * from configs
+08:53:18 select * from admin_menu
+08:53:19 use meiliyoupin;
+08:53:19 set names utf8;
+08:53:19 select * from configs
+08:53:19 select * from admin_menu
+08:53:19 use meiliyoupin;
+08:53:19 set names utf8;
+08:53:19 select * from configs
+08:53:19 select * from admin_menu
+08:53:20 use meiliyoupin;
+08:53:20 set names utf8;
+08:53:20 select * from configs
+08:53:20 select * from admin_menu
+08:53:20 use meiliyoupin;
+08:53:20 set names utf8;
+08:53:20 select * from configs
+08:53:20 select * from admin_menu
+08:53:21 use meiliyoupin;
+08:53:21 set names utf8;
+08:53:21 select * from configs
+08:53:21 select * from admin_menu
+08:53:21 use meiliyoupin;
+08:53:21 set names utf8;
+08:53:21 select * from configs
+08:53:21 select * from admin_menu
+08:53:21 use meiliyoupin;
+08:53:21 set names utf8;
+08:53:21 select * from configs
+08:53:21 select * from admin_menu
+08:53:22 use meiliyoupin;
+08:53:22 set names utf8;
+08:53:22 select * from configs
+08:53:22 select * from admin_menu
+08:53:22 use meiliyoupin;
+08:53:22 set names utf8;
+08:53:22 select * from configs
+08:53:22 select * from admin_menu
+08:53:22 use meiliyoupin;
+08:53:22 set names utf8;
+08:53:22 select * from configs
+08:53:22 select * from admin_menu
+08:53:23 use meiliyoupin;
+08:53:23 set names utf8;
+08:53:23 select * from configs
+08:53:23 select * from admin_menu
+08:53:23 use meiliyoupin;
+08:53:23 set names utf8;
+08:53:23 select * from configs
+08:53:23 select * from admin_menu
+08:53:23 use meiliyoupin;
+08:53:23 set names utf8;
+08:53:23 select * from configs
+08:53:23 select * from admin_menu
+08:53:24 use meiliyoupin;
+08:53:24 set names utf8;
+08:53:24 select * from configs
+08:53:24 select * from admin_menu
+08:53:25 use meiliyoupin;
+08:53:25 set names utf8;
+08:53:25 select * from configs
+08:53:25 select * from admin_menu
+08:53:25 select count(id) from goods where is_delete=0 order by add_time desc
+08:53:25 select * from goods where is_delete=0 order by add_time desc limit 0,20
+08:53:26 use meiliyoupin;
+08:53:26 set names utf8;
+08:53:26 select * from configs
+08:53:26 select * from admin_menu
+08:53:26 select * from goods_type
+08:53:26 select count(id) from goods
+08:53:27 use meiliyoupin;
+08:53:27 set names utf8;
+08:53:27 select * from configs
+08:53:27 select * from admin_menu
+08:53:27 select * from goods_type
+08:53:27 use meiliyoupin;
+08:53:27 set names utf8;
+08:53:27 select * from configs
+08:53:27 select * from admin_menu
+08:53:27 select * from goods_type
+08:53:28 use meiliyoupin;
+08:53:28 set names utf8;
+08:53:28 select * from configs
+08:53:28 select * from admin_menu
+08:53:28 select count(id) from goods where is_delete=1 order by add_time desc
+08:53:28 select * from goods where is_delete=1 order by add_time desc limit 0,20
+08:53:29 use meiliyoupin;
+08:53:29 set names utf8;
+08:53:29 select * from configs
+08:53:29 select * from admin_menu
+08:53:29 select count(id) from goods where is_delete=0 order by add_time desc
+08:53:29 select * from goods where is_delete=0 order by add_time desc limit 0,20
+08:53:30 use meiliyoupin;
+08:53:30 set names utf8;
+08:53:30 select * from configs
+08:53:30 select * from admin_menu
+08:53:31 use meiliyoupin;
+08:53:31 set names utf8;
+08:53:31 select * from configs
+08:53:31 select * from admin_menu
+08:53:31 use meiliyoupin;
+08:53:31 set names utf8;
+08:53:31 select * from configs
+08:53:31 select * from admin_menu
+08:53:32 use meiliyoupin;
+08:53:32 set names utf8;
+08:53:32 select * from configs
+08:53:32 select * from admin_menu
+08:53:33 use meiliyoupin;
+08:53:33 set names utf8;
+08:53:33 select * from configs
+08:53:33 select * from admin_menu
+08:53:33 select * from article_type
+08:53:36 use meiliyoupin;
+08:53:36 set names utf8;
+08:53:36 select * from configs
+08:53:36 select * from goods where id = 1 and is_delete = 0
+08:53:37 use meiliyoupin;
+08:53:37 set names utf8;
+08:53:37 select * from configs
+08:53:37 select * from goods where id = 1 and is_delete = 0
+08:53:39 use meiliyoupin;
+08:53:39 set names utf8;
+08:53:39 select * from configs
+08:53:39 select * from goods where id = 1
+08:53:39 select * from carts where goods_id=1 and session_id='5797e441c4d716ed8633d24cf670bedf'
+08:53:39 insert into carts (user_id,session_id,goods_id,goods_sn,goods_name,market_price,shop_price,goods_attr,thumb_img,is_groupon,shipping_free,goods_attr_id,goods_number) values ('0','5797e441c4d716ed8633d24cf670bedf','1','MAD00000000','御诚 Royal3D塑脸V脸黄金二件套','18','12','','../images/20140718/thumb_140564981806476135.jpg','1','0','','1') ;
+08:53:39 use meiliyoupin;
+08:53:39 set names utf8;
+08:53:39 select * from configs
+08:53:39 select * from carts where session_id='5797e441c4d716ed8633d24cf670bedf'
+08:53:39 use meiliyoupin;
+08:53:39 set names utf8;
+08:53:39 select * from configs
+08:53:39 select * from carts where session_id='5797e441c4d716ed8633d24cf670bedf'
+10:29:07 use meiliyoupin;
+10:29:07 set names utf8;
+10:29:07 select * from configs
+10:29:07 select * from goods where id = 1 and is_delete = 0
+10:29:07 use meiliyoupin;
+10:29:07 set names utf8;
+10:29:07 select * from configs
+10:29:07 select * from goods where id = 1 and is_delete = 0
+10:42:31 use meiliyoupin;
+10:42:31 set names utf8;
+10:42:31 select * from configs
+10:42:31 select * from goods where id = 1 and is_delete = 0
+10:42:33 use meiliyoupin;
+10:42:33 set names utf8;
+10:42:33 select * from configs
+10:42:33 select * from goods where id = 1 and is_delete = 0
+10:42:33 use meiliyoupin;
+10:42:33 set names utf8;
+10:42:33 select * from configs
+10:42:33 select * from goods where id = 1 and is_delete = 0
+10:42:34 use meiliyoupin;
+10:42:34 set names utf8;
+10:42:34 select * from configs
+10:42:34 select * from goods where id = 1 and is_delete = 0
+10:42:35 use meiliyoupin;
+10:42:35 set names utf8;
+10:42:35 select * from configs
+10:42:35 select * from goods where id = 1 and is_delete = 0
+10:42:35 use meiliyoupin;
+10:42:35 set names utf8;
+10:42:35 select * from configs
+10:42:35 select * from goods where id = 1 and is_delete = 0
+10:42:36 use meiliyoupin;
+10:42:36 set names utf8;
+10:42:36 select * from configs
+10:42:36 select * from goods where id = 1 and is_delete = 0
+10:42:36 use meiliyoupin;
+10:42:36 set names utf8;
+10:42:36 select * from configs
+10:42:36 select * from goods where id = 1 and is_delete = 0
+10:42:37 use meiliyoupin;
+10:42:37 set names utf8;
+10:42:37 select * from configs
+10:42:37 select * from goods where id = 1 and is_delete = 0
+10:42:38 use meiliyoupin;
+10:42:38 set names utf8;
+10:42:38 select * from configs
+10:42:38 select * from goods where id = 1 and is_delete = 0
+15:13:56 use meiliyoupin;
+15:13:56 set names utf8;
+15:13:56 select * from configs
+15:13:57 use meiliyoupin;
+15:13:57 set names utf8;
+15:13:57 select * from configs
+15:13:57 select * from admin_menu
+15:14:02 use meiliyoupin;
+15:14:02 set names utf8;
+15:14:02 select * from configs
+15:14:02 select * from admin_menu
+15:14:02 select * from admin where user_name='myadmin' and user_word='691c360156c27261b40c974ec0bf8f4a'
+15:14:02 use meiliyoupin;
+15:14:02 set names utf8;
+15:14:02 select * from configs
+15:14:02 select * from admin_menu
+15:14:10 use meiliyoupin;
+15:14:10 set names utf8;
+15:14:10 select * from configs
+15:14:10 select * from admin_menu
+15:14:11 use meiliyoupin;
+15:14:11 set names utf8;
+15:14:11 select * from configs
+15:14:11 select * from admin_menu
+15:14:11 use meiliyoupin;
+15:14:11 set names utf8;
+15:14:11 select * from configs
+15:14:11 select * from admin_menu
+15:14:12 use meiliyoupin;
+15:14:12 set names utf8;
+15:14:12 select * from configs
+15:14:12 select * from admin_menu
+15:14:12 use meiliyoupin;
+15:14:12 set names utf8;
+15:14:12 select * from configs
+15:14:12 select * from admin_menu
+15:14:13 use meiliyoupin;
+15:14:13 set names utf8;
+15:14:13 select * from configs
+15:14:13 select * from admin_menu
+15:14:13 use meiliyoupin;
+15:14:13 set names utf8;
+15:14:13 select * from configs
+15:14:13 select * from admin_menu
+15:14:14 use meiliyoupin;
+15:14:14 set names utf8;
+15:14:14 select * from configs
+15:14:14 select * from admin_menu
+15:19:42 use meiliyoupin;
+15:19:42 set names utf8;
+15:19:42 select * from configs
+15:19:42 select * from admin_menu
+15:20:51 use meiliyoupin;
+15:20:51 set names utf8;
+15:20:51 select * from configs
+15:20:51 select * from admin_menu
+15:21:21 use meiliyoupin;
+15:21:21 set names utf8;
+15:21:21 select * from configs
+15:21:21 select * from admin_menu
+15:22:32 use meiliyoupin;
+15:22:32 set names utf8;
+15:22:32 select * from configs
+15:22:32 select * from admin_menu
+15:22:32 select * from shipping_type
+15:24:18 use meiliyoupin;
+15:24:18 set names utf8;
+15:24:18 select * from configs
+15:24:18 select * from admin_menu
+15:24:18 select * from shipping_type
+15:24:21 use meiliyoupin;
+15:24:21 set names utf8;
+15:24:21 select * from configs
+15:24:21 select * from admin_menu
+15:24:25 use meiliyoupin;
+15:24:25 set names utf8;
+15:24:25 select * from configs
+15:24:25 select * from admin_menu
+15:24:44 use meiliyoupin;
+15:24:44 set names utf8;
+15:24:44 select * from configs
+15:24:44 select * from admin_menu
+15:24:44 select * from shipping_type
+15:24:46 use meiliyoupin;
+15:24:46 set names utf8;
+15:24:46 select * from configs
+15:24:46 select * from admin_menu
+15:24:49 use meiliyoupin;
+15:24:49 set names utf8;
+15:24:49 select * from configs
+15:24:49 select * from admin_menu
+15:24:49 select * from shipping_type
+15:25:35 use meiliyoupin;
+15:25:35 set names utf8;
+15:25:35 select * from configs
+15:25:35 select * from admin_menu
+15:25:35 select * from shipping_type
+15:25:36 use meiliyoupin;
+15:25:36 set names utf8;
+15:25:36 select * from configs
+15:25:36 select * from admin_menu
+15:29:44 use meiliyoupin;
+15:29:44 set names utf8;
+15:29:44 select * from configs
+15:29:44 select * from admin_menu
+15:35:13 use meiliyoupin;
+15:35:13 set names utf8;
+15:35:13 select * from configs
+15:35:13 select * from admin_menu
+15:35:13 insert into shipping_type () values ('韵达速递','yd','EMS（即“Express Mail Service”），邮政特快专递服务。它是由万国邮联管理下的国际邮件快递服务，是中国邮政提供的一种快递服务') ;
+15:35:27 use meiliyoupin;
+15:35:27 set names utf8;
+15:35:27 select * from configs
+15:35:27 select * from admin_menu
+15:35:28 use meiliyoupin;
+15:35:28 set names utf8;
+15:35:28 select * from configs
+15:35:28 select * from admin_menu
+15:35:28 insert into shipping_type (shipping_name,shipping_code,shipping_desc) values ('韵达速递','yd','EMS（即“Express Mail Service”），邮政特快专递服务。它是由万国邮联管理下的国际邮件快递服务，是中国邮政提供的一种快递服务') ;
+15:35:28 use meiliyoupin;
+15:35:28 set names utf8;
+15:35:28 select * from configs
+15:35:28 select * from admin_menu
+15:35:32 use meiliyoupin;
+15:35:32 set names utf8;
+15:35:32 select * from configs
+15:35:32 select * from admin_menu
+15:35:32 select * from shipping_type
+15:39:37 use meiliyoupin;
+15:39:37 set names utf8;
+15:39:37 select * from configs
+15:39:37 select * from admin_menu
+15:39:37 select * from shipping_type
+15:39:39 use meiliyoupin;
+15:39:39 set names utf8;
+15:39:39 select * from configs
+15:39:39 select * from admin_menu
+15:39:39 select * from shipping_type where id=1
+15:39:42 use meiliyoupin;
+15:39:42 set names utf8;
+15:39:42 select * from configs
+15:39:42 select * from admin_menu
+15:39:42 select * from shipping_type
+15:39:44 use meiliyoupin;
+15:39:44 set names utf8;
+15:39:44 select * from configs
+15:39:44 select * from admin_menu
+15:39:44 select * from shipping_type where id=1
+15:45:36 use meiliyoupin;
+15:45:36 set names utf8;
+15:45:36 select * from configs
+15:45:36 select * from admin_menu
+15:45:37 insert into shipping_type (shipping_name,shipping_code,shipping_desc) values ('韵达速递','yd','EMS（即“Express Mail Service”），邮政特快专递服务。它是由万国邮联管理下的国际邮件快递服务，是中国邮政提供的一种快递服务') ;
+15:45:37 use meiliyoupin;
+15:45:37 set names utf8;
+15:45:37 select * from configs
+15:45:37 select * from admin_menu
+15:45:42 use meiliyoupin;
+15:45:42 set names utf8;
+15:45:42 select * from configs
+15:45:42 select * from admin_menu
+15:45:42 select * from shipping_type
+15:45:44 use meiliyoupin;
+15:45:44 set names utf8;
+15:45:44 select * from configs
+15:45:44 select * from admin_menu
+15:45:44 select * from shipping_type where id=1
+15:45:45 use meiliyoupin;
+15:45:45 set names utf8;
+15:45:45 select * from configs
+15:45:45 select * from admin_menu
+15:45:45 select * from shipping_type where id=1
+15:45:45 update shipping_type set shipping_name='韵达速递',shipping_code='yd',shipping_desc='EMS（即“Express Mail Service”），邮政特快专递服务。它是由万国邮联管理下的国际邮件快递服务，是中国邮政提供的一种快递服务' where id=1
+15:45:45 use meiliyoupin;
+15:45:45 set names utf8;
+15:45:45 select * from configs
+15:45:45 select * from admin_menu
+15:45:50 use meiliyoupin;
+15:45:50 set names utf8;
+15:45:50 select * from configs
+15:45:50 select * from admin_menu
+15:45:50 select * from shipping_type
+15:45:51 use meiliyoupin;
+15:45:51 set names utf8;
+15:45:51 select * from configs
+15:45:51 select * from admin_menu
+15:45:51 select * from shipping_type where id=1
+15:45:53 use meiliyoupin;
+15:45:53 set names utf8;
+15:45:53 select * from configs
+15:45:53 select * from admin_menu
+15:45:53 select * from shipping_type where id=1
+15:45:53 update shipping_type set shipping_name='韵达速递',shipping_code='yd2',shipping_desc='EMS（即“Express Mail Service”），邮政特快专递服务。它是由万国邮联管理下的国际邮件快递服务，是中国邮政提供的一种快递服务' where id=1
+15:45:53 use meiliyoupin;
+15:45:53 set names utf8;
+15:45:53 select * from configs
+15:45:53 select * from admin_menu
+15:45:55 use meiliyoupin;
+15:45:55 set names utf8;
+15:45:55 select * from configs
+15:45:55 select * from admin_menu
+15:45:55 select count(id) from goods where is_delete=0 order by add_time desc
+15:45:55 select * from goods where is_delete=0 order by add_time desc limit 0,20
+15:45:57 use meiliyoupin;
+15:45:57 set names utf8;
+15:45:57 select * from configs
+15:45:57 select * from admin_menu
+15:45:57 select count(id) from goods where is_delete=0 order by add_time desc
+15:45:57 select * from goods where is_delete=0 order by add_time desc limit 0,20
+15:45:58 use meiliyoupin;
+15:45:58 set names utf8;
+15:45:58 select * from configs
+15:45:58 select * from admin_menu
+15:45:58 select * from shipping_type
+15:48:40 use meiliyoupin;
+15:48:40 set names utf8;
+15:48:40 select * from configs
+15:48:40 select * from admin_menu
+15:48:40 select * from shipping_type
+15:48:42 use meiliyoupin;
+15:48:42 set names utf8;
+15:48:42 select * from configs
+15:48:42 select * from admin_menu
+15:48:42 delete from shipping_type where id=1
+15:48:42 use meiliyoupin;
+15:48:42 set names utf8;
+15:48:42 select * from configs
+15:48:42 select * from admin_menu
+15:48:44 use meiliyoupin;
+15:48:44 set names utf8;
+15:48:44 select * from configs
+15:48:44 select * from admin_menu
+15:48:47 use meiliyoupin;
+15:48:47 set names utf8;
+15:48:47 select * from configs
+15:48:47 select * from admin_menu
+15:48:47 select * from shipping_type
+15:52:15 use meiliyoupin;
+15:52:15 set names utf8;
+15:52:15 select * from configs
+15:52:15 select * from admin_menu
+15:52:15 select * from shipping_type where id=2
+15:52:16 use meiliyoupin;
+15:52:16 set names utf8;
+15:52:16 select * from configs
+15:52:16 select * from admin_menu
+15:52:16 select * from shipping_type
+15:53:19 use meiliyoupin;
+15:53:19 set names utf8;
+15:53:19 select * from configs
+15:53:19 select * from admin_menu
+15:53:19 select * from shipping_type
+15:53:20 use meiliyoupin;
+15:53:20 set names utf8;
+15:53:20 select * from configs
+15:53:20 select * from admin_menu
+15:53:21 use meiliyoupin;
+15:53:21 set names utf8;
+15:53:21 select * from configs
+15:53:21 select * from admin_menu
+15:53:21 select * from shipping_type
+15:53:21 use meiliyoupin;
+15:53:21 set names utf8;
+15:53:21 select * from configs
+15:53:21 select * from admin_menu
+15:53:22 use meiliyoupin;
+15:53:22 set names utf8;
+15:53:22 select * from configs
+15:53:22 select * from admin_menu
+15:53:22 select * from nav order by z_index desc
+15:53:23 use meiliyoupin;
+15:53:23 set names utf8;
+15:53:23 select * from configs
+15:53:23 select * from admin_menu
+15:53:23 select * from focus_picture order by pic_index desc
+15:53:25 use meiliyoupin;
+15:53:25 set names utf8;
+15:53:25 select * from configs
+15:53:25 select * from admin_menu
+15:53:25 select count(id) from goods where is_delete=0 order by add_time desc
+15:53:25 select * from goods where is_delete=0 order by add_time desc limit 0,20
+15:53:25 use meiliyoupin;
+15:53:25 set names utf8;
+15:53:25 select * from configs
+15:53:25 select * from admin_menu
+15:53:25 select * from goods_type
+15:53:25 select count(id) from goods
+15:53:26 use meiliyoupin;
+15:53:26 set names utf8;
+15:53:26 select * from configs
+15:53:26 select * from admin_menu
+15:53:26 select * from goods_type
+15:53:27 use meiliyoupin;
+15:53:27 set names utf8;
+15:53:27 select * from configs
+15:53:27 select * from admin_menu
+15:53:27 select * from goods_type
+15:53:28 use meiliyoupin;
+15:53:28 set names utf8;
+15:53:28 select * from configs
+15:53:28 select * from admin_menu
+15:53:28 select count(id) from goods where is_delete=1 order by add_time desc
+15:53:28 select * from goods where is_delete=1 order by add_time desc limit 0,20
+15:53:29 use meiliyoupin;
+15:53:29 set names utf8;
+15:53:29 select * from configs
+15:53:29 select * from admin_menu
+15:53:29 select * from goods_type
+15:53:32 use meiliyoupin;
+15:53:32 set names utf8;
+15:53:32 select * from configs
+15:53:32 select * from admin_menu
+15:53:32 insert into goods_type (type_name,parent_id) values ('护肤','0') ;
+15:53:32 use meiliyoupin;
+15:53:32 set names utf8;
+15:53:32 select * from configs
+15:53:32 select * from admin_menu
+15:53:33 use meiliyoupin;
+15:53:33 set names utf8;
+15:53:33 select * from configs
+15:53:33 select * from admin_menu
+15:53:33 select count(id) from users order by id desc
+15:53:33 select * from users order by id desc limit 0,20
+15:53:34 use meiliyoupin;
+15:53:34 set names utf8;
+15:53:34 select * from configs
+15:53:34 select * from admin_menu
+15:53:34 select * from user_level
+15:53:35 use meiliyoupin;
+15:53:35 set names utf8;
+15:53:35 select * from configs
+15:53:35 select * from admin_menu
+15:53:35 select * from user_level
+15:53:36 use meiliyoupin;
+15:53:36 set names utf8;
+15:53:36 select * from configs
+15:53:36 select * from admin_menu
+15:53:36 select count(id) from user_level
+15:53:36 select * from user_level limit 0,20
+15:53:37 use meiliyoupin;
+15:53:37 set names utf8;
+15:53:37 select * from configs
+15:53:37 select * from admin_menu
+15:53:39 use meiliyoupin;
+15:53:39 set names utf8;
+15:53:39 select * from configs
+15:53:39 select * from admin_menu
+15:53:39 use meiliyoupin;
+15:53:39 set names utf8;
+15:53:39 select * from configs
+15:53:39 select * from admin_menu
+15:53:41 use meiliyoupin;
+15:53:41 set names utf8;
+15:53:41 select * from configs
+15:53:41 select * from admin_menu
+15:53:41 select count(id) from goods where is_delete=0 order by add_time desc
+15:53:41 select * from goods where is_delete=0 order by add_time desc limit 0,20
+15:53:42 use meiliyoupin;
+15:53:42 set names utf8;
+15:53:42 select * from configs
+15:53:42 select * from admin_menu
+15:53:42 select * from goods_type
+15:53:42 select count(id) from goods
+15:53:42 use meiliyoupin;
+15:53:42 set names utf8;
+15:53:42 select * from configs
+15:53:42 select * from admin_menu
+15:53:42 select * from goods_type
+15:53:43 use meiliyoupin;
+15:53:43 set names utf8;
+15:53:43 select * from configs
+15:53:43 select * from admin_menu
+15:53:43 select * from goods_type
+15:53:43 use meiliyoupin;
+15:53:43 set names utf8;
+15:53:43 select * from configs
+15:53:43 select * from admin_menu
+15:53:43 select count(id) from goods where is_delete=1 order by add_time desc
+15:53:43 select * from goods where is_delete=1 order by add_time desc limit 0,20
+15:53:45 use meiliyoupin;
+15:53:45 set names utf8;
+15:53:45 select * from configs
+15:53:45 select * from admin_menu
+15:53:45 use meiliyoupin;
+15:53:45 set names utf8;
+15:53:45 select * from configs
+15:53:45 select * from admin_menu
+15:53:45 select * from shipping_type
+15:53:46 use meiliyoupin;
+15:53:46 set names utf8;
+15:53:46 select * from configs
+15:53:46 select * from admin_menu
+15:53:47 use meiliyoupin;
+15:53:47 set names utf8;
+15:53:47 select * from configs
+15:53:47 select * from admin_menu
+15:53:47 select * from nav order by z_index desc
+15:53:47 use meiliyoupin;
+15:53:47 set names utf8;
+15:53:47 select * from configs
+15:53:47 select * from admin_menu
+15:53:47 select * from focus_picture order by pic_index desc
+15:53:48 use meiliyoupin;
+15:53:48 set names utf8;
+15:53:48 select * from configs
+15:53:48 select * from admin_menu
+15:53:48 select * from shipping_type
+15:53:48 use meiliyoupin;
+15:53:48 set names utf8;
+15:53:48 select * from configs
+15:53:48 select * from admin_menu
+15:53:49 use meiliyoupin;
+15:53:49 set names utf8;
+15:53:49 select * from configs
+15:53:49 select * from admin_menu
+15:53:49 select * from nav order by z_index desc
+15:53:49 use meiliyoupin;
+15:53:49 set names utf8;
+15:53:49 select * from configs
+15:53:49 select * from admin_menu
+15:53:49 select * from shipping_type
+15:53:50 use meiliyoupin;
+15:53:50 set names utf8;
+15:53:50 select * from configs
+15:53:50 select * from admin_menu
+15:53:50 use meiliyoupin;
+15:53:50 set names utf8;
+15:53:50 select * from configs
+15:53:50 select * from admin_menu
+15:53:50 select * from shipping_type
+15:53:52 use meiliyoupin;
+15:53:52 set names utf8;
+15:53:52 select * from configs
+15:53:52 select * from admin_menu
+15:53:52 select * from shipping_type where id=2
+15:53:53 use meiliyoupin;
+15:53:53 set names utf8;
+15:53:53 select * from configs
+15:53:53 select * from admin_menu
+15:53:53 select * from shipping_type
+15:53:55 use meiliyoupin;
+15:53:55 set names utf8;
+15:53:55 select * from configs
+15:53:55 select * from admin_menu
+15:53:55 use meiliyoupin;
+15:53:55 set names utf8;
+15:53:55 select * from configs
+15:53:55 select * from admin_menu
+15:53:55 select * from nav order by z_index desc
+15:53:56 use meiliyoupin;
+15:53:56 set names utf8;
+15:53:56 select * from configs
+15:53:56 select * from admin_menu
+15:53:56 select * from focus_picture order by pic_index desc
+15:53:56 use meiliyoupin;
+15:53:56 set names utf8;
+15:53:56 select * from configs
+15:53:56 select * from admin_menu
+15:53:56 select * from shipping_type
+15:55:04 use meiliyoupin;
+15:55:04 set names utf8;
+15:55:04 select * from configs
+15:55:04 select * from admin_menu
+15:55:04 select * from shipping_type where id=2
+15:55:05 use meiliyoupin;
+15:55:05 set names utf8;
+15:55:05 select * from configs
+15:55:06 select * from admin_menu
+15:55:06 select * from shipping_type
+15:55:07 use meiliyoupin;
+15:55:07 set names utf8;
+15:55:07 select * from configs
+15:55:07 select * from admin_menu
+15:55:07 use meiliyoupin;
+15:55:07 set names utf8;
+15:55:07 select * from configs
+15:55:07 select * from admin_menu
+15:55:07 select * from shipping_type
+15:55:08 use meiliyoupin;
+15:55:08 set names utf8;
+15:55:08 select * from configs
+15:55:08 select * from admin_menu
+15:55:08 use meiliyoupin;
+15:55:08 set names utf8;
+15:55:08 select * from configs
+15:55:08 select * from admin_menu
+15:55:08 select * from nav order by z_index desc
+15:55:09 use meiliyoupin;
+15:55:09 set names utf8;
+15:55:09 select * from configs
+15:55:09 select * from admin_menu
+15:55:09 select * from focus_picture order by pic_index desc
+15:55:10 use meiliyoupin;
+15:55:10 set names utf8;
+15:55:10 select * from configs
+15:55:10 select * from admin_menu
+15:55:10 use meiliyoupin;
+15:55:10 set names utf8;
+15:55:10 select * from configs
+15:55:10 select * from admin_menu
+15:55:10 select * from shipping_type
+15:55:30 use meiliyoupin;
+15:55:30 set names utf8;
+15:55:30 select * from configs
+15:55:30 select * from admin_menu
+15:55:30 select * from shipping_type
+15:55:31 use meiliyoupin;
+15:55:31 set names utf8;
+15:55:31 select * from configs
+15:55:31 select * from admin_menu
+15:55:32 use meiliyoupin;
+15:55:32 set names utf8;
+15:55:32 select * from configs
+15:55:32 select * from admin_menu
+15:55:32 select * from shipping_type
+15:55:48 use meiliyoupin;
+15:55:48 set names utf8;
+15:55:48 select * from configs
+15:55:48 select * from admin_menu
+15:55:48 select * from shipping_type
+15:55:49 use meiliyoupin;
+15:55:49 set names utf8;
+15:55:49 select * from configs
+15:55:49 select * from admin_menu
+15:55:55 use meiliyoupin;
+15:55:55 set names utf8;
+15:55:55 select * from configs
+15:55:55 select * from admin_menu
+15:55:55 use meiliyoupin;
+15:55:55 set names utf8;
+15:55:55 select * from configs
+15:55:55 select * from admin_menu
+15:55:55 select * from shipping_type
+15:55:56 use meiliyoupin;
+15:55:56 set names utf8;
+15:55:56 select * from configs
+15:55:56 select * from admin_menu
+15:56:01 use meiliyoupin;
+15:56:01 set names utf8;
+15:56:01 select * from configs
+15:56:01 select * from admin_menu
+15:56:01 select * from shipping_type
+15:56:01 use meiliyoupin;
+15:56:01 set names utf8;
+15:56:01 select * from configs
+15:56:01 select * from admin_menu
+15:56:02 use meiliyoupin;
+15:56:02 set names utf8;
+15:56:02 select * from configs
+15:56:02 select * from admin_menu
+15:56:02 select * from nav order by z_index desc
+15:56:02 use meiliyoupin;
+15:56:02 set names utf8;
+15:56:02 select * from configs
+15:56:02 select * from admin_menu
+15:56:02 select * from focus_picture order by pic_index desc
+15:56:06 use meiliyoupin;
+15:56:06 set names utf8;
+15:56:06 select * from configs
+15:56:06 select * from admin_menu
+15:56:06 select * from shipping_type
+15:59:41 use meiliyoupin;
+15:59:41 set names utf8;
+15:59:41 select * from configs
+15:59:41 select * from admin_menu
+15:59:41 select * from shipping_type where id=2
+15:59:46 use meiliyoupin;
+15:59:46 set names utf8;
+15:59:46 select * from configs
+15:59:46 select * from admin_menu
+15:59:46 select * from shipping_type
+16:44:03 use meiliyoupin;
+16:44:03 set names utf8;
+16:44:03 select * from configs
+16:44:03 select * from admin_menu
+16:44:03 select * from shipping_type
+16:44:33 use meiliyoupin;
+16:44:33 set names utf8;
+16:44:33 select * from configs
+16:44:33 select * from admin_menu
+16:44:33 select * from shipping_type
+16:44:45 use meiliyoupin;
+16:44:45 set names utf8;
+16:44:45 select * from configs
+16:44:45 select * from admin_menu
+16:44:45 select * from shipping_type
+16:49:55 use meiliyoupin;
+16:49:55 set names utf8;
+16:49:55 select * from configs
+16:49:55 select * from admin_menu
+16:49:55 select * from shipping_type
+16:49:57 use meiliyoupin;
+16:49:57 set names utf8;
+16:49:57 select * from configs
+16:49:57 select * from admin_menu
+16:49:57 select * from shipping_type where id=2
+16:49:57 select * from shipping_area where shipping_id=2
+16:50:41 use meiliyoupin;
+16:50:41 set names utf8;
+16:50:41 select * from configs
+16:50:41 select * from admin_menu
+16:50:41 select * from shipping_type where id=2
+16:50:41 select * from shipping_area where shipping_id=2
+16:51:09 use meiliyoupin;
+16:51:09 set names utf8;
+16:51:09 select * from configs
+16:51:10 select * from admin_menu
+16:51:10 select * from shipping_type where id=2
+16:51:10 select * from shipping_area where shipping_id=2
+16:51:11 use meiliyoupin;
+16:51:11 set names utf8;
+16:51:11 select * from configs
+16:51:11 select * from admin_menu
+16:51:11 select * from shipping_type where id=2
+16:51:11 select * from shipping_area where shipping_id=2
+17:03:46 use meiliyoupin;
+17:03:46 set names utf8;
+17:03:46 select * from configs
+17:03:46 select * from admin_menu
+17:03:46 select * from shipping_type where id=2
+17:03:46 select * from shipping_area where shipping_id=2
+17:03:47 use meiliyoupin;
+17:03:47 set names utf8;
+17:03:47 select * from configs
+17:03:47 select * from admin_menu
+17:03:47 select * from shipping_type where id=2
+17:03:47 select * from shipping_area where shipping_id=2
+17:03:47 use meiliyoupin;
+17:03:47 set names utf8;
+17:03:47 select * from configs
+17:03:47 select * from admin_menu
+17:03:47 select * from shipping_type where id=2
+17:03:47 select * from shipping_area where shipping_id=2
+17:05:45 use meiliyoupin;
+17:05:45 set names utf8;
+17:05:45 select * from configs
+17:05:45 select * from admin_menu
+17:05:45 select * from shipping_type where id=2
+17:05:45 select * from shipping_area where shipping_id=2
+17:05:50 use meiliyoupin;
+17:05:50 set names utf8;
+17:05:50 select * from configs
+17:05:50 select * from admin_menu
+17:05:52 use meiliyoupin;
+17:05:52 set names utf8;
+17:05:52 select * from configs
+17:05:52 select * from admin_menu
+17:05:52 select * from shipping_type where id=2
+17:05:52 select * from shipping_area where shipping_id=2
+17:06:05 use meiliyoupin;
+17:06:05 set names utf8;
+17:06:05 select * from configs
+17:06:05 select * from admin_menu
+17:06:05 select * from shipping_type where id=2
+17:06:05 select * from shipping_area where shipping_id=2
+17:17:05 use meiliyoupin;
+17:17:05 set names utf8;
+17:17:05 select * from configs
+17:17:05 select * from admin_menu
+17:17:06 use meiliyoupin;
+17:17:06 set names utf8;
+17:17:06 select * from configs
+17:17:06 select * from admin_menu
+17:17:06 select * from shipping_type where id=2
+17:17:06 select * from shipping_area where shipping_id=2
+17:26:26 use meiliyoupin;
+17:26:26 set names utf8;
+17:26:26 select * from configs
+17:26:26 select * from admin_menu
+17:26:26 select * from shipping_type
+17:30:05 use meiliyoupin;
+17:30:05 set names utf8;
+17:30:05 select * from configs
+17:30:05 select * from admin_menu
+17:30:05 select * from shipping_type where id=2
+17:30:09 use meiliyoupin;
+17:30:09 set names utf8;
+17:30:09 select * from configs
+17:30:09 select * from admin_menu
+17:30:09 select * from shipping_type
+17:30:11 use meiliyoupin;
+17:30:11 set names utf8;
+17:30:11 select * from configs
+17:30:11 select * from admin_menu
+17:30:11 select * from shipping_type where id=2
+17:30:11 select * from shipping_area where shipping_id=2
+17:30:13 use meiliyoupin;
+17:30:13 set names utf8;
+17:30:13 select * from configs
+17:30:13 select * from admin_menu
+17:30:14 use meiliyoupin;
+17:30:14 set names utf8;
+17:30:14 select * from configs
+17:30:14 select * from admin_menu
+17:30:14 select * from shipping_type where id=2
+17:30:14 select * from shipping_area where shipping_id=2
+17:30:15 use meiliyoupin;
+17:30:15 set names utf8;
+17:30:15 select * from configs
+17:30:15 select * from admin_menu
+17:30:15 select * from shipping_type
+17:32:54 use meiliyoupin;
+17:32:54 set names utf8;
+17:32:54 select * from configs
+17:32:54 select * from admin_menu
+17:32:55 use meiliyoupin;
+17:32:55 set names utf8;
+17:32:55 select * from configs
+17:32:55 select * from admin_menu
+17:32:55 select * from shipping_type
+17:32:57 use meiliyoupin;
+17:32:57 set names utf8;
+17:32:57 select * from configs
+17:32:57 select * from admin_menu
+17:32:57 select * from shipping_type where id=2
+17:32:59 use meiliyoupin;
+17:32:59 set names utf8;
+17:32:59 select * from configs
+17:32:59 select * from admin_menu
+17:32:59 select * from shipping_type where id=2
+17:32:59 update shipping_type set shipping_name='韵达速递',shipping_code='yd2',shipping_desc='EMS（即“Express Mail Service”），邮政特快专递服务。它是由万国邮联管理下的国际邮件快递服务，是中国邮政提供的一种快递服务' where id=2
+17:32:59 use meiliyoupin;
+17:32:59 set names utf8;
+17:32:59 select * from configs
+17:32:59 select * from admin_menu
+17:33:02 use meiliyoupin;
+17:33:02 set names utf8;
+17:33:02 select * from configs
+17:33:02 select * from admin_menu
+17:33:02 select * from shipping_type where id=2
+17:33:54 use meiliyoupin;
+17:33:54 set names utf8;
+17:33:54 select * from configs
+17:33:54 select * from admin_menu
+17:33:54 select * from shipping_type where id=2
+17:33:54 update shipping_type set shipping_name='韵达速递',shipping_code='yd23',shipping_desc='EMS（即“Express Mail Service”），邮政特快专递服务。它是由万国邮联管理下的国际邮件快递服务，是中国邮政提供的一种快递服务' where id=2
+17:33:54 use meiliyoupin;
+17:33:54 set names utf8;
+17:33:54 select * from configs
+17:33:54 select * from admin_menu
+17:33:58 use meiliyoupin;
+17:33:58 set names utf8;
+17:33:58 select * from configs
+17:33:58 select * from admin_menu
+17:33:58 select * from shipping_type where id=2
+17:34:01 use meiliyoupin;
+17:34:01 set names utf8;
+17:34:01 select * from configs
+17:34:01 select * from admin_menu
+17:34:01 select * from shipping_type
+17:35:00 use meiliyoupin;
+17:35:00 set names utf8;
+17:35:00 select * from configs
+17:35:00 select * from admin_menu
+17:35:00 select * from shipping_type where id=2
+17:35:01 use meiliyoupin;
+17:35:01 set names utf8;
+17:35:01 select * from configs
+17:35:01 select * from admin_menu
+17:35:01 select * from shipping_type where id=2
+17:35:01 update shipping_type set shipping_name='韵达速递',shipping_code='yd23',shipping_desc='EMS（即“Express Mail Service”），邮政特快专递服务。它是由万国邮联管理下的国际邮件快递服务，是中国邮政提供的一种快递服务' where id=2
+17:35:02 use meiliyoupin;
+17:35:02 set names utf8;
+17:35:02 select * from configs
+17:35:02 select * from admin_menu
+17:35:03 use meiliyoupin;
+17:35:03 set names utf8;
+17:35:03 select * from configs
+17:35:03 select * from admin_menu
+17:35:03 select * from shipping_type where id=2
+17:35:03 use meiliyoupin;
+17:35:03 set names utf8;
+17:35:03 select * from configs
+17:35:03 select * from admin_menu
+17:35:03 select * from shipping_type where id=2
+17:35:03 update shipping_type set shipping_name='韵达速递',shipping_code='yd23',shipping_desc='EMS（即“Express Mail Service”），邮政特快专递服务。它是由万国邮联管理下的国际邮件快递服务，是中国邮政提供的一种快递服务' where id=2
+17:35:03 use meiliyoupin;
+17:35:03 set names utf8;
+17:35:03 select * from configs
+17:35:03 select * from admin_menu
+17:35:04 use meiliyoupin;
+17:35:04 set names utf8;
+17:35:04 select * from configs
+17:35:04 select * from admin_menu
+17:35:04 select * from shipping_type where id=2
+17:35:05 use meiliyoupin;
+17:35:05 set names utf8;
+17:35:05 select * from configs
+17:35:05 select * from admin_menu
+17:35:05 select * from shipping_type where id=2
+17:35:05 update shipping_type set shipping_name='韵达速递',shipping_code='yd23',shipping_desc='EMS（即“Express Mail Service”），邮政特快专递服务。它是由万国邮联管理下的国际邮件快递服务，是中国邮政提供的一种快递服务' where id=2
+17:35:05 use meiliyoupin;
+17:35:05 set names utf8;
+17:35:05 select * from configs
+17:35:05 select * from admin_menu
+17:35:06 use meiliyoupin;
+17:35:06 set names utf8;
+17:35:06 select * from configs
+17:35:06 select * from admin_menu
+17:35:06 select * from shipping_type where id=2
+17:35:07 use meiliyoupin;
+17:35:07 set names utf8;
+17:35:07 select * from configs
+17:35:07 select * from admin_menu
+17:35:07 select * from shipping_type where id=2
+17:35:07 update shipping_type set shipping_name='韵达速递',shipping_code='yd23',shipping_desc='EMS（即“Express Mail Service”），邮政特快专递服务。它是由万国邮联管理下的国际邮件快递服务，是中国邮政提供的一种快递服务' where id=2
+17:35:07 use meiliyoupin;
+17:35:07 set names utf8;
+17:35:07 select * from configs
+17:35:07 select * from admin_menu
+17:35:08 use meiliyoupin;
+17:35:08 set names utf8;
+17:35:08 select * from configs
+17:35:08 select * from admin_menu
+17:35:08 select * from shipping_type where id=2
+17:35:09 use meiliyoupin;
+17:35:09 set names utf8;
+17:35:09 select * from configs
+17:35:09 select * from admin_menu
+17:35:09 select * from shipping_type where id=2
+17:35:09 update shipping_type set shipping_name='韵达速递',shipping_code='yd23',shipping_desc='EMS（即“Express Mail Service”），邮政特快专递服务。它是由万国邮联管理下的国际邮件快递服务，是中国邮政提供的一种快递服务' where id=2
+17:35:09 use meiliyoupin;
+17:35:09 set names utf8;
+17:35:09 select * from configs
+17:35:09 select * from admin_menu
+17:35:10 use meiliyoupin;
+17:35:10 set names utf8;
+17:35:10 select * from configs
+17:35:10 select * from admin_menu
+17:35:10 select * from shipping_type where id=2
+17:35:11 use meiliyoupin;
+17:35:11 set names utf8;
+17:35:11 select * from configs
+17:35:11 select * from admin_menu
+17:35:11 select * from shipping_type where id=2
+17:35:11 update shipping_type set shipping_name='韵达速递',shipping_code='yd23',shipping_desc='EMS（即“Express Mail Service”），邮政特快专递服务。它是由万国邮联管理下的国际邮件快递服务，是中国邮政提供的一种快递服务' where id=2
+17:35:11 use meiliyoupin;
+17:35:11 set names utf8;
+17:35:11 select * from configs
+17:35:11 select * from admin_menu
+17:35:11 use meiliyoupin;
+17:35:11 set names utf8;
+17:35:11 select * from configs
+17:35:11 select * from admin_menu
+17:35:11 select * from shipping_type where id=2
+17:35:12 use meiliyoupin;
+17:35:12 set names utf8;
+17:35:12 select * from configs
+17:35:12 select * from admin_menu
+17:35:12 select * from shipping_type where id=2
+17:35:12 update shipping_type set shipping_name='韵达速递',shipping_code='yd23',shipping_desc='EMS（即“Express Mail Service”），邮政特快专递服务。它是由万国邮联管理下的国际邮件快递服务，是中国邮政提供的一种快递服务' where id=2
+17:35:12 use meiliyoupin;
+17:35:12 set names utf8;
+17:35:12 select * from configs
+17:35:12 select * from admin_menu
+17:35:13 use meiliyoupin;
+17:35:13 set names utf8;
+17:35:13 select * from configs
+17:35:13 select * from admin_menu
+17:35:13 select * from shipping_type where id=2
+17:35:14 use meiliyoupin;
+17:35:14 set names utf8;
+17:35:14 select * from configs
+17:35:14 select * from admin_menu
+17:35:14 select * from shipping_type where id=2
+17:35:14 update shipping_type set shipping_name='韵达速递',shipping_code='yd23',shipping_desc='EMS（即“Express Mail Service”），邮政特快专递服务。它是由万国邮联管理下的国际邮件快递服务，是中国邮政提供的一种快递服务' where id=2
+17:35:14 use meiliyoupin;
+17:35:14 set names utf8;
+17:35:14 select * from configs
+17:35:14 select * from admin_menu
+17:35:15 use meiliyoupin;
+17:35:15 set names utf8;
+17:35:15 select * from configs
+17:35:15 select * from admin_menu
+17:35:15 select * from shipping_type where id=2

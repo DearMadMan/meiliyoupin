@@ -1,0 +1,116 @@
+/*
+    @Author：fx Time：2014-7-8 09:06:04;
+*/
+/* main-body */
+.ML-item-main-title{
+    background: #1a1a1a;
+    color: #f7f8f9;
+    height: 40px;
+    line-height: 40px;
+}
+.ML-item-main-title ul > li a{
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0;
+    color: #f7f8f9;
+    font-weight: bold;
+}
+.ML-item-main-title li a:hover{
+    background: #ed125b;
+    color: #fff;    
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.ML-item-main-title .pull-right{
+    background: #ed125b;
+    padding-left: 5px;
+}
+.ML-item-main-body{
+    background: #fff;
+    padding: 15px;
+}
+
+/* main-nav */
+.ML-item-main-nav .main-n1,
+.ML-item-main-nav .main-n2,
+.ML-item-main-nav .main-n3{
+    background: #fff;
+    padding-bottom: 5px;
+}
+.ML-item-main-nav .ML-item-main-title{
+    margin-left: 0;
+}
+.ML-item-main-nav .ML-item-main-title li{
+    background: #1a1a1a;
+    padding-left: 15px;
+    color: #f7f8f9;
+    font-weight: bold;    
+}
+.ML-item-main-nav .glyphicon{
+    font-size: 25px;
+    background: #ed125b;
+    padding: 8px;
+    border-radius: 20px;
+    color: #f7f8f9;
+}
+.ML-item-main-nav .main-code{
+    margin: 15px 0;
+}
+.ML-item-main-nav .main-code code{
+    margin: 0 5px;
+    padding: 5px 10px;    
+}
+.main-n3-logo{
+    padding-bottom: 5px;    
+}
+.main-product{
+    margin: 0;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px solid #e5e5e5;
+}
+.main-product .thumbnail{
+    margin-top: 10px;    
+    padding: 0;
+    margin-bottom: 0;
+    width: 61px;
+    border: 0;
+    border-right: 1px dashed #e5e5e5;
+}
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active{
+    border-color: #ed145b;    
+}
+.main-product .col-md-3{
+    padding: 0;
+}
+.main-product p a{
+    color: #333;
+}
+.main-product p a:hover,
+.main-product p a:focus{
+    color: #ed145b;
+}
+.main-product p span{
+    color: #ed145b;
+}
+
+/* navbar-wrapper fixed */
+@media (min-width: 768px) {
+  .navbar-wrapper {
+    width: 720px;
+  }
+}
+@media (min-width: 992px) {
+/*
+  .navbar-wrapper {
+    width: 698px;
+  }
+}
+@media (min-width: 1200px) {
+暂时合并col-md-* col-lg-* */
+  .navbar-wrapper {
+    width: 848px;
+  }
+}
+/* navbar-wrapper fixed */

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-06-25 16:47:21
+<?php /* Smarty version Smarty-3.1.16, created on 2014-07-21 17:33:54
          compiled from "E:\apache\www\temp\d\madadmin\template\tips.mad" */ ?>
 <?php /*%%SmartyHeaderCode:600453aa8c99ed9291-04318570%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '076135c95e0675fcb984501260b79e7a1b33dacb' => 
     array (
       0 => 'E:\\apache\\www\\temp\\d\\madadmin\\template\\tips.mad',
-      1 => 1394522686,
+      1 => 1405935228,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.16',
+  'unifunc' => 'content_53aa8c9a14f2c3_84589066',
   'variables' => 
   array (
     'vp' => 0,
     'tips' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.16',
-  'unifunc' => 'content_53aa8c9a14f2c3_84589066',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53aa8c9a14f2c3_84589066')) {function content_53aa8c9a14f2c3_84589066($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="en">
@@ -101,6 +101,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="error_ex">
               <h3><?php echo $_smarty_tpl->tpl_vars['tips']->value;?>
 </h3>
+             <a class="btn btn-success btn-big"  href="javascript:history.go(-1);">Back to Last</a>
               <a class="btn btn-warning btn-big"  href="index.php">Back to Home</a> </div>
           </div>
         </div>

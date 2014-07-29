@@ -1,0 +1,292 @@
+16:13:22 use meiliyoupin;
+16:13:22 set names utf8;
+16:13:22 select * from configs
+16:13:22 select * from admin_menu
+16:13:53 use meiliyoupin;
+16:13:53 set names utf8;
+16:13:53 select * from configs
+16:13:53 select * from admin_menu
+16:13:53 use meiliyoupin;
+16:13:53 set names utf8;
+16:13:53 select * from configs
+16:13:53 select * from admin_menu
+16:14:15 use meiliyoupin;
+16:14:15 set names utf8;
+16:14:15 select * from configs
+16:14:15 use meiliyoupin;
+16:14:15 set names utf8;
+16:14:15 select * from configs
+16:14:15 select * from admin_menu
+16:14:22 use meiliyoupin;
+16:14:22 set names utf8;
+16:14:22 select * from configs
+16:14:22 select * from admin_menu
+16:14:36 use meiliyoupin;
+16:14:36 set names utf8;
+16:14:36 select * from configs
+16:14:36 select * from admin_menu
+16:14:46 use meiliyoupin;
+16:14:46 set names utf8;
+16:14:46 select * from configs
+16:14:46 select * from admin_menu
+16:15:06 use meiliyoupin;
+16:15:06 set names utf8;
+16:15:06 select * from configs
+16:15:06 select * from admin_menu
+16:15:06 select * from admin where user_name='myadmin' and user_word='691c360156c27261b40c974ec0bf8f4a'
+16:15:06 use meiliyoupin;
+16:15:06 set names utf8;
+16:15:06 select * from configs
+16:15:06 select * from admin_menu
+16:15:13 use meiliyoupin;
+16:15:13 set names utf8;
+16:15:13 select * from configs
+16:15:13 select * from admin_menu
+16:15:13 select * from user_level
+16:15:17 use meiliyoupin;
+16:15:17 set names utf8;
+16:15:17 select * from configs
+16:15:17 select * from admin_menu
+16:15:22 use meiliyoupin;
+16:15:22 set names utf8;
+16:15:22 select * from configs
+16:15:22 select * from admin_menu
+16:15:22 select * from user_level
+16:15:36 use meiliyoupin;
+16:15:36 set names utf8;
+16:15:36 select * from configs
+16:15:36 select * from admin_menu
+16:16:12 use meiliyoupin;
+16:16:12 set names utf8;
+16:16:12 select * from configs
+16:16:12 select * from admin_menu
+16:16:44 use meiliyoupin;
+16:16:44 set names utf8;
+16:16:44 select * from configs
+16:16:44 select * from admin_menu
+16:16:48 use meiliyoupin;
+16:16:48 set names utf8;
+16:16:48 select * from configs
+16:16:48 select * from admin_menu
+16:16:48 select * from user_level
+16:16:52 use meiliyoupin;
+16:16:52 set names utf8;
+16:16:52 select * from configs
+16:16:52 select * from admin_menu
+16:17:37 use meiliyoupin;
+16:17:37 set names utf8;
+16:17:37 select * from configs
+16:17:37 select * from admin_menu
+16:17:37 select * from user_level
+16:17:44 use meiliyoupin;
+16:17:44 set names utf8;
+16:17:44 select * from configs
+16:17:44 select * from admin_menu
+16:17:48 use meiliyoupin;
+16:17:48 set names utf8;
+16:17:48 select * from configs
+16:17:48 select * from admin_menu
+16:17:48 select * from user_level
+16:18:03 use meiliyoupin;
+16:18:03 set names utf8;
+16:18:03 select * from configs
+16:18:03 select * from admin_menu
+16:18:06 use meiliyoupin;
+16:18:06 set names utf8;
+16:18:06 select * from configs
+16:18:06 select * from admin_menu
+16:18:06 select * from user_level
+16:18:13 use meiliyoupin;
+16:18:13 set names utf8;
+16:18:13 select * from configs
+16:18:13 select * from admin_menu
+16:18:15 use meiliyoupin;
+16:18:15 set names utf8;
+16:18:15 select * from configs
+16:18:15 select * from admin_menu
+16:18:15 select * from user_level
+16:18:23 use meiliyoupin;
+16:18:23 set names utf8;
+16:18:23 select * from configs
+16:18:23 select * from admin_menu
+16:18:25 use meiliyoupin;
+16:18:25 set names utf8;
+16:18:25 select * from configs
+16:18:25 select * from admin_menu
+16:18:25 select * from user_level
+16:28:03 use meiliyoupin;
+16:28:03 set names utf8;
+16:28:03 select * from configs
+16:28:14 use meiliyoupin;
+16:28:14 set names utf8;
+16:28:14 select * from configs
+16:28:14 select * from admin_menu
+16:28:14 select * from user_level
+16:28:16 use meiliyoupin;
+16:28:16 set names utf8;
+16:28:16 select * from configs
+16:28:16 select * from admin_menu
+16:28:34 use meiliyoupin;
+16:28:34 set names utf8;
+16:28:34 select * from configs
+16:28:34 select * from admin_menu
+16:28:34 select * from user_level
+16:28:37 use meiliyoupin;
+16:28:37 set names utf8;
+16:28:37 select * from configs
+16:28:37 select * from admin_menu
+16:28:40 use meiliyoupin;
+16:28:40 set names utf8;
+16:28:40 select * from configs
+16:28:40 select * from admin_menu
+16:28:40 select * from user_level
+16:28:58 use meiliyoupin;
+16:28:58 set names utf8;
+16:28:58 select * from configs
+16:28:58 select * from admin_menu
+16:29:03 use meiliyoupin;
+16:29:03 set names utf8;
+16:29:03 select * from configs
+16:29:03 select * from admin_menu
+16:29:03 select * from user_level
+16:30:03 use meiliyoupin;
+16:30:03 set names utf8;
+16:30:03 select * from configs
+16:30:03 select * from admin_menu
+16:30:43 use meiliyoupin;
+16:30:43 set names utf8;
+16:30:43 select * from configs
+16:30:43 select * from admin_menu
+16:30:54 use meiliyoupin;
+16:30:54 set names utf8;
+16:30:54 select * from configs
+16:30:54 select * from admin_menu
+16:33:58 use meiliyoupin;
+16:33:58 set names utf8;
+16:33:58 select * from configs
+16:33:58 select * from admin_menu
+16:33:58 select * from user_level
+16:34:01 use meiliyoupin;
+16:34:01 set names utf8;
+16:34:01 select * from configs
+16:34:01 select * from admin_menu
+16:34:22 use meiliyoupin;
+16:34:22 set names utf8;
+16:34:22 select * from configs
+16:34:22 select * from admin_menu
+16:34:22 select * from user_level
+16:34:24 use meiliyoupin;
+16:34:24 set names utf8;
+16:34:24 select * from configs
+16:34:24 select * from admin_menu
+16:35:00 use meiliyoupin;
+16:35:00 set names utf8;
+16:35:00 select * from configs
+16:35:00 select * from admin_menu
+16:35:00 select * from user_level
+16:35:02 use meiliyoupin;
+16:35:02 set names utf8;
+16:35:02 select * from configs
+16:35:02 select * from admin_menu
+16:36:09 use meiliyoupin;
+16:36:09 set names utf8;
+16:36:09 select * from configs
+16:36:09 select * from admin_menu
+16:37:27 use meiliyoupin;
+16:37:27 set names utf8;
+16:37:27 select * from configs
+16:37:27 select * from admin_menu
+16:37:27 select * from user_level
+16:37:29 use meiliyoupin;
+16:37:29 set names utf8;
+16:37:29 select * from configs
+16:37:29 select * from admin_menu
+16:37:32 use meiliyoupin;
+16:37:32 set names utf8;
+16:37:32 select * from configs
+16:37:32 select * from admin_menu
+16:37:32 select * from user_level
+16:37:38 use meiliyoupin;
+16:37:38 set names utf8;
+16:37:38 select * from configs
+16:37:38 select * from admin_menu
+16:37:43 use meiliyoupin;
+16:37:43 set names utf8;
+16:37:43 select * from configs
+16:37:44 select * from admin_menu
+16:37:44 select * from user_level
+16:37:47 use meiliyoupin;
+16:37:47 set names utf8;
+16:37:47 select * from configs
+16:37:47 select * from admin_menu
+16:37:49 use meiliyoupin;
+16:37:49 set names utf8;
+16:37:49 select * from configs
+16:37:49 select * from admin_menu
+16:37:49 select * from user_level
+16:38:28 use meiliyoupin;
+16:38:28 set names utf8;
+16:38:28 select * from configs
+16:38:28 select * from admin_menu
+16:38:40 use meiliyoupin;
+16:38:40 set names utf8;
+16:38:40 select * from configs
+16:38:40 select * from admin_menu
+16:38:40 select * from user_level
+16:38:46 use meiliyoupin;
+16:38:46 set names utf8;
+16:38:46 select * from configs
+16:38:46 select * from admin_menu
+16:38:50 use meiliyoupin;
+16:38:50 set names utf8;
+16:38:50 select * from configs
+16:38:50 select * from admin_menu
+16:38:50 select * from user_level
+16:38:57 use meiliyoupin;
+16:38:57 set names utf8;
+16:38:57 select * from configs
+16:38:57 select * from admin_menu
+16:39:02 use meiliyoupin;
+16:39:02 set names utf8;
+16:39:02 select * from configs
+16:39:02 select * from admin_menu
+16:39:02 select * from user_level
+16:39:32 use meiliyoupin;
+16:39:32 set names utf8;
+16:39:32 select * from configs
+16:39:32 select * from admin_menu
+16:39:55 use meiliyoupin;
+16:39:55 set names utf8;
+16:39:55 select * from configs
+16:39:55 select * from admin_menu
+16:39:55 select * from user_level
+16:40:00 use meiliyoupin;
+16:40:00 set names utf8;
+16:40:00 select * from configs
+16:40:00 select * from admin_menu
+16:40:00 select * from users whereuser_name = '1'
+16:40:15 use meiliyoupin;
+16:40:15 set names utf8;
+16:40:15 select * from configs
+16:40:15 select * from admin_menu
+16:40:15 select * from user_level
+16:40:21 use meiliyoupin;
+16:40:21 set names utf8;
+16:40:21 select * from configs
+16:40:21 select * from admin_menu
+16:40:21 select * from users where user_name = '1'
+16:40:21 insert into users (user_name,user_email,user_word,user_level) values ('asadsadsa','123123@123.com','793e4733b1aff8f8c552fa15b46aff56','0') ;
+16:40:28 use meiliyoupin;
+16:40:28 set names utf8;
+16:40:28 select * from configs
+16:40:28 select * from admin_menu
+16:45:47 use meiliyoupin;
+16:45:47 set names utf8;
+16:45:47 select * from configs
+16:45:47 select * from admin_menu
+16:45:47 select * from article_type
+16:45:49 use meiliyoupin;
+16:45:49 set names utf8;
+16:45:49 select * from configs
+16:45:49 select * from admin_menu
+16:45:49 select * from user_level

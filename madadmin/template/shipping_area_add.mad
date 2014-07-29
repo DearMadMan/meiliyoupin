@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Matrix Admin</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="{$vp}/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="{$vp}/css/bootstrap-responsive.min.css" />
+        <link rel="stylesheet" href="{$vp}/css/fullcalendar.css" />
+        <link rel="stylesheet" href="{$vp}/css/matrix-style.css" />
+        <link rel="stylesheet" href="{$vp}/css/matrix-media.css" />
+        <link rel="stylesheet" href="{$vp}/css/select2.css">
+        <link rel="stylesheet" href="{$vp}/css/uniform.css">
+        <link href="{$vp}/font-awesome/css/font-awesome.css" rel="stylesheet" />
+        <link rel="stylesheet" href="{$vp}/css/jquery.gritter.css" />
+        <link href='{$vp}/css/google.css' rel='stylesheet' type='text/css'>
+            <script src="{$vp}/js/jquery.min.js"></script>
+            <script src="{$vp}/js/jquery.ui.custom.js"></script>
+            <script src="{$vp}/js/jquery.uniform.js"></script>
+            <script src="{$vp}/js/bootstrap.min.js"></script>
+            <script src="{$vp}/js/jquery.flot.min.js"></script>
+            <script src="{$vp}/js/jquery.flot.resize.min.js"></script>
+            <script src="{$vp}/js/matrix.js"></script>
+            <script src="{$vp}/js/select2.min.js"></script>
+            <link rel="stylesheet" href="{$vp}/css/datepicker.css" />
+            <script src="{$vp}/js/bootstrap-datepicker.js"></script>
+        </head>
+        <body>
+            {include file='header.mad'} {include file='menu.mad'}
+            <!--main-container-part-->
+            <div id="content">
+                {include file="breadcrumbs.mad"}
+                <div class="container-fluid">
+                    <div class="widget-box">
+                        <div class="widget-title">
+                            <span class="icon"><i class="icon-bookmark"></i></span>
+                            <h5>配送地区名称</h5>
+                        </div>
+                        <div class="widget-content nopadding">
+                            <div class="row-fluid">
+                                <form action="post.php?act=shipping_area_add" method="POST" enctype='multipart/form-data' class="form-horizontal">
+                                    <div class="control-group">
+                                        <label class="control-label">配送区域名称</label>
+                                        <div class="controls">
+                                            <input name="shipping_area_name" type="text" class="span11" placeholder="配送区域名称"></div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">首重费用</label>
+                                            <div class="controls">
+                                                <input name="first_price" type="text" value="8" class="span11" placeholder="首重费用"></div>
+                                            </div>
+                                            <div class="control-group">
+                                                <label class="control-label">续重费用</label>
+                                                <div class="controls">
+                                                    <input name="next_price" value="8" type="text" class="span11" placeholder="续重费用"></div>
+                                                </div>
+                                                <div class="control-group">
+                                                    <label class="control-label">免费额度</label>
+                                                    <div class="controls">
+                                                        <input name="free_price" type="text" value="300" class="span11" placeholder="免费额度"></div>
+                                                    </div>
+                                                    <input type="hidden" name="shipping_type_id" value="{$shipping_type_id}">
+                                                    <input type="hidden" id="area" value="" name ="area">
+                                                    <div class="form-actions ">
+                                                        <button type="submit" class="btn btn-success span3 offset3">Save</button>
+                                                        <button type="reset" class="btn btn-primary span3">Reset</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row-fluid">
+                                        <div class="widget-box">
+                                            <div class="widget-title">
+                                                <span class="icon"> <i class="icon-align-justify"></i>
+                                                </span>
+                                                <h5>配送区域列表</h5>
+                                            </div>
+                                            <div class="widget-content nopadding">
+                                                <table class="table table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>国家</th>
+                                                            <th>省份</th>
+                                                            <th>城市</th>
+                                                            <th>区/县</th>
+                                                            <th>添加</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <select name="country" id="country">
+                                                                    <option value="0">中国</option>
+                                                                </select>
+                                                            </td>
+                                                            <td>
+                                                                <select name="province" id="province">
+                                                                    <option value="0">请选择...</option>
+                                                                    {foreach $province as $v}
+                                                                    <option value="{$v.id}">{$v.region_name}</option>
+                                                                    {/foreach}
+                                                                </select>
+                                                            </td>
+                                                            <td>
+                                                                <select name="city" id="city">
+                                                                    <option value="0">请选择...</option>
+                                                                </select>
+                                                            </td>
+                                                            <td>
+                                                                <select name="district" id="district">
+                                                                    <option value="0">请选择...</option>
+                                                                </select>
+                                                            </td>
+                                                            <td style="text-align:center;"><button id="add" class="btn btn-primary">添加</button></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                </div>
+                                            </div>
+                                             <div class="widget-box">
+                                            <div class="widget-title">
+                                                <span class="icon"> <i class="icon-align-justify"></i>
+                                                </span>
+                                                <h5>配送标签</h5>
+                                            </div>
+              <div id="regions" class="widget-content ">
+              
+              </div>
+                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end-main-container-part-->{include file='footer.mad'}
+                            <script src="{$vp}/js/shipping_area_add.js"></script>
+                        </body>
+                    </html>
