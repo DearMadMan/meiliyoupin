@@ -16,7 +16,8 @@
         <!-- jS -->
         <script src="{$vp}/js/jquery.min.js"></script>
         <script src="{$vp}/js/bootstrap.min.js"></script>        
-        
+                 <script src="{$vp}/js/happy.js"></script>
+        <script src="{$vp}/js/happy.methods.js"></script>        
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -50,18 +51,18 @@
                   </div>
                   <div class="clearfix"></div>
                   <hr>                  
-                    <form role="form">
+                    <form id="loginForm" role="form" method="POST" action="login.php?act=login">
                       <div class="form-group">
                         <label for="exampleInputEmail">邮箱 / 用户名</label>
-                        <input type="email" class="form-control" id="exampleInputEmail">
+                        <input id="user_name" type="text" name="user_name" class="form-control" >
                       </div>
                       <div class="form-group">
                         <label for="exampleInputPassword">密码</label>
-                        <input type="password" class="form-control" id="exampleInputPassword">
+                        <input type="password" name="user_word" class="form-control" id="user_word">
                       </div>                     
                       <div class="checkbox">
                         <label>
-                          <input type="checkbox"> <small>自动登录</small>
+                          <input type="checkbox" name="remember"> <small>自动登录</small>
                         </label>
                         <label class="pull-right">
                           <a href="#"><small>忘记密码 ?</small></a>
@@ -81,5 +82,6 @@
 <br>
 <br>
       {include file='tpl_footer_simple.html'}
+      <script src="{$vp}/js/login.js"></script>
     </body>
 </html>

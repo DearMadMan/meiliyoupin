@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-07-30 11:06:48
+<?php /* Smarty version Smarty-3.1.16, created on 2014-07-31 17:33:38
          compiled from "E:\apache\www\temp\d\view\default\tpl_login.html" */ ?>
 <?php /*%%SmartyHeaderCode:2393653d860ccded674-91556172%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '468dfb71ae418b9e3011c989abeaa565608c073b' => 
     array (
       0 => 'E:\\apache\\www\\temp\\d\\view\\default\\tpl_login.html',
-      1 => 1406689570,
+      1 => 1406797731,
       2 => 'file',
     ),
   ),
@@ -47,7 +47,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 /js/jquery.min.js"></script>
         <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
 /js/bootstrap.min.js"></script>        
-        
+                 <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/happy.js"></script>
+        <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/happy.methods.js"></script>        
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -83,18 +86,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                   </div>
                   <div class="clearfix"></div>
                   <hr>                  
-                    <form role="form">
+                    <form id="loginForm" role="form" method="POST" action="login.php?act=login">
                       <div class="form-group">
                         <label for="exampleInputEmail">邮箱 / 用户名</label>
-                        <input type="email" class="form-control" id="exampleInputEmail">
+                        <input id="user_name" type="text" name="user_name" class="form-control" >
                       </div>
                       <div class="form-group">
                         <label for="exampleInputPassword">密码</label>
-                        <input type="password" class="form-control" id="exampleInputPassword">
+                        <input type="password" name="user_word" class="form-control" id="user_word">
                       </div>                     
                       <div class="checkbox">
                         <label>
-                          <input type="checkbox"> <small>自动登录</small>
+                          <input type="checkbox" name="remember"> <small>自动登录</small>
                         </label>
                         <label class="pull-right">
                           <a href="#"><small>忘记密码 ?</small></a>
@@ -115,5 +118,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <br>
       <?php echo $_smarty_tpl->getSubTemplate ('tpl_footer_simple.html', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
+      <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/login.js"></script>
     </body>
 </html><?php }} ?>
