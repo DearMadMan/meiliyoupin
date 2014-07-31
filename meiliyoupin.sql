@@ -155,7 +155,7 @@ create table goods(
         referrer_id int default 0,
         reg_time varchar(255) default '',
         last_login varchar(255) default '',
-        last_id varchar(255) default ''
+        last_ip varchar(255) default ''
         )engine=myisam default charset=utf8;
         
         
@@ -309,6 +309,7 @@ create table goods(
         pay_name varchar(255) default '',
         pay_code varchar(255) default '',
         pay_desc varchar(255) default '',
+        pay_plugin_id int default 0,
         pay_config text
         )engine=myisam default charset=utf8;
         
@@ -320,6 +321,17 @@ create table goods(
         order_type int default 0,
         is_paid int default 0
         )engine=myisam default charset=utf8;
+        
+        
+###### pay_plugin 支付插件
+    create table pay_plugin (
+        id int auto_increment primary key,
+        plugin_name varchar(255) default '',
+        plugin_code varchar(255) default '',
+        plugin_dis  varchar(1024) default '',
+        plugin_config text
+        )engine=myisam default charset=utf8;
+
 
 ##############################数据####################################
 ###管理员接入

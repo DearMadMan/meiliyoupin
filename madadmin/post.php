@@ -765,6 +765,35 @@ if ($act == "login") {
 		}
 	}
 	ShowError();
+} elseif ($act == "pay_plugin_edit") {
+	$must = array("id", "plugin_name", "plugin_dis", "user_name", "access_token");
+	if (IsMust($must, $_POST)) {
+		$id            = intval($_POST['id']);
+		$fields        = array("plugin_name", "plugin_dis", "plugin_config");
+		$plugin_config = array(
+			"user_name"    => $_POST['user_name'],
+			"access_token" => $_POST['access_token']
+		);
+		$plugin_config = serialize($plugin_config);
+		$data          = array(
+			$_POST['plugin_name'],
+			$_POST['plugin_dis'],
+			$plugin_config
+		);
+		$res = $db->autoExcute("pay_plugin", "id=$id", $fields, $data, "update");
+		if ($res) {
+			$fields = array("pay_config");
+			$data   = array(
+				$plugin_config
+			);
+			$res = $db->autoExcute("pay_type", "pay_plugin_id=$id", $fields, $data, "update");
+			if ($res) {
+				ShowEdit();
+			}
+		}
+
+	}
+	ShowError();
 } else {
 	print_r($_REQUEST);
 	ShowTips("产品更新失败！请稍填写完整数据！");

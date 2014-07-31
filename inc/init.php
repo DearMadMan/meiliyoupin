@@ -21,9 +21,19 @@ define("CONTROL_PATH", INC_PATH.'control'.DIRECTORY_SEPARATOR);
 define("DATA_PATH", ROOT_PATH.'data'.DIRECTORY_SEPARATOR);
 define("LOG_PATH", DATA_PATH.'log'.DIRECTORY_SEPARATOR);
 define("ADMIN_LOG_PATH", DATA_PATH.'admin_log'.DIRECTORY_SEPARATOR);
-define("SMARTY_PATH", INC_PATH.'module'.DIRECTORY_SEPARATOR.'smarty'.DIRECTORY_SEPARATOR);
+define("MODULE_PATH", INC_PATH.'module'.DIRECTORY_SEPARATOR);
+define("PAYMENT_PATH", MODULE_PATH.'payment'.DIRECTORY_SEPARATOR);
+define("SMARTY_PATH", MODULE_PATH.'smarty'.DIRECTORY_SEPARATOR);
+define("OBJECT_PATH", MODULE_PATH.'object'.DIRECTORY_SEPARATOR);
 define("VIEW_PATH", ROOT_PATH.'view'.DIRECTORY_SEPARATOR);
 
+set_include_path(
+	get_include_path()
+	.PATH_SEPARATOR.MODULE_PATH
+	.PATH_SEPARATOR.PAYMENT_PATH
+	.PATH_SEPARATOR.CLASS_PATH
+	.PATH_SEPARATOR.OBJECT_PATH
+);
 /**
  *  include常用模块
  */
@@ -62,6 +72,7 @@ function _addslashes($arr) {
 		if (is_array($arr[$key])) {
 			$arr[$key] = _addslashes($arr[$key]);
 		} else {
+			$value     = trim($value);
 			$arr[$key] = addslashes($value);
 		}
 	}
@@ -78,15 +89,8 @@ date_default_timezone_set("$config_timezone");//设置时区
  * @return [type]            [description]
  */
 function _autoload($className) {
-
-	$classPath = CLASS_PATH.$className.".class.php";
-	if (!file_exists($classPath)) {
-		die("not find!".$className);
-	} else {
-		//echo "未探测到类，但探测到类文件";
-	}
-
-	include_once ($classPath);
+	$classPath = $className.".php";
+	require_once ($classPath);
 }
 
 //注册 autoload

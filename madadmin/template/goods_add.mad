@@ -181,14 +181,14 @@
             <div class="control-group">
               <label class="control-label">起始时间</label>
               <div class="controls">
-                <input type="text" name="groupon_start_time" data-date="10-02-2013" data-date-format="dd-mm-yyyy" value="09-02-2013" class="datepicker span11">
+                <input type="text" name="groupon_start_time" data-date="{$groupon_start_time}" data-date-format="dd-mm-yyyy" value="{$groupon_start_time}" class="datepicker span11">
                 <span class="help-block">时间格式 (日期-月份-年)</span> </div>
             </div>
 
             <div class="control-group">
               <label class="control-label">结束时间</label>
               <div class="controls">
-                <input type="text" name="groupon_end_time"  data-date="01-02-2013" data-date-format="dd-mm-yyyy" value="01-02-2013" class="datepicker span11">
+                <input type="text" name="groupon_end_time"  data-date="{$groupon_end_time}" data-date-format="dd-mm-yyyy" value="{$groupon_end_time}" class="datepicker span11">
                 <span class="help-block">时间格式 (日期-月份-年)</span> </div>
             </div>
 

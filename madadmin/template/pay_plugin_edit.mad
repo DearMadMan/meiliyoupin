@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Matrix Admin</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{$vp}/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{$vp}/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="{$vp}/css/fullcalendar.css" />
+    <link rel="stylesheet" href="{$vp}/css/matrix-style.css" />
+    <link rel="stylesheet" href="{$vp}/css/matrix-media.css" />
+    <link rel="stylesheet" href="{$vp}/css/select2.css">
+    <link rel="stylesheet" href="{$vp}/css/uniform.css">
+    <link href="{$vp}/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{$vp}/css/jquery.gritter.css" />
+    <link href='{$vp}/css/google.css' rel='stylesheet' type='text/css'>
+    <script src="{$vp}/js/jquery.min.js"></script>
+    <script src="{$vp}/js/jquery.ui.custom.js"></script>
+    <script src="{$vp}/js/jquery.uniform.js"></script>
+    <script src="{$vp}/js/bootstrap.min.js"></script>
+    <script src="{$vp}/js/jquery.flot.min.js"></script>
+    <script src="{$vp}/js/jquery.flot.resize.min.js"></script>
+    <script src="{$vp}/js/matrix.js"></script>
+
+</head>
+
+<body>
+    {include file='header.mad'} {include file='menu.mad'}
+    <!--main-container-part-->
+    <div id="content">
+        {include file="breadcrumbs.mad"}
+        <div class="container-fluid">
+
+            <div class="row-fluid">
+                <div class="widget-box">
+                    <div class="widget-title">
+                        <span class="icon"> <i class="icon-align-justify"></i>
+                        </span>
+                        <h5>插件编辑</h5>
+                    </div>
+                    <div class="widget-content nopadding">
+                        <form action="post.php?act=pay_plugin_edit" method="POST" enctype='multipart/form-data' class="form-horizontal">
+
+                            <div class="control-group">
+                                <label class="control-label">插件名称</label>
+                                <div class="controls">
+                                    <input name="plugin_name" value="{$plugin.plugin_name}" type="text" class="span11" placeholder="插件名称"></div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-label">插件简介</label>
+                                <div class="controls">
+                                <textarea name="plugin_dis"  cols="30" class="span11" rows="10">{$plugin.plugin_dis}</textarea>
+                                 </div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-label">商户号</label>
+                                <div class="controls">
+                                    <input name="user_name" value="{$plugin_config.user_name|default:''}" type="text" class="span11" placeholder="商户号"></div>
+                            </div>
+
+                            <div class="control-group">
+                                <label class="control-label">签名</label>
+                                <div class="controls">
+                                    <input name="access_token" value="{$plugin_config.access_token|default:''}" type="text" class="span11" placeholder="签名"></div>
+                            </div>
+
+                           
+
+    <input type="hidden" name="id" value="{$plugin.id}">
+
+                        <div class="form-actions ">
+                            <button type="submit" class="btn btn-success span3 offset3">Save</button>
+                            <button type="reset" class="btn btn-primary span3">Reset</button>
+
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!--end-main-container-part-->{include file='footer.mad'}
+
+</body>
+<script></script>
+</html>

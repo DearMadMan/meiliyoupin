@@ -1,0 +1,3663 @@
+08:33:22 use meiliyoupin;
+08:33:22 set names utf8;
+08:33:23 select * from configs
+08:33:23 use meiliyoupin;
+08:33:23 set names utf8;
+08:33:23 select * from configs
+08:33:23 select * from admin_menu
+08:33:35 use meiliyoupin;
+08:33:35 set names utf8;
+08:33:35 select * from configs
+08:33:35 select * from admin_menu
+08:33:35 select * from admin where user_name='myadmin' and user_word='691c360156c27261b40c974ec0bf8f4a'
+08:33:35 use meiliyoupin;
+08:33:35 set names utf8;
+08:33:35 select * from configs
+08:33:35 select * from admin_menu
+08:33:40 use meiliyoupin;
+08:33:40 set names utf8;
+08:33:40 select * from configs
+08:33:40 select * from admin_menu
+08:33:40 select * from pay_plugin 
+08:33:49 use meiliyoupin;
+08:33:49 set names utf8;
+08:33:49 select * from configs
+08:33:49 select * from admin_menu
+08:33:49 select * from pay_plugin where id=1
+08:44:02 use meiliyoupin;
+08:44:02 set names utf8;
+08:44:02 select * from configs
+08:44:02 select * from admin_menu
+08:44:02 update pay_plugin set plugin_name='环迅支付',plugin_dis='迅付信息科技有限公司（简称：环迅支付），是中国最早成立的第三方支付企业。公司在2011年获颁中国人民银行首批《支付业务许可证》。公司平台支持所有国内主流银行及国际信用卡，为全球2000万用户提供金融级的支付体验。',plugin_config='a:2:{s:9:"user_name";s:7:"2131232";s:12:"access_token";s:12:"123123123123";}' where id=1
+08:44:02 use meiliyoupin;
+08:44:02 set names utf8;
+08:44:02 select * from configs
+08:44:02 select * from admin_menu
+08:44:07 use meiliyoupin;
+08:44:07 set names utf8;
+08:44:07 select * from configs
+08:44:07 select * from admin_menu
+08:44:07 select * from pay_plugin 
+08:44:09 use meiliyoupin;
+08:44:09 set names utf8;
+08:44:09 select * from configs
+08:44:09 select * from admin_menu
+08:44:09 select * from pay_plugin where id=1
+08:44:14 use meiliyoupin;
+08:44:14 set names utf8;
+08:44:14 select * from configs
+08:44:14 select * from admin_menu
+08:44:14 update pay_plugin set plugin_name='环迅支付',plugin_dis='迅付信息科技有限公司（简称：环迅支付），是中国最早成立的第三方支付企业。公司在2011年获颁中国人民银行首批《支付业务许可证》。公司平台支持所有国内主流银行及国际信用卡，为全球2000万用户提供金融级的支付体验。',plugin_config='a:2:{s:9:"user_name";s:6:"fadasd";s:12:"access_token";s:7:"1111111";}' where id=1
+08:44:14 use meiliyoupin;
+08:44:14 set names utf8;
+08:44:14 select * from configs
+08:44:14 select * from admin_menu
+08:44:19 use meiliyoupin;
+08:44:19 set names utf8;
+08:44:19 select * from configs
+08:44:19 select * from admin_menu
+08:44:19 select * from pay_plugin 
+08:44:20 use meiliyoupin;
+08:44:20 set names utf8;
+08:44:20 select * from configs
+08:44:20 select * from admin_menu
+08:44:20 select * from pay_plugin where id=1
+08:46:12 use meiliyoupin;
+08:46:12 set names utf8;
+08:46:12 select * from configs
+08:46:12 select * from admin_menu
+08:46:12 update pay_plugin set plugin_name='环迅支付',plugin_dis='迅付信息科技有限公司（简称：环迅支付），是中国最早成立的第三方支付企业。公司在2011年获颁中国人民银行首批《支付业务许可证》。公司平台支持所有国内主流银行及国际信用卡，为全球2000万用户提供金融级的支付体验。',plugin_config='a:2:{s:9:"user_name";s:6:"fadasd";s:12:"access_token";s:7:"1111111";}' where id=1
+08:46:12 use meiliyoupin;
+08:46:12 set names utf8;
+08:46:12 select * from configs
+08:46:12 select * from admin_menu
+08:49:19 use meiliyoupin;
+08:49:19 set names utf8;
+08:49:19 select * from configs
+08:49:19 select * from admin_menu
+08:49:19 select count(id) from goods where is_delete=0 order by add_time desc
+08:49:19 select * from goods where is_delete=0 order by add_time desc limit 0,20
+08:49:22 use meiliyoupin;
+08:49:22 set names utf8;
+08:49:22 select * from configs
+08:49:22 select * from admin_menu
+08:49:22 select * from pay_plugin 
+08:49:24 use meiliyoupin;
+08:49:24 set names utf8;
+08:49:24 select * from configs
+08:49:24 select * from admin_menu
+08:49:24 select * from pay_plugin where id=1
+08:49:27 use meiliyoupin;
+08:49:27 set names utf8;
+08:49:27 select * from configs
+08:49:27 select * from admin_menu
+08:49:27 update pay_plugin set plugin_name='环迅支付',plugin_dis='迅付信息科技有限公司（简称：环迅支付），是中国最早成立的第三方支付企业。公司在2011年获颁中国人民银行首批《支付业务许可证》。公司平台支持所有国内主流银行及国际信用卡，为全球2000万用户提供金融级的支付体验。',plugin_config='a:2:{s:9:"user_name";s:7:"fadasd2";s:12:"access_token";s:8:"11111113";}' where id=1
+08:49:27 update pay_type set pay_config='a:2:{s:9:"user_name";s:7:"fadasd2";s:12:"access_token";s:8:"11111113";}' where pay_plugin_id=1
+08:49:27 use meiliyoupin;
+08:49:27 set names utf8;
+08:49:27 select * from configs
+08:49:27 select * from admin_menu
+08:50:14 use meiliyoupin;
+08:50:14 set names utf8;
+08:50:14 select * from configs
+08:50:14 select * from admin_menu
+08:50:14 select count(id) from goods where is_delete=0 order by add_time desc
+08:50:14 select * from goods where is_delete=0 order by add_time desc limit 0,20
+08:50:15 use meiliyoupin;
+08:50:15 set names utf8;
+08:50:15 select * from configs
+08:50:15 select * from admin_menu
+08:50:15 select * from goods_type 
+08:50:15 select count(id) from goods
+08:50:16 use meiliyoupin;
+08:50:16 set names utf8;
+08:50:16 select * from configs
+08:50:16 select * from admin_menu
+08:50:16 select * from goods_type 
+08:50:16 select count(id) from goods
+08:50:17 use meiliyoupin;
+08:50:17 set names utf8;
+08:50:17 select * from configs
+08:50:17 select * from admin_menu
+08:50:17 select * from goods_type
+08:50:17 use meiliyoupin;
+08:50:17 set names utf8;
+08:50:17 select * from configs
+08:50:17 select * from admin_menu
+08:50:17 select * from goods_type
+08:50:18 use meiliyoupin;
+08:50:18 set names utf8;
+08:50:18 select * from configs
+08:50:18 select * from admin_menu
+08:50:18 select count(id) from goods where is_delete=1 order by add_time desc
+08:50:18 select * from goods where is_delete=1 order by add_time desc limit 0,20
+08:50:18 use meiliyoupin;
+08:50:18 set names utf8;
+08:50:18 select * from configs
+08:50:18 select * from admin_menu
+08:50:18 select count(id) from goods where is_delete=0 order by add_time desc
+08:50:18 select * from goods where is_delete=0 order by add_time desc limit 0,20
+08:50:19 use meiliyoupin;
+08:50:19 set names utf8;
+08:50:19 select * from configs
+08:50:19 select * from admin_menu
+08:50:19 select * from goods_type 
+08:50:19 select count(id) from goods
+08:50:19 use meiliyoupin;
+08:50:19 set names utf8;
+08:50:19 select * from configs
+08:50:19 select * from admin_menu
+08:50:19 select * from goods_type
+08:50:20 use meiliyoupin;
+08:50:20 set names utf8;
+08:50:20 select * from configs
+08:50:20 select * from admin_menu
+08:50:20 select * from goods_type
+08:50:20 use meiliyoupin;
+08:50:20 set names utf8;
+08:50:20 select * from configs
+08:50:20 select * from admin_menu
+08:50:20 select count(id) from goods where is_delete=1 order by add_time desc
+08:50:20 select * from goods where is_delete=1 order by add_time desc limit 0,20
+08:50:21 use meiliyoupin;
+08:50:21 set names utf8;
+08:50:21 select * from configs
+08:50:21 select * from admin_menu
+08:50:22 use meiliyoupin;
+08:50:22 set names utf8;
+08:50:22 select * from configs
+08:50:22 select * from admin_menu
+08:50:22 select * from shipping_type 
+08:50:22 use meiliyoupin;
+08:50:22 set names utf8;
+08:50:22 select * from configs
+08:50:22 select * from admin_menu
+08:50:22 select * from pay_plugin 
+08:50:23 use meiliyoupin;
+08:50:23 set names utf8;
+08:50:23 select * from configs
+08:50:23 select * from admin_menu
+08:50:23 select * from nav order by z_index desc
+08:50:23 use meiliyoupin;
+08:50:23 set names utf8;
+08:50:23 select * from configs
+08:50:23 select * from admin_menu
+08:50:23 select * from focus_picture order by pic_index desc
+08:50:24 use meiliyoupin;
+08:50:24 set names utf8;
+08:50:24 select * from configs
+08:50:24 select * from admin_menu
+08:50:25 use meiliyoupin;
+08:50:25 set names utf8;
+08:50:25 select * from configs
+08:50:25 select * from admin_menu
+08:50:25 select * from shipping_type 
+08:50:25 use meiliyoupin;
+08:50:25 set names utf8;
+08:50:25 select * from configs
+08:50:25 select * from admin_menu
+08:50:25 select * from pay_plugin 
+08:50:26 use meiliyoupin;
+08:50:26 set names utf8;
+08:50:26 select * from configs
+08:50:26 select * from admin_menu
+08:50:26 select * from nav order by z_index desc
+08:50:26 use meiliyoupin;
+08:50:26 set names utf8;
+08:50:26 select * from configs
+08:50:26 select * from admin_menu
+08:50:26 select * from focus_picture order by pic_index desc
+08:50:26 use meiliyoupin;
+08:50:26 set names utf8;
+08:50:26 select * from configs
+08:50:26 select * from admin_menu
+08:50:26 select * from shipping_type 
+08:50:29 use meiliyoupin;
+08:50:29 set names utf8;
+08:50:29 select * from configs
+08:50:29 select * from admin_menu
+08:50:29 select * from shipping_type where id=2
+08:50:29 select * from shipping_area where shipping_id=2
+08:50:31 use meiliyoupin;
+08:50:31 set names utf8;
+08:50:31 select * from configs
+08:50:31 select * from admin_menu
+08:50:31 use meiliyoupin;
+08:50:31 set names utf8;
+08:50:31 select * from configs
+08:50:31 select * from admin_menu
+08:50:31 select * from pay_plugin 
+08:50:32 use meiliyoupin;
+08:50:32 set names utf8;
+08:50:32 select * from configs
+08:50:32 select * from admin_menu
+08:50:32 select * from pay_plugin 
+08:50:32 use meiliyoupin;
+08:50:32 set names utf8;
+08:50:32 select * from configs
+08:50:32 select * from admin_menu
+08:50:32 select * from nav order by z_index desc
+08:50:33 use meiliyoupin;
+08:50:33 set names utf8;
+08:50:33 select * from configs
+08:50:33 select * from admin_menu
+08:50:33 select * from focus_picture order by pic_index desc
+08:50:34 use meiliyoupin;
+08:50:34 set names utf8;
+08:50:34 select * from configs
+08:50:34 select * from admin_menu
+08:50:34 select count(id) from goods where is_delete=0 order by add_time desc
+08:50:34 select * from goods where is_delete=0 order by add_time desc limit 0,20
+08:50:35 use meiliyoupin;
+08:50:35 set names utf8;
+08:50:35 select * from configs
+08:50:35 select * from admin_menu
+08:50:35 select * from goods_type 
+08:50:35 select count(id) from goods
+08:50:35 use meiliyoupin;
+08:50:35 set names utf8;
+08:50:35 select * from configs
+08:50:35 select * from admin_menu
+08:50:35 select * from goods_type
+08:50:36 use meiliyoupin;
+08:50:36 set names utf8;
+08:50:36 select * from configs
+08:50:36 select * from admin_menu
+08:50:36 select * from goods_type
+08:50:36 use meiliyoupin;
+08:50:36 set names utf8;
+08:50:36 select * from configs
+08:50:36 select * from admin_menu
+08:50:36 select count(id) from goods where is_delete=1 order by add_time desc
+08:50:36 select * from goods where is_delete=1 order by add_time desc limit 0,20
+08:50:39 use meiliyoupin;
+08:50:39 set names utf8;
+08:50:39 select * from configs
+08:50:39 select * from admin_menu
+08:50:39 use meiliyoupin;
+08:50:39 set names utf8;
+08:50:39 select * from configs
+08:50:39 select * from admin_menu
+08:50:39 use meiliyoupin;
+08:50:39 set names utf8;
+08:50:39 select * from configs
+08:50:39 select * from admin_menu
+08:50:40 use meiliyoupin;
+08:50:40 set names utf8;
+08:50:40 select * from configs
+08:50:40 select * from admin_menu
+08:50:41 use meiliyoupin;
+08:50:41 set names utf8;
+08:50:41 select * from configs
+08:50:41 select * from admin_menu
+08:50:42 select count(a.id) from articles as a left join article_type as b on a.type_id=b.id order by a.id desc
+08:50:42 select a.*,b.type_name from articles as a left join article_type as b on a.type_id=b.id order by a.id desc limit 0,20
+08:50:42 use meiliyoupin;
+08:50:42 set names utf8;
+08:50:42 select * from configs
+08:50:42 select * from admin_menu
+08:50:42 select * from article_type
+08:50:42 use meiliyoupin;
+08:50:42 set names utf8;
+08:50:42 select * from configs
+08:50:42 select * from admin_menu
+08:50:43 use meiliyoupin;
+08:50:43 set names utf8;
+08:50:43 select * from configs
+08:50:43 select * from admin_menu
+08:50:43 select * from article_type
+08:50:44 use meiliyoupin;
+08:50:44 set names utf8;
+08:50:44 select * from configs
+08:50:44 select * from admin_menu
+08:50:46 use meiliyoupin;
+08:50:46 set names utf8;
+08:50:46 select * from configs
+08:50:46 select * from admin_menu
+08:50:46 select count(id) from users order by id desc
+08:50:46 select * from users order by id desc limit 0,20
+08:50:46 use meiliyoupin;
+08:50:46 set names utf8;
+08:50:46 select * from configs
+08:50:46 select * from admin_menu
+08:50:46 select * from user_level 
+08:50:47 use meiliyoupin;
+08:50:47 set names utf8;
+08:50:47 select * from configs
+08:50:47 select * from admin_menu
+08:50:47 select count(id) from user_level
+08:50:47 select * from user_level limit 0,20
+08:50:47 use meiliyoupin;
+08:50:47 set names utf8;
+08:50:47 select * from configs
+08:50:47 select * from admin_menu
+08:50:49 use meiliyoupin;
+08:50:49 set names utf8;
+08:50:49 select * from configs
+08:50:49 select * from admin_menu
+08:50:49 use meiliyoupin;
+08:50:49 set names utf8;
+08:50:49 select * from configs
+08:50:49 select * from admin_menu
+08:50:50 use meiliyoupin;
+08:50:50 set names utf8;
+08:50:50 select * from configs
+08:50:50 select * from admin_menu
+08:50:50 use meiliyoupin;
+08:50:50 set names utf8;
+08:50:50 select * from configs
+08:50:50 select * from admin_menu
+08:50:51 use meiliyoupin;
+08:50:51 set names utf8;
+08:50:51 select * from configs
+08:50:51 select * from admin_menu
+08:50:51 select count(id) from users order by id desc
+08:50:51 select * from users order by id desc limit 0,20
+08:50:52 use meiliyoupin;
+08:50:52 set names utf8;
+08:50:52 select * from configs
+08:50:52 select * from admin_menu
+08:50:52 select * from user_level 
+08:50:52 use meiliyoupin;
+08:50:52 set names utf8;
+08:50:52 select * from configs
+08:50:52 select * from admin_menu
+08:50:52 select count(id) from user_level
+08:50:52 select * from user_level limit 0,20
+08:50:52 use meiliyoupin;
+08:50:52 set names utf8;
+08:50:52 select * from configs
+08:50:52 select * from admin_menu
+08:50:53 use meiliyoupin;
+08:50:53 set names utf8;
+08:50:53 select * from configs
+08:50:53 select * from admin_menu
+08:50:53 select * from user_level 
+08:50:55 use meiliyoupin;
+08:50:55 set names utf8;
+08:50:55 select * from configs
+08:50:55 select * from admin_menu
+08:50:55 select count(a.id) from articles as a left join article_type as b on a.type_id=b.id order by a.id desc
+08:50:55 select a.*,b.type_name from articles as a left join article_type as b on a.type_id=b.id order by a.id desc limit 0,20
+08:50:55 use meiliyoupin;
+08:50:55 set names utf8;
+08:50:55 select * from configs
+08:50:55 select * from admin_menu
+08:50:55 select * from article_type
+08:50:55 use meiliyoupin;
+08:50:55 set names utf8;
+08:50:55 select * from configs
+08:50:55 select * from admin_menu
+08:50:56 use meiliyoupin;
+08:50:56 set names utf8;
+08:50:56 select * from configs
+08:50:56 select * from admin_menu
+08:50:56 select * from article_type
+08:50:56 use meiliyoupin;
+08:50:56 set names utf8;
+08:50:56 select * from configs
+08:50:56 select * from admin_menu
+08:50:56 select * from article_type
+08:50:56 use meiliyoupin;
+08:50:56 set names utf8;
+08:50:56 select * from configs
+08:50:56 select * from admin_menu
+08:50:56 select count(a.id) from articles as a left join article_type as b on a.type_id=b.id order by a.id desc
+08:50:56 select a.*,b.type_name from articles as a left join article_type as b on a.type_id=b.id order by a.id desc limit 0,20
+08:50:58 use meiliyoupin;
+08:50:58 set names utf8;
+08:50:58 select * from configs
+08:50:58 select * from admin_menu
+08:50:58 use meiliyoupin;
+08:50:58 set names utf8;
+08:50:58 select * from configs
+08:50:58 select * from admin_menu
+08:50:58 use meiliyoupin;
+08:50:58 set names utf8;
+08:50:58 select * from configs
+08:50:58 select * from admin_menu
+08:50:59 use meiliyoupin;
+08:50:59 set names utf8;
+08:50:59 select * from configs
+08:50:59 select * from admin_menu
+08:50:59 use meiliyoupin;
+08:50:59 set names utf8;
+08:50:59 select * from configs
+08:50:59 select * from admin_menu
+08:50:59 select * from goods_type 
+08:50:59 select count(id) from goods
+08:51:00 use meiliyoupin;
+08:51:00 set names utf8;
+08:51:00 select * from configs
+08:51:00 select * from admin_menu
+08:51:00 select count(id) from goods where is_delete=0 order by add_time desc
+08:51:00 select * from goods where is_delete=0 order by add_time desc limit 0,20
+08:51:00 use meiliyoupin;
+08:51:00 set names utf8;
+08:51:00 select * from configs
+08:51:00 select * from admin_menu
+08:51:00 select * from goods_type 
+08:51:00 select count(id) from goods
+08:51:01 use meiliyoupin;
+08:51:01 set names utf8;
+08:51:01 select * from configs
+08:51:01 select * from admin_menu
+08:51:01 select * from goods_type
+08:51:01 use meiliyoupin;
+08:51:01 set names utf8;
+08:51:01 select * from configs
+08:51:01 select * from admin_menu
+08:51:01 select * from goods_type
+08:51:01 use meiliyoupin;
+08:51:01 set names utf8;
+08:51:01 select * from configs
+08:51:01 select * from admin_menu
+08:51:01 select count(id) from goods where is_delete=1 order by add_time desc
+08:51:01 select * from goods where is_delete=1 order by add_time desc limit 0,20
+08:51:02 use meiliyoupin;
+08:51:02 set names utf8;
+08:51:02 select * from configs
+08:51:02 select * from admin_menu
+08:51:02 select count(id) from goods where is_delete=0 order by add_time desc
+08:51:02 select * from goods where is_delete=0 order by add_time desc limit 0,20
+08:58:38 use meiliyoupin;
+08:58:38 set names utf8;
+08:58:38 select * from configs
+09:00:23 use meiliyoupin;
+09:00:23 set names utf8;
+09:00:23 select * from configs
+09:02:04 use meiliyoupin;
+09:02:04 set names utf8;
+09:02:04 select * from configs
+09:03:45 use meiliyoupin;
+09:03:45 set names utf8;
+09:03:45 select * from configs
+09:03:45 use meiliyoupin;
+09:03:45 set names utf8;
+09:03:45 select * from configs
+09:05:00 use meiliyoupin;
+09:05:00 set names utf8;
+09:05:00 select * from configs
+09:05:53 use meiliyoupin;
+09:05:53 set names utf8;
+09:05:53 select * from configs
+09:06:28 use meiliyoupin;
+09:06:28 set names utf8;
+09:06:28 select * from configs
+09:06:29 use meiliyoupin;
+09:06:29 set names utf8;
+09:06:29 select * from configs
+09:06:51 use meiliyoupin;
+09:06:51 set names utf8;
+09:06:51 select * from configs
+09:06:51 use meiliyoupin;
+09:06:51 set names utf8;
+09:06:51 select * from configs
+09:07:09 use meiliyoupin;
+09:07:09 set names utf8;
+09:07:09 select * from configs
+09:07:09 use meiliyoupin;
+09:07:09 set names utf8;
+09:07:09 select * from configs
+09:07:50 use meiliyoupin;
+09:07:50 set names utf8;
+09:07:50 select * from configs
+09:07:51 use meiliyoupin;
+09:07:51 set names utf8;
+09:07:51 select * from configs
+09:07:51 use meiliyoupin;
+09:07:51 set names utf8;
+09:07:51 select * from configs
+09:07:52 use meiliyoupin;
+09:07:52 set names utf8;
+09:07:52 select * from configs
+09:07:52 use meiliyoupin;
+09:07:52 set names utf8;
+09:07:52 select * from configs
+09:07:53 use meiliyoupin;
+09:07:53 set names utf8;
+09:07:53 select * from configs
+09:07:53 use meiliyoupin;
+09:07:53 set names utf8;
+09:07:53 select * from configs
+09:07:53 use meiliyoupin;
+09:07:53 set names utf8;
+09:07:53 select * from configs
+09:07:53 use meiliyoupin;
+09:07:53 set names utf8;
+09:07:53 select * from configs
+09:07:54 use meiliyoupin;
+09:07:54 set names utf8;
+09:07:54 select * from configs
+09:07:54 use meiliyoupin;
+09:07:54 set names utf8;
+09:07:54 select * from configs
+09:07:55 use meiliyoupin;
+09:07:55 set names utf8;
+09:07:55 select * from configs
+09:07:55 use meiliyoupin;
+09:07:55 set names utf8;
+09:07:55 select * from configs
+09:07:55 use meiliyoupin;
+09:07:55 set names utf8;
+09:07:55 select * from configs
+09:07:56 use meiliyoupin;
+09:07:56 set names utf8;
+09:07:56 select * from configs
+09:07:56 use meiliyoupin;
+09:07:56 set names utf8;
+09:07:56 select * from configs
+09:07:56 use meiliyoupin;
+09:07:56 set names utf8;
+09:07:56 select * from configs
+09:07:56 use meiliyoupin;
+09:07:56 set names utf8;
+09:07:56 select * from configs
+09:07:56 use meiliyoupin;
+09:07:56 set names utf8;
+09:07:56 select * from configs
+09:07:57 use meiliyoupin;
+09:07:57 set names utf8;
+09:07:57 select * from configs
+09:07:57 use meiliyoupin;
+09:07:57 set names utf8;
+09:07:57 select * from configs
+09:07:57 use meiliyoupin;
+09:07:57 set names utf8;
+09:07:57 select * from configs
+09:07:58 use meiliyoupin;
+09:07:58 set names utf8;
+09:07:58 select * from configs
+09:07:58 use meiliyoupin;
+09:07:58 set names utf8;
+09:07:58 select * from configs
+09:07:58 use meiliyoupin;
+09:07:58 set names utf8;
+09:07:58 select * from configs
+09:07:58 use meiliyoupin;
+09:07:58 set names utf8;
+09:07:58 select * from configs
+09:07:58 use meiliyoupin;
+09:07:58 set names utf8;
+09:07:58 select * from configs
+09:07:58 use meiliyoupin;
+09:07:58 set names utf8;
+09:07:58 select * from configs
+09:07:59 use meiliyoupin;
+09:07:59 set names utf8;
+09:07:59 select * from configs
+09:07:59 use meiliyoupin;
+09:07:59 set names utf8;
+09:07:59 select * from configs
+09:07:59 use meiliyoupin;
+09:07:59 set names utf8;
+09:07:59 select * from configs
+09:08:02 use meiliyoupin;
+09:08:02 set names utf8;
+09:08:02 select * from configs
+09:08:02 use meiliyoupin;
+09:08:02 set names utf8;
+09:08:02 select * from configs
+09:08:06 use meiliyoupin;
+09:08:06 set names utf8;
+09:08:06 select * from configs
+09:08:06 use meiliyoupin;
+09:08:06 set names utf8;
+09:08:06 select * from configs
+09:08:09 use meiliyoupin;
+09:08:09 set names utf8;
+09:08:09 select * from configs
+09:08:09 use meiliyoupin;
+09:08:09 set names utf8;
+09:08:09 select * from configs
+09:08:25 use meiliyoupin;
+09:08:25 set names utf8;
+09:08:25 select * from configs
+09:08:26 use meiliyoupin;
+09:08:26 set names utf8;
+09:08:26 select * from configs
+09:08:27 use meiliyoupin;
+09:08:27 set names utf8;
+09:08:27 select * from configs
+09:08:28 use meiliyoupin;
+09:08:28 set names utf8;
+09:08:28 select * from configs
+09:08:29 use meiliyoupin;
+09:08:29 set names utf8;
+09:08:29 select * from configs
+09:08:31 use meiliyoupin;
+09:08:31 set names utf8;
+09:08:31 select * from configs
+09:08:31 use meiliyoupin;
+09:08:31 set names utf8;
+09:08:31 select * from configs
+09:08:32 use meiliyoupin;
+09:08:32 set names utf8;
+09:08:32 select * from configs
+09:08:33 use meiliyoupin;
+09:08:33 set names utf8;
+09:08:33 select * from configs
+09:08:34 use meiliyoupin;
+09:08:34 set names utf8;
+09:08:34 select * from configs
+09:08:35 use meiliyoupin;
+09:08:35 set names utf8;
+09:08:35 select * from configs
+09:08:36 use meiliyoupin;
+09:08:36 set names utf8;
+09:08:36 select * from configs
+09:08:37 use meiliyoupin;
+09:08:37 set names utf8;
+09:08:37 select * from configs
+09:08:38 use meiliyoupin;
+09:08:38 set names utf8;
+09:08:38 select * from configs
+09:08:39 use meiliyoupin;
+09:08:39 set names utf8;
+09:08:39 select * from configs
+09:08:40 use meiliyoupin;
+09:08:40 set names utf8;
+09:08:40 select * from configs
+09:08:41 use meiliyoupin;
+09:08:41 set names utf8;
+09:08:41 select * from configs
+09:08:42 use meiliyoupin;
+09:08:42 set names utf8;
+09:08:42 select * from configs
+09:08:42 use meiliyoupin;
+09:08:42 set names utf8;
+09:08:42 select * from configs
+09:08:43 use meiliyoupin;
+09:08:43 set names utf8;
+09:08:43 select * from configs
+09:08:43 use meiliyoupin;
+09:08:43 set names utf8;
+09:08:43 select * from configs
+09:08:44 use meiliyoupin;
+09:08:44 set names utf8;
+09:08:44 select * from configs
+09:08:45 use meiliyoupin;
+09:08:45 set names utf8;
+09:08:45 select * from configs
+09:08:45 use meiliyoupin;
+09:08:45 set names utf8;
+09:08:45 select * from configs
+09:08:45 use meiliyoupin;
+09:08:45 set names utf8;
+09:08:45 select * from configs
+09:08:45 use meiliyoupin;
+09:08:45 set names utf8;
+09:08:45 select * from configs
+09:08:46 use meiliyoupin;
+09:08:46 set names utf8;
+09:08:46 select * from configs
+09:08:46 use meiliyoupin;
+09:08:46 set names utf8;
+09:08:46 select * from configs
+09:08:46 use meiliyoupin;
+09:08:46 set names utf8;
+09:08:46 select * from configs
+09:08:46 use meiliyoupin;
+09:08:46 set names utf8;
+09:08:46 select * from configs
+09:08:46 use meiliyoupin;
+09:08:46 set names utf8;
+09:08:46 select * from configs
+09:08:47 use meiliyoupin;
+09:08:47 set names utf8;
+09:08:47 select * from configs
+09:08:48 use meiliyoupin;
+09:08:48 set names utf8;
+09:08:48 select * from configs
+09:08:48 use meiliyoupin;
+09:08:48 set names utf8;
+09:08:48 select * from configs
+09:08:49 use meiliyoupin;
+09:08:49 set names utf8;
+09:08:49 select * from configs
+09:08:49 use meiliyoupin;
+09:08:49 set names utf8;
+09:08:49 select * from configs
+09:08:50 use meiliyoupin;
+09:08:50 set names utf8;
+09:08:50 select * from configs
+09:08:50 use meiliyoupin;
+09:08:50 set names utf8;
+09:08:50 select * from configs
+09:09:12 use meiliyoupin;
+09:09:12 set names utf8;
+09:09:12 select * from configs
+09:09:12 use meiliyoupin;
+09:09:12 set names utf8;
+09:09:12 select * from configs
+09:09:13 use meiliyoupin;
+09:09:13 set names utf8;
+09:09:13 select * from configs
+09:09:13 use meiliyoupin;
+09:09:13 set names utf8;
+09:09:13 select * from configs
+09:09:13 use meiliyoupin;
+09:09:13 set names utf8;
+09:09:13 select * from configs
+09:09:15 use meiliyoupin;
+09:09:15 set names utf8;
+09:09:15 select * from configs
+09:09:16 use meiliyoupin;
+09:09:16 set names utf8;
+09:09:16 select * from configs
+09:09:52 use meiliyoupin;
+09:09:52 set names utf8;
+09:09:52 select * from configs
+09:09:52 use meiliyoupin;
+09:09:52 set names utf8;
+09:09:52 select * from configs
+09:17:48 use meiliyoupin;
+09:17:48 set names utf8;
+09:17:48 select * from configs
+09:17:48 select * from nav order buy z_index desc
+09:18:01 use meiliyoupin;
+09:18:01 set names utf8;
+09:18:01 select * from configs
+09:18:01 select * from nav order by z_index desc
+09:18:01 use meiliyoupin;
+09:18:01 set names utf8;
+09:18:01 select * from configs
+09:18:01 select * from nav order by z_index desc
+09:18:13 use meiliyoupin;
+09:18:13 set names utf8;
+09:18:13 select * from configs
+09:18:13 use meiliyoupin;
+09:18:13 set names utf8;
+09:18:13 select * from configs
+09:18:13 select * from admin_menu
+09:18:18 use meiliyoupin;
+09:18:18 set names utf8;
+09:18:18 select * from configs
+09:18:18 select * from admin_menu
+09:18:18 select * from admin where user_name='myadmin' and user_word='691c360156c27261b40c974ec0bf8f4a'
+09:18:18 use meiliyoupin;
+09:18:18 set names utf8;
+09:18:18 select * from configs
+09:18:18 select * from admin_menu
+09:18:20 use meiliyoupin;
+09:18:20 set names utf8;
+09:18:20 select * from configs
+09:18:20 select * from admin_menu
+09:18:20 use meiliyoupin;
+09:18:20 set names utf8;
+09:18:20 select * from configs
+09:18:20 select * from admin_menu
+09:18:20 select * from shipping_type 
+09:18:20 use meiliyoupin;
+09:18:20 set names utf8;
+09:18:20 select * from configs
+09:18:20 select * from admin_menu
+09:18:20 select * from pay_plugin 
+09:18:22 use meiliyoupin;
+09:18:22 set names utf8;
+09:18:22 select * from configs
+09:18:22 select * from admin_menu
+09:18:22 select * from shipping_type 
+09:18:22 use meiliyoupin;
+09:18:22 set names utf8;
+09:18:22 select * from configs
+09:18:22 select * from admin_menu
+09:18:22 select * from nav order by z_index desc
+09:18:39 use meiliyoupin;
+09:18:39 set names utf8;
+09:18:39 select * from configs
+09:18:40 select * from admin_menu
+09:18:40 insert into nav (nav_name,nav_url,is_blank,z_index) values ('百度','http://www.baidu.com','0','0') ;
+09:18:40 use meiliyoupin;
+09:18:40 set names utf8;
+09:18:40 select * from configs
+09:18:40 select * from admin_menu
+09:18:40 select * from nav order by z_index desc
+09:18:53 use meiliyoupin;
+09:18:53 set names utf8;
+09:18:53 select * from configs
+09:18:53 select * from admin_menu
+09:18:53 insert into nav (nav_name,nav_url,is_blank,z_index) values ('97东方商城','http://www.97dfsc.com','0','0') ;
+09:18:53 use meiliyoupin;
+09:18:53 set names utf8;
+09:18:53 select * from configs
+09:18:53 select * from admin_menu
+09:18:53 select * from nav order by z_index desc
+09:18:56 use meiliyoupin;
+09:18:56 set names utf8;
+09:18:56 select * from configs
+09:18:56 select * from nav order by z_index desc
+09:18:56 use meiliyoupin;
+09:18:56 set names utf8;
+09:18:56 select * from configs
+09:18:56 select * from nav order by z_index desc
+09:19:00 use meiliyoupin;
+09:19:00 set names utf8;
+09:19:00 select * from configs
+09:19:00 select * from nav order by z_index desc
+09:19:00 use meiliyoupin;
+09:19:00 set names utf8;
+09:19:00 select * from configs
+09:19:00 select * from nav order by z_index desc
+09:19:02 use meiliyoupin;
+09:19:02 set names utf8;
+09:19:02 select * from configs
+09:19:02 select * from nav order by z_index desc
+09:19:02 use meiliyoupin;
+09:19:02 set names utf8;
+09:19:02 select * from configs
+09:19:02 select * from nav order by z_index desc
+09:19:28 use meiliyoupin;
+09:19:28 set names utf8;
+09:19:28 select * from configs
+09:19:28 select * from nav order by z_index desc
+09:19:28 use meiliyoupin;
+09:19:28 set names utf8;
+09:19:28 select * from configs
+09:19:28 select * from nav order by z_index desc
+09:19:31 use meiliyoupin;
+09:19:31 set names utf8;
+09:19:31 select * from configs
+09:19:31 select * from nav order by z_index desc
+09:19:31 use meiliyoupin;
+09:19:31 set names utf8;
+09:19:31 select * from configs
+09:19:31 select * from nav order by z_index desc
+09:19:31 use meiliyoupin;
+09:19:31 set names utf8;
+09:19:31 select * from configs
+09:19:31 select * from nav order by z_index desc
+09:19:31 use meiliyoupin;
+09:19:31 set names utf8;
+09:19:31 select * from configs
+09:19:31 select * from nav order by z_index desc
+09:19:31 use meiliyoupin;
+09:19:31 set names utf8;
+09:19:31 select * from configs
+09:19:31 select * from nav order by z_index desc
+09:19:32 use meiliyoupin;
+09:19:32 set names utf8;
+09:19:32 select * from configs
+09:19:32 select * from nav order by z_index desc
+09:19:32 use meiliyoupin;
+09:19:32 set names utf8;
+09:19:32 select * from configs
+09:19:32 select * from nav order by z_index desc
+09:19:32 use meiliyoupin;
+09:19:32 set names utf8;
+09:19:32 select * from configs
+09:19:32 select * from nav order by z_index desc
+09:19:33 use meiliyoupin;
+09:19:33 set names utf8;
+09:19:33 select * from configs
+09:19:33 select * from nav order by z_index desc
+09:19:33 use meiliyoupin;
+09:19:33 set names utf8;
+09:19:33 select * from configs
+09:19:33 select * from nav order by z_index desc
+09:19:33 use meiliyoupin;
+09:19:33 set names utf8;
+09:19:33 select * from configs
+09:19:33 select * from nav order by z_index desc
+09:19:33 use meiliyoupin;
+09:19:33 set names utf8;
+09:19:33 select * from configs
+09:19:33 select * from nav order by z_index desc
+09:19:40 use meiliyoupin;
+09:19:40 set names utf8;
+09:19:40 select * from configs
+09:19:40 select * from nav order by z_index desc
+09:19:41 use meiliyoupin;
+09:19:41 set names utf8;
+09:19:41 select * from configs
+09:19:41 select * from nav order by z_index desc
+09:19:44 use meiliyoupin;
+09:19:44 set names utf8;
+09:19:44 select * from configs
+09:19:44 select * from nav order by z_index desc
+09:19:44 use meiliyoupin;
+09:19:44 set names utf8;
+09:19:44 select * from configs
+09:19:44 select * from nav order by z_index desc
+09:19:46 use meiliyoupin;
+09:19:46 set names utf8;
+09:19:46 select * from configs
+09:19:46 select * from nav order by z_index desc
+09:19:46 use meiliyoupin;
+09:19:46 set names utf8;
+09:19:46 select * from configs
+09:19:46 select * from nav order by z_index desc
+09:19:51 use meiliyoupin;
+09:19:51 set names utf8;
+09:19:51 select * from configs
+09:19:51 select * from nav order by z_index desc
+09:19:51 use meiliyoupin;
+09:19:51 set names utf8;
+09:19:51 select * from configs
+09:19:51 select * from nav order by z_index desc
+09:19:54 use meiliyoupin;
+09:19:54 set names utf8;
+09:19:54 select * from configs
+09:19:54 select * from nav order by z_index desc
+09:19:54 use meiliyoupin;
+09:19:54 set names utf8;
+09:19:54 select * from configs
+09:19:54 select * from nav order by z_index desc
+09:19:57 use meiliyoupin;
+09:19:57 set names utf8;
+09:19:57 select * from configs
+09:19:57 select * from nav order by z_index desc
+09:19:57 use meiliyoupin;
+09:19:57 set names utf8;
+09:19:57 select * from configs
+09:19:57 select * from nav order by z_index desc
+09:19:59 use meiliyoupin;
+09:19:59 set names utf8;
+09:19:59 select * from configs
+09:19:59 select * from nav order by z_index desc
+09:20:00 use meiliyoupin;
+09:20:00 set names utf8;
+09:20:00 select * from configs
+09:20:00 select * from nav order by z_index desc
+09:20:00 use meiliyoupin;
+09:20:00 set names utf8;
+09:20:00 select * from configs
+09:20:00 select * from nav order by z_index desc
+09:20:00 use meiliyoupin;
+09:20:00 set names utf8;
+09:20:00 select * from configs
+09:20:00 select * from nav order by z_index desc
+09:20:00 use meiliyoupin;
+09:20:00 set names utf8;
+09:20:00 select * from configs
+09:20:00 select * from nav order by z_index desc
+09:20:00 use meiliyoupin;
+09:20:00 set names utf8;
+09:20:00 select * from configs
+09:20:00 select * from nav order by z_index desc
+09:20:00 use meiliyoupin;
+09:20:00 set names utf8;
+09:20:00 select * from configs
+09:20:00 select * from nav order by z_index desc
+09:20:00 use meiliyoupin;
+09:20:00 set names utf8;
+09:20:00 select * from configs
+09:20:00 select * from nav order by z_index desc
+09:20:00 use meiliyoupin;
+09:20:00 set names utf8;
+09:20:00 select * from configs
+09:20:00 select * from nav order by z_index desc
+09:20:01 use meiliyoupin;
+09:20:01 set names utf8;
+09:20:01 select * from configs
+09:20:01 select * from nav order by z_index desc
+09:20:02 use meiliyoupin;
+09:20:02 set names utf8;
+09:20:02 select * from configs
+09:20:02 select * from nav order by z_index desc
+09:20:03 use meiliyoupin;
+09:20:03 set names utf8;
+09:20:03 select * from configs
+09:20:03 select * from nav order by z_index desc
+09:20:32 use meiliyoupin;
+09:20:32 set names utf8;
+09:20:32 select * from configs
+09:20:32 select * from nav order by z_index desc
+09:20:33 use meiliyoupin;
+09:20:33 set names utf8;
+09:20:33 select * from configs
+09:20:33 select * from nav order by z_index desc
+09:20:36 use meiliyoupin;
+09:20:36 set names utf8;
+09:20:36 select * from configs
+09:20:36 select * from nav order by z_index desc
+09:20:36 use meiliyoupin;
+09:20:36 set names utf8;
+09:20:36 select * from configs
+09:20:36 select * from nav order by z_index desc
+09:20:44 use meiliyoupin;
+09:20:44 set names utf8;
+09:20:44 select * from configs
+09:20:44 select * from nav order by z_index desc
+09:20:44 use meiliyoupin;
+09:20:44 set names utf8;
+09:20:44 select * from configs
+09:20:44 select * from nav order by z_index desc
+09:25:10 use meiliyoupin;
+09:25:10 set names utf8;
+09:25:10 select * from configs
+09:25:10 select * from admin_menu
+09:25:10 update nav set is_blank=1 where id=1
+09:25:13 use meiliyoupin;
+09:25:13 set names utf8;
+09:25:13 select * from configs
+09:25:13 select * from nav order by z_index desc
+09:25:14 use meiliyoupin;
+09:25:14 set names utf8;
+09:25:14 select * from configs
+09:25:14 select * from nav order by z_index desc
+09:25:15 use meiliyoupin;
+09:25:15 set names utf8;
+09:25:15 select * from configs
+09:25:15 select * from nav order by z_index desc
+09:26:02 use meiliyoupin;
+09:26:02 set names utf8;
+09:26:02 select * from configs
+09:26:02 select * from nav order by z_index desc
+09:26:02 use meiliyoupin;
+09:26:02 set names utf8;
+09:26:02 select * from configs
+09:26:02 select * from nav order by z_index desc
+09:26:04 use meiliyoupin;
+09:26:04 set names utf8;
+09:26:04 select * from configs
+09:26:04 select * from nav order by z_index desc
+09:26:06 use meiliyoupin;
+09:26:06 set names utf8;
+09:26:06 select * from configs
+09:26:06 select * from nav order by z_index desc
+09:26:06 use meiliyoupin;
+09:26:06 set names utf8;
+09:26:06 select * from configs
+09:26:06 select * from nav order by z_index desc
+09:26:07 use meiliyoupin;
+09:26:07 set names utf8;
+09:26:07 select * from configs
+09:26:07 select * from nav order by z_index desc
+09:26:07 use meiliyoupin;
+09:26:07 set names utf8;
+09:26:07 select * from configs
+09:26:07 select * from nav order by z_index desc
+09:26:08 use meiliyoupin;
+09:26:08 set names utf8;
+09:26:08 select * from configs
+09:26:08 select * from nav order by z_index desc
+09:26:13 use meiliyoupin;
+09:26:13 set names utf8;
+09:26:13 select * from configs
+09:26:13 select * from nav order by z_index desc
+09:26:13 use meiliyoupin;
+09:26:13 set names utf8;
+09:26:13 select * from configs
+09:26:13 select * from nav order by z_index desc
+09:26:15 use meiliyoupin;
+09:26:15 set names utf8;
+09:26:15 select * from configs
+09:26:15 select * from nav order by z_index desc
+09:26:15 use meiliyoupin;
+09:26:15 set names utf8;
+09:26:15 select * from configs
+09:26:15 select * from nav order by z_index desc
+09:26:40 use meiliyoupin;
+09:26:40 set names utf8;
+09:26:40 select * from configs
+09:26:40 select * from admin_menu
+09:26:40 select count(id) from goods where is_delete=0 order by add_time desc
+09:26:40 select * from goods where is_delete=0 order by add_time desc limit 0,20
+09:26:41 use meiliyoupin;
+09:26:41 set names utf8;
+09:26:41 select * from configs
+09:26:41 select * from admin_menu
+09:26:41 select * from goods_type 
+09:26:41 select count(id) from goods
+09:31:43 use meiliyoupin;
+09:31:43 set names utf8;
+09:31:43 select * from configs
+09:31:43 select * from admin_menu
+09:31:43 select * from goods_type 
+09:31:43 select count(id) from goods
+09:31:45 use meiliyoupin;
+09:31:45 set names utf8;
+09:31:45 select * from configs
+09:31:45 select * from admin_menu
+09:31:45 select * from goods_type 
+09:31:45 select count(id) from goods
+09:31:48 use meiliyoupin;
+09:31:48 set names utf8;
+09:31:48 select * from configs
+09:31:48 select * from admin_menu
+09:31:48 select * from goods_type 
+09:31:48 select count(id) from goods
+09:31:48 use meiliyoupin;
+09:31:48 set names utf8;
+09:31:48 select * from configs
+09:31:48 select * from admin_menu
+09:31:48 select * from goods_type 
+09:31:48 select count(id) from goods
+09:31:49 use meiliyoupin;
+09:31:49 set names utf8;
+09:31:49 select * from configs
+09:31:49 select * from admin_menu
+09:31:49 select * from goods_type 
+09:31:49 select count(id) from goods
+09:35:07 use meiliyoupin;
+09:35:07 set names utf8;
+09:35:07 select * from configs
+09:35:07 select * from admin_menu
+09:35:07 select count(id) from goods where is_delete=0 order by add_time desc
+09:35:07 select * from goods where is_delete=0 order by add_time desc limit 0,20
+09:35:08 use meiliyoupin;
+09:35:08 set names utf8;
+09:35:08 select * from configs
+09:35:08 select * from admin_menu
+09:35:08 select * from goods_type 
+09:35:08 select count(id) from goods
+09:35:09 use meiliyoupin;
+09:35:09 set names utf8;
+09:35:09 select * from configs
+09:35:09 select * from admin_menu
+09:35:09 select * from goods_type
+09:35:09 use meiliyoupin;
+09:35:09 set names utf8;
+09:35:09 select * from configs
+09:35:09 select * from admin_menu
+09:35:09 select * from goods_type
+09:35:10 use meiliyoupin;
+09:35:10 set names utf8;
+09:35:10 select * from configs
+09:35:10 select * from admin_menu
+09:35:10 select count(id) from goods where is_delete=1 order by add_time desc
+09:35:10 select * from goods where is_delete=1 order by add_time desc limit 0,20
+09:35:11 use meiliyoupin;
+09:35:11 set names utf8;
+09:35:11 select * from configs
+09:35:11 select * from admin_menu
+09:35:11 use meiliyoupin;
+09:35:11 set names utf8;
+09:35:11 select * from configs
+09:35:11 select * from admin_menu
+09:35:12 use meiliyoupin;
+09:35:12 set names utf8;
+09:35:12 select * from configs
+09:35:12 select * from admin_menu
+09:35:12 use meiliyoupin;
+09:35:12 set names utf8;
+09:35:12 select * from configs
+09:35:12 select * from admin_menu
+09:35:14 use meiliyoupin;
+09:35:14 set names utf8;
+09:35:14 select * from configs
+09:35:14 select * from admin_menu
+09:35:14 select count(a.id) from articles as a left join article_type as b on a.type_id=b.id order by a.id desc
+09:35:14 select a.*,b.type_name from articles as a left join article_type as b on a.type_id=b.id order by a.id desc limit 0,20
+09:35:14 use meiliyoupin;
+09:35:14 set names utf8;
+09:35:14 select * from configs
+09:35:14 select * from admin_menu
+09:35:14 select * from article_type
+09:35:15 use meiliyoupin;
+09:35:15 set names utf8;
+09:35:15 select * from configs
+09:35:15 select * from admin_menu
+09:35:15 select * from article_type
+09:35:15 use meiliyoupin;
+09:35:15 set names utf8;
+09:35:15 select * from configs
+09:35:15 select * from admin_menu
+09:35:17 use meiliyoupin;
+09:35:17 set names utf8;
+09:35:17 select * from configs
+09:35:17 select * from admin_menu
+09:35:17 select count(id) from users order by id desc
+09:35:17 select * from users order by id desc limit 0,20
+09:35:17 use meiliyoupin;
+09:35:17 set names utf8;
+09:35:17 select * from configs
+09:35:17 select * from admin_menu
+09:35:17 select * from user_level 
+09:35:18 use meiliyoupin;
+09:35:18 set names utf8;
+09:35:18 select * from configs
+09:35:18 select * from admin_menu
+09:35:18 select count(id) from user_level
+09:35:18 select * from user_level limit 0,20
+09:35:18 use meiliyoupin;
+09:35:18 set names utf8;
+09:35:18 select * from configs
+09:35:18 select * from admin_menu
+09:35:20 use meiliyoupin;
+09:35:20 set names utf8;
+09:35:20 select * from configs
+09:35:20 select * from admin_menu
+09:35:21 use meiliyoupin;
+09:35:21 set names utf8;
+09:35:21 select * from configs
+09:35:21 select * from admin_menu
+09:35:22 use meiliyoupin;
+09:35:22 set names utf8;
+09:35:22 select * from configs
+09:35:22 select * from admin_menu
+09:35:22 use meiliyoupin;
+09:35:22 set names utf8;
+09:35:22 select * from configs
+09:35:22 select * from admin_menu
+09:35:22 select * from shipping_type 
+09:35:23 use meiliyoupin;
+09:35:23 set names utf8;
+09:35:23 select * from configs
+09:35:23 select * from admin_menu
+09:35:23 select * from pay_plugin 
+09:35:23 use meiliyoupin;
+09:35:23 set names utf8;
+09:35:23 select * from configs
+09:35:23 select * from admin_menu
+09:35:23 select * from nav order by z_index desc
+09:35:24 use meiliyoupin;
+09:35:24 set names utf8;
+09:35:24 select * from configs
+09:35:24 select * from admin_menu
+09:35:24 select * from focus_picture order by pic_index desc
+09:35:25 use meiliyoupin;
+09:35:25 set names utf8;
+09:35:25 select * from configs
+09:35:25 select * from admin_menu
+09:35:25 select count(id) from goods where is_delete=0 order by add_time desc
+09:35:25 select * from goods where is_delete=0 order by add_time desc limit 0,20
+09:35:26 use meiliyoupin;
+09:35:26 set names utf8;
+09:35:26 select * from configs
+09:35:26 select * from admin_menu
+09:35:26 select * from goods_type 
+09:35:26 select count(id) from goods
+09:35:26 use meiliyoupin;
+09:35:26 set names utf8;
+09:35:26 select * from configs
+09:35:26 select * from admin_menu
+09:35:26 select * from goods_type
+09:35:27 use meiliyoupin;
+09:35:27 set names utf8;
+09:35:27 select * from configs
+09:35:27 select * from admin_menu
+09:35:27 select * from goods_type
+09:35:27 use meiliyoupin;
+09:35:27 set names utf8;
+09:35:27 select * from configs
+09:35:27 select * from admin_menu
+09:35:27 select count(id) from goods where is_delete=1 order by add_time desc
+09:35:27 select * from goods where is_delete=1 order by add_time desc limit 0,20
+09:35:28 use meiliyoupin;
+09:35:28 set names utf8;
+09:35:28 select * from configs
+09:35:28 select * from admin_menu
+09:35:28 select * from goods_type
+09:35:38 use meiliyoupin;
+09:35:38 set names utf8;
+09:35:38 select * from configs
+09:35:38 select * from nav order by z_index desc
+09:35:38 use meiliyoupin;
+09:35:38 set names utf8;
+09:35:38 select * from configs
+09:35:38 select * from nav order by z_index desc
+09:35:38 use meiliyoupin;
+09:35:38 set names utf8;
+09:35:38 select * from configs
+09:35:38 select * from nav order by z_index desc
+09:35:39 use meiliyoupin;
+09:35:39 set names utf8;
+09:35:39 select * from configs
+09:35:39 select * from nav order by z_index desc
+09:35:39 use meiliyoupin;
+09:35:39 set names utf8;
+09:35:39 select * from configs
+09:35:39 select * from nav order by z_index desc
+09:35:39 use meiliyoupin;
+09:35:39 set names utf8;
+09:35:39 select * from configs
+09:35:39 select * from nav order by z_index desc
+09:35:40 use meiliyoupin;
+09:35:40 set names utf8;
+09:35:40 select * from configs
+09:35:40 select * from nav order by z_index desc
+09:35:40 use meiliyoupin;
+09:35:40 set names utf8;
+09:35:40 select * from configs
+09:35:40 select * from nav order by z_index desc
+09:35:41 use meiliyoupin;
+09:35:41 set names utf8;
+09:35:41 select * from configs
+09:35:41 select * from nav order by z_index desc
+09:35:41 use meiliyoupin;
+09:35:41 set names utf8;
+09:35:41 select * from configs
+09:35:41 select * from nav order by z_index desc
+09:35:41 use meiliyoupin;
+09:35:41 set names utf8;
+09:35:41 select * from configs
+09:35:41 select * from nav order by z_index desc
+09:35:42 use meiliyoupin;
+09:35:42 set names utf8;
+09:35:42 select * from configs
+09:35:42 select * from nav order by z_index desc
+09:35:42 use meiliyoupin;
+09:35:42 set names utf8;
+09:35:42 select * from configs
+09:35:42 select * from nav order by z_index desc
+09:35:42 use meiliyoupin;
+09:35:42 set names utf8;
+09:35:42 select * from configs
+09:35:42 select * from nav order by z_index desc
+09:35:43 use meiliyoupin;
+09:35:43 set names utf8;
+09:35:43 select * from configs
+09:35:43 select * from nav order by z_index desc
+09:35:43 use meiliyoupin;
+09:35:43 set names utf8;
+09:35:43 select * from configs
+09:35:43 select * from nav order by z_index desc
+09:35:43 use meiliyoupin;
+09:35:43 set names utf8;
+09:35:43 select * from configs
+09:35:43 select * from nav order by z_index desc
+09:35:43 use meiliyoupin;
+09:35:43 set names utf8;
+09:35:43 select * from configs
+09:35:43 select * from nav order by z_index desc
+09:35:44 use meiliyoupin;
+09:35:44 set names utf8;
+09:35:44 select * from configs
+09:35:44 select * from nav order by z_index desc
+09:35:44 use meiliyoupin;
+09:35:44 set names utf8;
+09:35:44 select * from configs
+09:35:44 select * from nav order by z_index desc
+09:35:44 use meiliyoupin;
+09:35:44 set names utf8;
+09:35:44 select * from configs
+09:35:44 select * from nav order by z_index desc
+09:35:45 use meiliyoupin;
+09:35:45 set names utf8;
+09:35:45 select * from configs
+09:35:45 select * from nav order by z_index desc
+09:35:45 use meiliyoupin;
+09:35:45 set names utf8;
+09:35:45 select * from configs
+09:35:45 select * from nav order by z_index desc
+09:35:45 use meiliyoupin;
+09:35:45 set names utf8;
+09:35:45 select * from configs
+09:35:45 select * from nav order by z_index desc
+09:35:45 use meiliyoupin;
+09:35:45 set names utf8;
+09:35:45 select * from configs
+09:35:45 select * from nav order by z_index desc
+09:35:46 use meiliyoupin;
+09:35:46 set names utf8;
+09:35:46 select * from configs
+09:35:46 select * from nav order by z_index desc
+09:35:46 use meiliyoupin;
+09:35:46 set names utf8;
+09:35:46 select * from configs
+09:35:46 select * from nav order by z_index desc
+09:35:47 use meiliyoupin;
+09:35:47 set names utf8;
+09:35:47 select * from configs
+09:35:47 select * from nav order by z_index desc
+09:35:47 use meiliyoupin;
+09:35:47 set names utf8;
+09:35:47 select * from configs
+09:35:47 select * from nav order by z_index desc
+09:35:47 use meiliyoupin;
+09:35:47 set names utf8;
+09:35:47 select * from configs
+09:35:47 select * from nav order by z_index desc
+09:35:47 use meiliyoupin;
+09:35:47 set names utf8;
+09:35:47 select * from configs
+09:35:47 select * from nav order by z_index desc
+09:35:47 use meiliyoupin;
+09:35:47 set names utf8;
+09:35:47 select * from configs
+09:35:47 select * from nav order by z_index desc
+09:35:48 use meiliyoupin;
+09:35:48 set names utf8;
+09:35:48 select * from configs
+09:35:48 select * from nav order by z_index desc
+09:35:48 use meiliyoupin;
+09:35:48 set names utf8;
+09:35:48 select * from configs
+09:35:48 select * from nav order by z_index desc
+09:35:48 use meiliyoupin;
+09:35:48 set names utf8;
+09:35:48 select * from configs
+09:35:48 select * from nav order by z_index desc
+09:35:48 use meiliyoupin;
+09:35:48 set names utf8;
+09:35:48 select * from configs
+09:35:48 select * from nav order by z_index desc
+09:35:49 use meiliyoupin;
+09:35:49 set names utf8;
+09:35:49 select * from configs
+09:35:49 select * from nav order by z_index desc
+09:35:49 use meiliyoupin;
+09:35:49 set names utf8;
+09:35:49 select * from configs
+09:35:49 select * from nav order by z_index desc
+09:35:50 use meiliyoupin;
+09:35:50 set names utf8;
+09:35:50 select * from configs
+09:35:50 select * from nav order by z_index desc
+09:35:50 use meiliyoupin;
+09:35:50 set names utf8;
+09:35:50 select * from configs
+09:35:50 select * from nav order by z_index desc
+09:35:58 use meiliyoupin;
+09:35:58 set names utf8;
+09:35:58 select * from configs
+09:35:58 select * from admin_menu
+09:35:58 select * from goods_type 
+09:35:58 select count(id) from goods
+09:35:59 use meiliyoupin;
+09:35:59 set names utf8;
+09:35:59 select * from configs
+09:35:59 select * from admin_menu
+09:35:59 select count(id) from goods where is_delete=0 order by add_time desc
+09:35:59 select * from goods where is_delete=0 order by add_time desc limit 0,20
+09:36:00 use meiliyoupin;
+09:36:00 set names utf8;
+09:36:00 select * from configs
+09:36:00 select * from admin_menu
+09:36:00 select * from goods_type 
+09:36:00 select count(id) from goods
+09:36:00 use meiliyoupin;
+09:36:00 set names utf8;
+09:36:00 select * from configs
+09:36:00 select * from admin_menu
+09:36:00 select * from goods_type
+09:36:01 use meiliyoupin;
+09:36:01 set names utf8;
+09:36:01 select * from configs
+09:36:01 select * from admin_menu
+09:36:01 select count(id) from goods where is_delete=1 order by add_time desc
+09:36:01 select * from goods where is_delete=1 order by add_time desc limit 0,20
+09:36:01 use meiliyoupin;
+09:36:01 set names utf8;
+09:36:01 select * from configs
+09:36:01 select * from admin_menu
+09:36:01 select count(id) from goods where is_delete=1 order by add_time desc
+09:36:01 select * from goods where is_delete=1 order by add_time desc limit 0,20
+09:36:02 use meiliyoupin;
+09:36:02 set names utf8;
+09:36:02 select * from configs
+09:36:02 select * from admin_menu
+09:36:03 use meiliyoupin;
+09:36:03 set names utf8;
+09:36:03 select * from configs
+09:36:03 select * from admin_menu
+09:36:03 use meiliyoupin;
+09:36:03 set names utf8;
+09:36:03 select * from configs
+09:36:03 select * from admin_menu
+09:36:04 use meiliyoupin;
+09:36:04 set names utf8;
+09:36:04 select * from configs
+09:36:04 select * from admin_menu
+09:36:06 use meiliyoupin;
+09:36:06 set names utf8;
+09:36:06 select * from configs
+09:36:06 select * from admin_menu
+09:36:06 select count(a.id) from articles as a left join article_type as b on a.type_id=b.id order by a.id desc
+09:36:06 select a.*,b.type_name from articles as a left join article_type as b on a.type_id=b.id order by a.id desc limit 0,20
+09:36:06 use meiliyoupin;
+09:36:06 set names utf8;
+09:36:06 select * from configs
+09:36:06 select * from admin_menu
+09:36:06 select * from article_type
+09:36:07 use meiliyoupin;
+09:36:07 set names utf8;
+09:36:07 select * from configs
+09:36:07 select * from admin_menu
+09:36:07 select * from article_type
+09:36:07 use meiliyoupin;
+09:36:07 set names utf8;
+09:36:07 select * from configs
+09:36:07 select * from admin_menu
+09:36:09 use meiliyoupin;
+09:36:09 set names utf8;
+09:36:09 select * from configs
+09:36:09 select * from admin_menu
+09:36:09 use meiliyoupin;
+09:36:09 set names utf8;
+09:36:09 select * from configs
+09:36:09 select * from admin_menu
+09:36:09 select * from shipping_type 
+09:36:10 use meiliyoupin;
+09:36:10 set names utf8;
+09:36:10 select * from configs
+09:36:10 select * from admin_menu
+09:36:10 select * from pay_plugin 
+09:36:10 use meiliyoupin;
+09:36:10 set names utf8;
+09:36:10 select * from configs
+09:36:10 select * from admin_menu
+09:36:10 select * from nav order by z_index desc
+09:38:16 use meiliyoupin;
+09:38:16 set names utf8;
+09:38:16 select * from configs
+09:38:16 select * from nav order by z_index desc
+09:38:17 use meiliyoupin;
+09:38:17 set names utf8;
+09:38:17 select * from configs
+09:38:17 select * from nav order by z_index desc
+09:39:04 use meiliyoupin;
+09:39:04 set names utf8;
+09:39:04 select * from configs
+09:39:04 select * from nav order by z_index desc
+09:39:05 use meiliyoupin;
+09:39:05 set names utf8;
+09:39:05 select * from configs
+09:39:05 select * from nav order by z_index desc
+09:39:51 use meiliyoupin;
+09:39:51 set names utf8;
+09:39:51 select * from configs
+09:39:51 select * from nav order by z_index desc
+09:39:52 use meiliyoupin;
+09:39:52 set names utf8;
+09:39:52 select * from configs
+09:39:52 select * from nav order by z_index desc
+09:40:00 use meiliyoupin;
+09:40:00 set names utf8;
+09:40:00 select * from configs
+09:40:00 select * from nav order by z_index desc
+09:40:00 use meiliyoupin;
+09:40:00 set names utf8;
+09:40:00 select * from configs
+09:40:00 select * from nav order by z_index desc
+09:40:11 use meiliyoupin;
+09:40:11 set names utf8;
+09:40:11 select * from configs
+09:40:11 select * from nav order by z_index desc
+09:40:13 use meiliyoupin;
+09:40:13 set names utf8;
+09:40:13 select * from configs
+09:40:13 select * from nav order by z_index desc
+09:43:31 use meiliyoupin;
+09:43:31 set names utf8;
+09:43:31 select * from configs
+09:43:31 select * from admin_menu
+09:43:31 select * from goods_type 
+09:43:31 select count(id) from goods
+09:44:35 use meiliyoupin;
+09:44:35 set names utf8;
+09:44:35 select * from configs
+09:44:35 select * from admin_menu
+09:45:48 use meiliyoupin;
+09:45:48 set names utf8;
+09:45:48 select * from configs
+09:45:48 select * from admin_menu
+09:45:48 insert into goods (goods_name,goods_sn,type_id,goods_number,goods_weight,shop_price,market_price,goods_brief,goods_desc,thumb_img,goods_img,original_img,add_time,is_groupon,groupon_start_time,groupon_end_time) values ('御诚 Royal花萃净白夜间修护霜（50g）','MAD00000000','1','99999','20','12','18','明显产品，推荐搭配御诚 Royal花萃净白美颜精华液（30ml），御诚 Royal花萃净白润泽防护日霜（50g），搭配使用，美白只需要28天！！幼滑的凝霜质地，添加更多天然花萃净白复合物及珍贵的天然玫瑰花提取物，每晚倾注面膜般深切滋养，击退黯哑疲惫肌肤，持续为肌肤注入美白能量与光彩！','','','','','1406684748','1','1406649600','1406736000') ;
+09:45:48 use meiliyoupin;
+09:45:48 set names utf8;
+09:45:48 select * from configs
+09:45:48 select * from admin_menu
+09:45:57 use meiliyoupin;
+09:45:57 set names utf8;
+09:45:57 select * from configs
+09:45:57 select * from admin_menu
+09:45:57 select * from goods_type 
+09:45:57 select count(id) from goods
+09:46:33 use meiliyoupin;
+09:46:33 set names utf8;
+09:46:33 select * from configs
+09:46:33 select * from admin_menu
+09:46:33 select * from goods_type 
+09:46:33 select count(id) from goods
+09:46:36 use meiliyoupin;
+09:46:36 set names utf8;
+09:46:36 select * from configs
+09:46:36 select * from admin_menu
+09:46:36 select * from goods_type 
+09:46:36 select count(id) from goods
+09:46:38 use meiliyoupin;
+09:46:38 set names utf8;
+09:46:38 select * from configs
+09:46:38 select * from admin_menu
+09:46:38 select count(id) from goods where is_delete=0 order by add_time desc
+09:46:38 select * from goods where is_delete=0 order by add_time desc limit 0,20
+09:46:40 use meiliyoupin;
+09:46:40 set names utf8;
+09:46:40 select * from configs
+09:46:40 select * from admin_menu
+09:46:40 select * from goods where id=1
+09:46:40 select * from goods_type 
+09:46:40 select * from goods_gallery where goods_id=1
+09:46:40 select * from goods_attr where goods_id=1
+09:46:41 use meiliyoupin;
+09:46:41 set names utf8;
+09:46:41 select * from configs
+09:46:41 select * from admin_menu
+09:46:41 select count(id) from goods where is_delete=0 order by add_time desc
+09:46:41 select * from goods where is_delete=0 order by add_time desc limit 0,20
+09:46:43 use meiliyoupin;
+09:46:43 set names utf8;
+09:46:43 select * from configs
+09:46:43 select * from admin_menu
+09:46:43 select count(id) from goods where is_delete=0 order by add_time desc
+09:46:43 select * from goods where is_delete=0 order by add_time desc limit 0,20
+09:46:44 use meiliyoupin;
+09:46:44 set names utf8;
+09:46:44 select * from configs
+09:46:44 select * from admin_menu
+09:46:44 select * from goods_type 
+09:46:44 select count(id) from goods
+09:46:53 use meiliyoupin;
+09:46:53 set names utf8;
+09:46:53 select * from configs
+09:46:53 select * from admin_menu
+09:47:04 use meiliyoupin;
+09:47:04 set names utf8;
+09:47:04 select * from configs
+09:47:04 select * from admin_menu
+09:47:05 insert into goods (goods_name,goods_sn,type_id,goods_number,goods_weight,shop_price,market_price,goods_brief,goods_desc,thumb_img,goods_img,original_img,add_time,is_groupon,groupon_start_time,groupon_end_time) values ('御诚 ROYAL植萃水润修颜BB霜（30ml）','MAD00000001','1','99999','20','12','18','蕴含多种滋养精华，丝般柔滑触感，柔和地包裹肌肤，有效提供肌肤均衡滋润营养和养分肤色，能全面遮盖瑕疵，调整肤色，抗水功能强，并能在肌肤表面形成透气性保护膜来缓和紫外线对肌肤的伤害，防止肌肤变黑，柔和无刺激，改善干燥、紧绷等肌肤问题，修饰暗淡肤色，焕发光彩与活力，缔造水润明亮妆容','','../images/20140730/thumb_140668481307304687.jpg','../images/20140730/img_140668481307304687.jpg','../images/20140730/140668481307304687.jpg','1406684824','1','1406649600','1406736000') ;
+09:47:05 use meiliyoupin;
+09:47:05 set names utf8;
+09:47:05 select * from configs
+09:47:05 select * from admin_menu
+09:47:08 use meiliyoupin;
+09:47:08 set names utf8;
+09:47:08 select * from configs
+09:47:08 select * from admin_menu
+09:47:08 select count(id) from goods where is_delete=0 order by add_time desc
+09:47:08 select * from goods where is_delete=0 order by add_time desc limit 0,20
+09:47:09 use meiliyoupin;
+09:47:09 set names utf8;
+09:47:09 select * from configs
+09:47:09 select * from admin_menu
+09:47:09 select * from goods where id=2
+09:47:09 select * from goods_type 
+09:47:09 select * from goods_gallery where goods_id=2
+09:47:09 select * from goods_attr where goods_id=2
+09:47:12 use meiliyoupin;
+09:47:12 set names utf8;
+09:47:12 select * from configs
+09:47:12 select * from admin_menu
+09:47:12 select count(id) from goods where is_delete=0 order by add_time desc
+09:47:12 select * from goods where is_delete=0 order by add_time desc limit 0,20
+09:47:14 use meiliyoupin;
+09:47:14 set names utf8;
+09:47:14 select * from configs
+09:47:14 select * from admin_menu
+09:47:14 select * from goods where id=1
+09:47:14 select * from goods_type 
+09:47:14 select * from goods_gallery where goods_id=1
+09:47:14 select * from goods_attr where goods_id=1
+09:47:18 use meiliyoupin;
+09:47:18 set names utf8;
+09:47:18 select * from configs
+09:47:18 select * from admin_menu
+09:47:20 use meiliyoupin;
+09:47:20 set names utf8;
+09:47:20 select * from configs
+09:47:20 select * from admin_menu
+09:47:20 update goods set goods_name='御诚 Royal花萃净白夜间修护霜（50g）',goods_sn='MAD00000000',type_id='1',goods_number='99999',goods_weight='20',shop_price='12',market_price='18',goods_brief='明显产品，推荐搭配御诚 Royal花萃净白美颜精华液（30ml），御诚 Royal花萃净白润泽防护日霜（50g），搭配使用，美白只需要28天！！幼滑的凝霜质地，添加更多天然花萃净白复合物及珍贵的天然玫瑰花提取物，每晚倾注面膜般深切滋养，击退黯哑疲惫肌肤，持续为肌肤注入美白能量与光彩！',goods_desc='',thumb_img='../images/20140730/thumb_140668483809978332.jpg',goods_img='../images/20140730/img_140668483809978332.jpg',original_img='../images/20140730/140668483809978332.jpg',add_time='1406684840',is_groupon='1',groupon_start_time='1406649600',groupon_end_time='1406736000' where id=1
+09:47:20 use meiliyoupin;
+09:47:20 set names utf8;
+09:47:20 select * from configs
+09:47:20 select * from admin_menu
+09:54:43 use meiliyoupin;
+09:54:43 set names utf8;
+09:54:43 select * from configs
+09:54:43 select * from nav order by z_index desc
+09:54:43 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time>1406685283 and groupon_end_time<1406685283
+09:54:58 use meiliyoupin;
+09:54:58 set names utf8;
+09:54:58 select * from configs
+09:54:58 select * from nav order by z_index desc
+09:54:58 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time>1406685298 and groupon_end_time<1406685298
+09:54:58 use meiliyoupin;
+09:54:58 set names utf8;
+09:54:58 select * from configs
+09:54:58 select * from nav order by z_index desc
+09:54:58 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time>1406685298 and groupon_end_time<1406685298
+09:55:14 use meiliyoupin;
+09:55:14 set names utf8;
+09:55:14 select * from configs
+09:55:14 select * from nav order by z_index desc
+09:55:14 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time>1406685314 and groupon_end_time<1406685314
+09:55:15 use meiliyoupin;
+09:55:15 set names utf8;
+09:55:15 select * from configs
+09:55:15 select * from nav order by z_index desc
+09:55:15 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time>1406685315 and groupon_end_time<1406685315
+09:55:29 use meiliyoupin;
+09:55:29 set names utf8;
+09:55:29 select * from configs
+09:55:29 select * from nav order by z_index desc
+09:55:29 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time>1406685329 and groupon_end_time<1406685329
+09:55:31 use meiliyoupin;
+09:55:31 set names utf8;
+09:55:31 select * from configs
+09:55:31 select * from nav order by z_index desc
+09:55:31 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time>1406685331 and groupon_end_time<1406685331
+09:56:30 use meiliyoupin;
+09:56:30 set names utf8;
+09:56:30 select * from configs
+09:56:30 select * from nav order by z_index desc
+09:56:30 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406685390 and groupon_end_time>1406685390
+09:56:43 use meiliyoupin;
+09:56:43 set names utf8;
+09:56:43 select * from configs
+09:56:43 select * from nav order by z_index desc
+09:56:43 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406685403 and groupon_end_time>1406685403
+09:56:51 use meiliyoupin;
+09:56:51 set names utf8;
+09:56:51 select * from configs
+09:56:51 select * from admin_menu
+09:56:51 select * from goods where id=1
+09:56:51 select * from goods_type 
+09:56:51 select * from goods_gallery where goods_id=1
+09:56:51 select * from goods_attr where goods_id=1
+09:56:59 use meiliyoupin;
+09:56:59 set names utf8;
+09:56:59 select * from configs
+09:56:59 select * from admin_menu
+09:56:59 select * from goods where id=1
+09:56:59 select * from goods_type 
+09:56:59 select * from goods_gallery where goods_id=1
+09:56:59 select * from goods_attr where goods_id=1
+09:57:01 use meiliyoupin;
+09:57:01 set names utf8;
+09:57:01 select * from configs
+09:57:01 select * from admin_menu
+09:57:01 select * from goods where id=1
+09:57:01 select * from goods_type 
+09:57:01 select * from goods_gallery where goods_id=1
+09:57:01 select * from goods_attr where goods_id=1
+09:57:02 use meiliyoupin;
+09:57:02 set names utf8;
+09:57:02 select * from configs
+09:57:02 select * from admin_menu
+09:57:02 select * from goods where id=1
+09:57:02 select * from goods_type 
+09:57:02 select * from goods_gallery where goods_id=1
+09:57:02 select * from goods_attr where goods_id=1
+09:57:04 use meiliyoupin;
+09:57:04 set names utf8;
+09:57:04 select * from configs
+09:57:04 select * from admin_menu
+09:57:04 select * from goods_type 
+09:57:04 select count(id) from goods
+09:57:06 use meiliyoupin;
+09:57:06 set names utf8;
+09:57:06 select * from configs
+09:57:06 select * from admin_menu
+09:57:06 select count(id) from goods where is_delete=0 order by add_time desc
+09:57:06 select * from goods where is_delete=0 order by add_time desc limit 0,20
+09:57:08 use meiliyoupin;
+09:57:08 set names utf8;
+09:57:08 select * from configs
+09:57:08 select * from admin_menu
+09:57:08 select * from goods_type 
+09:57:08 select count(id) from goods
+09:57:20 use meiliyoupin;
+09:57:20 set names utf8;
+09:57:20 select * from configs
+09:57:20 select * from admin_menu
+09:57:20 insert into goods (goods_name,goods_sn,type_id,goods_number,goods_weight,shop_price,market_price,goods_brief,goods_desc,thumb_img,goods_img,original_img,add_time) values ('纺源家纺 活性喷气澳绒蕾丝四件套（古韵妙音-绿）','MAD00000002','1','99999','20','12','18','by 2','','','','','1406685440') ;
+09:57:20 use meiliyoupin;
+09:57:20 set names utf8;
+09:57:20 select * from configs
+09:57:20 select * from admin_menu
+09:57:22 use meiliyoupin;
+09:57:22 set names utf8;
+09:57:22 select * from configs
+09:57:22 select * from admin_menu
+09:57:22 select * from goods_type 
+09:57:22 select count(id) from goods
+09:57:25 use meiliyoupin;
+09:57:25 set names utf8;
+09:57:25 select * from configs
+09:57:25 select * from admin_menu
+09:57:25 select count(id) from goods where is_delete=0 order by add_time desc
+09:57:25 select * from goods where is_delete=0 order by add_time desc limit 0,20
+09:57:27 use meiliyoupin;
+09:57:27 set names utf8;
+09:57:27 select * from configs
+09:57:27 select * from admin_menu
+09:57:27 select * from goods where id=3
+09:57:27 select * from goods_type 
+09:57:27 select * from goods_gallery where goods_id=3
+09:57:27 select * from goods_attr where goods_id=3
+09:57:31 use meiliyoupin;
+09:57:31 set names utf8;
+09:57:31 select * from configs
+09:57:31 select * from admin_menu
+09:57:31 select count(id) from goods where is_delete=0 order by add_time desc
+09:57:31 select * from goods where is_delete=0 order by add_time desc limit 0,20
+09:57:34 use meiliyoupin;
+09:57:34 set names utf8;
+09:57:34 select * from configs
+09:57:34 select * from admin_menu
+09:57:34 select * from goods where id=3
+09:57:34 update goods set is_delete=1 where id=3
+09:57:36 use meiliyoupin;
+09:57:36 set names utf8;
+09:57:36 select * from configs
+09:57:36 select * from admin_menu
+09:57:36 select * from goods_type 
+09:57:36 select count(id) from goods
+09:57:54 use meiliyoupin;
+09:57:54 set names utf8;
+09:57:54 select * from configs
+09:57:54 select * from admin_menu
+09:57:54 insert into goods (goods_name,goods_sn,type_id,goods_number,goods_weight,shop_price,market_price,goods_brief,goods_desc,thumb_img,goods_img,original_img,add_time,is_groupon,groupon_start_time,groupon_end_time) values ('纺源家纺 活性喷气澳绒蕾丝四件套（古韵妙音-绿）','MAD00000003','1','99999','20','12','18','蕴含多种滋养精华，丝般柔滑触感，柔和地包裹肌肤，有效提供肌肤均衡滋润营养和养分肤色，能全面遮盖瑕疵，调整肤色，抗水功能强，并能在肌肤表面形成透气性保护膜来缓和紫外线对肌肤的伤害，防止肌肤变黑，柔和无刺激，改善干燥、紧绷等肌肤问题，修饰暗淡肤色，焕发光彩与活力，缔造水润明亮妆容','','','','','1406685474','1','1406649600','1406736000') ;
+09:57:54 use meiliyoupin;
+09:57:54 set names utf8;
+09:57:54 select * from configs
+09:57:54 select * from admin_menu
+09:57:56 use meiliyoupin;
+09:57:56 set names utf8;
+09:57:56 select * from configs
+09:57:56 select * from nav order by z_index desc
+09:57:56 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406685476 and groupon_end_time>1406685476
+10:00:48 use meiliyoupin;
+10:00:48 set names utf8;
+10:00:48 select * from configs
+10:00:48 select * from nav order by z_index desc
+10:00:48 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406685648 and groupon_end_time>1406685648
+10:01:29 use meiliyoupin;
+10:01:29 set names utf8;
+10:01:29 select * from configs
+10:01:29 select * from nav order by z_index desc
+10:01:29 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406685689 and groupon_end_time>1406685689
+10:01:39 use meiliyoupin;
+10:01:39 set names utf8;
+10:01:39 select * from configs
+10:01:39 select * from nav order by z_index desc
+10:01:39 select * from goods where id = 1 and is_delete = 0
+10:01:40 use meiliyoupin;
+10:01:40 set names utf8;
+10:01:40 select * from configs
+10:01:40 select * from nav order by z_index desc
+10:01:40 select * from goods where id = 1 and is_delete = 0
+10:01:42 use meiliyoupin;
+10:01:42 set names utf8;
+10:01:42 select * from configs
+10:01:42 select * from nav order by z_index desc
+10:01:42 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406685702 and groupon_end_time>1406685702
+10:36:30 use meiliyoupin;
+10:36:30 set names utf8;
+10:36:30 select * from configs
+10:36:30 select * from nav order by z_index desc
+10:36:30 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406687790 and groupon_end_time>1406687790
+10:36:30 use meiliyoupin;
+10:36:30 set names utf8;
+10:36:30 select * from configs
+10:36:30 select * from nav order by z_index desc
+10:36:30 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406687790 and groupon_end_time>1406687790
+10:36:42 use meiliyoupin;
+10:36:42 set names utf8;
+10:36:42 select * from configs
+10:36:42 select * from nav order by z_index desc
+10:36:42 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406687802 and groupon_end_time>1406687802
+10:36:42 use meiliyoupin;
+10:36:42 set names utf8;
+10:36:42 select * from configs
+10:36:42 select * from nav order by z_index desc
+10:36:42 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406687802 and groupon_end_time>1406687802
+10:36:42 use meiliyoupin;
+10:36:42 set names utf8;
+10:36:42 select * from configs
+10:36:42 select * from nav order by z_index desc
+10:36:42 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406687802 and groupon_end_time>1406687802
+10:36:43 use meiliyoupin;
+10:36:43 set names utf8;
+10:36:43 select * from configs
+10:36:43 select * from nav order by z_index desc
+10:36:43 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406687803 and groupon_end_time>1406687803
+10:36:43 use meiliyoupin;
+10:36:43 set names utf8;
+10:36:43 select * from configs
+10:36:43 select * from nav order by z_index desc
+10:36:43 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406687803 and groupon_end_time>1406687803
+10:36:43 use meiliyoupin;
+10:36:43 set names utf8;
+10:36:43 select * from configs
+10:36:43 select * from nav order by z_index desc
+10:36:43 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406687803 and groupon_end_time>1406687803
+10:36:43 use meiliyoupin;
+10:36:43 set names utf8;
+10:36:43 select * from configs
+10:36:43 select * from nav order by z_index desc
+10:36:43 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406687803 and groupon_end_time>1406687803
+10:36:43 use meiliyoupin;
+10:36:43 set names utf8;
+10:36:43 select * from configs
+10:36:43 select * from nav order by z_index desc
+10:36:43 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406687803 and groupon_end_time>1406687803
+10:36:47 use meiliyoupin;
+10:36:47 set names utf8;
+10:36:47 select * from configs
+10:36:47 select * from nav order by z_index desc
+10:36:47 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406687807 and groupon_end_time>1406687807
+10:36:47 use meiliyoupin;
+10:36:47 set names utf8;
+10:36:47 select * from configs
+10:36:47 select * from nav order by z_index desc
+10:36:47 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406687807 and groupon_end_time>1406687807
+10:36:49 use meiliyoupin;
+10:36:49 set names utf8;
+10:36:49 select * from configs
+10:36:49 select * from nav order by z_index desc
+10:36:49 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406687809 and groupon_end_time>1406687809
+10:36:49 use meiliyoupin;
+10:36:49 set names utf8;
+10:36:49 select * from configs
+10:36:49 select * from nav order by z_index desc
+10:36:49 select * from goods where is_delete=0 and is_groupon=1 and is_on_sale=1 and groupon_start_time<1406687809 and groupon_end_time>1406687809
+10:39:27 use meiliyoupin;
+10:39:27 set names utf8;
+10:39:27 select * from configs
+10:39:27 select * from nav order by z_index desc
+10:39:27 select * from goods where id = 1 and is_delete = 0
+10:39:27 use meiliyoupin;
+10:39:27 set names utf8;
+10:39:27 select * from configs
+10:39:27 select * from nav order by z_index desc
+10:39:27 select * from goods where id = 1 and is_delete = 0
+10:39:28 use meiliyoupin;
+10:39:28 set names utf8;
+10:39:28 select * from configs
+10:39:28 select * from nav order by z_index desc
+10:39:28 select * from goods where id = 1 and is_delete = 0
+10:39:30 use meiliyoupin;
+10:39:30 set names utf8;
+10:39:30 select * from configs
+10:39:30 select * from nav order by z_index desc
+10:39:30 select * from goods where id = 1 and is_delete = 0
+10:55:33 use meiliyoupin;
+10:55:33 set names utf8;
+10:55:33 select * from configs
+10:55:33 select * from admin_menu
+10:55:33 select count(id) from goods where is_delete=0 order by add_time desc
+10:55:33 select * from goods where is_delete=0 order by add_time desc limit 0,20
+10:57:32 use meiliyoupin;
+10:57:32 set names utf8;
+10:57:32 select * from configs
+10:57:32 select * from admin_menu
+10:57:32 select count(id) from goods where is_delete=0 order by add_time desc
+10:57:32 select * from goods where is_delete=0 order by add_time desc limit 0,20
+10:57:32 use meiliyoupin;
+10:57:32 set names utf8;
+10:57:32 select * from configs
+10:57:32 select * from nav order by z_index desc
+10:57:32 select * from goods where id = 1 and is_delete = 0
+10:57:33 use meiliyoupin;
+10:57:33 set names utf8;
+10:57:33 select * from configs
+10:57:33 select * from nav order by z_index desc
+10:57:33 select * from goods where id = 1 and is_delete = 0
+10:57:35 use meiliyoupin;
+10:57:35 set names utf8;
+10:57:35 select * from configs
+10:57:35 select * from nav order by z_index desc
+10:57:35 select * from goods where id = 1 and is_delete = 0
+10:57:36 use meiliyoupin;
+10:57:36 set names utf8;
+10:57:36 select * from configs
+10:57:36 select * from nav order by z_index desc
+10:57:36 select * from goods where id = 1 and is_delete = 0
+10:57:37 use meiliyoupin;
+10:57:37 set names utf8;
+10:57:37 select * from configs
+10:57:37 select * from nav order by z_index desc
+10:57:37 select * from goods where id = 1 and is_delete = 0
+10:57:37 use meiliyoupin;
+10:57:37 set names utf8;
+10:57:37 select * from configs
+10:57:37 select * from nav order by z_index desc
+10:57:37 select * from goods where id = 1 and is_delete = 0
+10:57:38 use meiliyoupin;
+10:57:38 set names utf8;
+10:57:38 select * from configs
+10:57:38 select * from nav order by z_index desc
+10:57:38 select * from goods where id = 1 and is_delete = 0
+10:57:39 use meiliyoupin;
+10:57:39 set names utf8;
+10:57:39 select * from configs
+10:57:39 select * from nav order by z_index desc
+10:57:39 select * from goods where id = 1 and is_delete = 0
+10:57:39 use meiliyoupin;
+10:57:39 set names utf8;
+10:57:39 select * from configs
+10:57:39 select * from nav order by z_index desc
+10:57:39 select * from goods where id = 1 and is_delete = 0
+10:57:40 use meiliyoupin;
+10:57:40 set names utf8;
+10:57:40 select * from configs
+10:57:40 select * from nav order by z_index desc
+10:57:40 select * from goods where id = 1 and is_delete = 0
+10:57:40 use meiliyoupin;
+10:57:40 set names utf8;
+10:57:40 select * from configs
+10:57:40 select * from nav order by z_index desc
+10:57:40 select * from goods where id = 1 and is_delete = 0
+10:58:51 use meiliyoupin;
+10:58:51 set names utf8;
+10:58:51 select * from configs
+10:58:51 select * from nav order by z_index desc
+10:58:51 select * from goods where id = 1 and is_delete = 0
+10:58:51 use meiliyoupin;
+10:58:51 set names utf8;
+10:58:51 select * from configs
+10:58:51 select * from nav order by z_index desc
+10:58:51 select * from goods where id = 1 and is_delete = 0
+10:58:52 use meiliyoupin;
+10:58:52 set names utf8;
+10:58:52 select * from configs
+10:58:52 select * from nav order by z_index desc
+10:58:52 select * from goods where id = 1 and is_delete = 0
+10:58:55 use meiliyoupin;
+10:58:55 set names utf8;
+10:58:55 select * from configs
+10:58:55 select * from nav order by z_index desc
+10:58:55 select * from goods where id = 1 and is_delete = 0
+10:58:57 use meiliyoupin;
+10:58:57 set names utf8;
+10:58:57 select * from configs
+10:58:57 select * from nav order by z_index desc
+10:58:57 select * from goods where id = 1 and is_delete = 0
+10:58:57 use meiliyoupin;
+10:58:57 set names utf8;
+10:58:57 select * from configs
+10:58:57 select * from nav order by z_index desc
+10:58:57 select * from goods where id = 1 and is_delete = 0
+10:59:06 use meiliyoupin;
+10:59:06 set names utf8;
+10:59:06 select * from configs
+10:59:06 select * from nav order by z_index desc
+10:59:06 select * from goods where id = 1 and is_delete = 0
+10:59:07 use meiliyoupin;
+10:59:07 set names utf8;
+10:59:07 select * from configs
+10:59:07 select * from nav order by z_index desc
+10:59:07 select * from goods where id = 1 and is_delete = 0
+11:04:44 use meiliyoupin;
+11:04:44 set names utf8;
+11:04:44 select * from configs
+11:04:45 use meiliyoupin;
+11:04:45 set names utf8;
+11:04:45 select * from configs
+11:04:46 use meiliyoupin;
+11:04:46 set names utf8;
+11:04:46 select * from configs
+11:04:46 use meiliyoupin;
+11:04:46 set names utf8;
+11:04:46 select * from configs
+11:05:06 use meiliyoupin;
+11:05:06 set names utf8;
+11:05:06 select * from configs
+11:05:06 use meiliyoupin;
+11:05:06 set names utf8;
+11:05:06 select * from configs
+11:06:48 use meiliyoupin;
+11:06:48 set names utf8;
+11:06:48 select * from configs
+11:06:48 use meiliyoupin;
+11:06:48 set names utf8;
+11:06:48 select * from configs
+11:08:14 use meiliyoupin;
+11:08:14 set names utf8;
+11:08:14 select * from configs
+11:08:15 use meiliyoupin;
+11:08:15 set names utf8;
+11:08:15 select * from configs
+11:08:22 use meiliyoupin;
+11:08:22 set names utf8;
+11:08:22 select * from configs
+11:08:23 use meiliyoupin;
+11:08:23 set names utf8;
+11:08:23 select * from configs
+11:08:32 use meiliyoupin;
+11:08:32 set names utf8;
+11:08:32 select * from configs
+11:08:32 use meiliyoupin;
+11:08:32 set names utf8;
+11:08:32 select * from configs
+11:10:52 use meiliyoupin;
+11:10:52 set names utf8;
+11:10:52 select * from configs
+11:10:52 use meiliyoupin;
+11:10:52 set names utf8;
+11:10:52 select * from configs
+11:11:16 use meiliyoupin;
+11:11:16 set names utf8;
+11:11:16 select * from configs
+11:11:16 use meiliyoupin;
+11:11:16 set names utf8;
+11:11:16 select * from configs
+11:11:54 use meiliyoupin;
+11:11:54 set names utf8;
+11:11:54 select * from configs
+11:11:55 use meiliyoupin;
+11:11:55 set names utf8;
+11:11:55 select * from configs
+11:12:09 use meiliyoupin;
+11:12:09 set names utf8;
+11:12:09 select * from configs
+11:12:09 use meiliyoupin;
+11:12:09 set names utf8;
+11:12:09 select * from configs
+11:12:57 use meiliyoupin;
+11:12:57 set names utf8;
+11:12:57 select * from configs
+11:12:57 use meiliyoupin;
+11:12:57 set names utf8;
+11:12:57 select * from configs
+11:15:14 use meiliyoupin;
+11:15:14 set names utf8;
+11:15:14 select * from configs
+11:15:14 select * from nav order by z_index desc
+11:15:14 select * from goods where id = 1 and is_delete = 0
+11:15:15 use meiliyoupin;
+11:15:15 set names utf8;
+11:15:15 select * from configs
+11:15:15 select * from nav order by z_index desc
+11:15:15 select * from goods where id = 1 and is_delete = 0
+11:15:16 use meiliyoupin;
+11:15:16 set names utf8;
+11:15:16 select * from configs
+11:15:16 select * from nav order by z_index desc
+11:15:16 select * from goods where id = 1 and is_delete = 0
+11:15:17 use meiliyoupin;
+11:15:17 set names utf8;
+11:15:17 select * from configs
+11:15:17 select * from nav order by z_index desc
+11:15:17 select * from goods where id = 1 and is_delete = 0
+11:15:18 use meiliyoupin;
+11:15:18 set names utf8;
+11:15:18 select * from configs
+11:15:18 select * from nav order by z_index desc
+11:15:18 select * from goods where id = 1 and is_delete = 0
+11:15:19 use meiliyoupin;
+11:15:19 set names utf8;
+11:15:19 select * from configs
+11:15:19 select * from nav order by z_index desc
+11:15:19 select * from goods where id = 1 and is_delete = 0
+11:15:20 use meiliyoupin;
+11:15:20 set names utf8;
+11:15:20 select * from configs
+11:15:20 select * from nav order by z_index desc
+11:15:20 select * from goods where id = 1 and is_delete = 0
+11:15:23 use meiliyoupin;
+11:15:23 set names utf8;
+11:15:23 select * from configs
+11:15:23 select * from nav order by z_index desc
+11:15:23 select * from goods where id = 1 and is_delete = 0
+11:15:24 use meiliyoupin;
+11:15:24 set names utf8;
+11:15:24 select * from configs
+11:15:24 select * from nav order by z_index desc
+11:15:24 select * from goods where id = 1 and is_delete = 0
+11:15:25 use meiliyoupin;
+11:15:25 set names utf8;
+11:15:25 select * from configs
+11:15:25 select * from nav order by z_index desc
+11:15:25 select * from goods where id = 1 and is_delete = 0
+11:15:25 use meiliyoupin;
+11:15:25 set names utf8;
+11:15:25 select * from configs
+11:15:25 select * from nav order by z_index desc
+11:15:25 select * from goods where id = 1 and is_delete = 0
+11:15:26 use meiliyoupin;
+11:15:26 set names utf8;
+11:15:26 select * from configs
+11:15:26 select * from nav order by z_index desc
+11:15:26 select * from goods where id = 1 and is_delete = 0
+11:15:27 use meiliyoupin;
+11:15:27 set names utf8;
+11:15:27 select * from configs
+11:15:27 select * from nav order by z_index desc
+11:15:27 select * from goods where id = 1 and is_delete = 0
+11:15:28 use meiliyoupin;
+11:15:28 set names utf8;
+11:15:28 select * from configs
+11:15:28 select * from nav order by z_index desc
+11:15:28 select * from goods where id = 1 and is_delete = 0
+11:15:29 use meiliyoupin;
+11:15:29 set names utf8;
+11:15:29 select * from configs
+11:15:29 select * from nav order by z_index desc
+11:15:29 select * from goods where id = 1 and is_delete = 0
+11:15:30 use meiliyoupin;
+11:15:30 set names utf8;
+11:15:30 select * from configs
+11:15:30 select * from nav order by z_index desc
+11:15:30 select * from goods where id = 1 and is_delete = 0
+11:15:32 use meiliyoupin;
+11:15:32 set names utf8;
+11:15:32 select * from configs
+11:15:32 select * from nav order by z_index desc
+11:15:32 select * from goods where id = 1 and is_delete = 0
+11:15:33 use meiliyoupin;
+11:15:33 set names utf8;
+11:15:33 select * from configs
+11:15:33 select * from nav order by z_index desc
+11:15:33 select * from goods where id = 1 and is_delete = 0
+11:15:33 use meiliyoupin;
+11:15:33 set names utf8;
+11:15:33 select * from configs
+11:15:33 select * from nav order by z_index desc
+11:15:33 select * from goods where id = 1 and is_delete = 0
+11:15:34 use meiliyoupin;
+11:15:34 set names utf8;
+11:15:34 select * from configs
+11:15:34 select * from nav order by z_index desc
+11:15:34 select * from goods where id = 1 and is_delete = 0
+11:15:36 use meiliyoupin;
+11:15:36 set names utf8;
+11:15:36 select * from configs
+11:15:36 select * from nav order by z_index desc
+11:15:36 select * from goods where id = 1 and is_delete = 0
+11:15:36 use meiliyoupin;
+11:15:36 set names utf8;
+11:15:36 select * from configs
+11:15:36 select * from nav order by z_index desc
+11:15:36 select * from goods where id = 1 and is_delete = 0
+11:15:41 use meiliyoupin;
+11:15:41 set names utf8;
+11:15:41 select * from configs
+11:15:41 select * from nav order by z_index desc
+11:15:41 select * from goods where id = 1 and is_delete = 0
+11:15:43 use meiliyoupin;
+11:15:43 set names utf8;
+11:15:43 select * from configs
+11:15:43 select * from nav order by z_index desc
+11:15:43 select * from goods where id = 1 and is_delete = 0
+11:15:43 use meiliyoupin;
+11:15:43 set names utf8;
+11:15:43 select * from configs
+11:15:43 select * from nav order by z_index desc
+11:15:43 select * from goods where id = 1 and is_delete = 0
+11:16:25 use meiliyoupin;
+11:16:25 set names utf8;
+11:16:25 select * from configs
+11:16:25 select * from nav order by z_index desc
+11:16:25 select * from goods where id = 1 and is_delete = 0
+11:16:25 use meiliyoupin;
+11:16:25 set names utf8;
+11:16:25 select * from configs
+11:16:25 select * from nav order by z_index desc
+11:16:25 select * from goods where id = 1 and is_delete = 0
+11:16:52 use meiliyoupin;
+11:16:52 set names utf8;
+11:16:52 select * from configs
+11:16:52 select * from nav order by z_index desc
+11:16:52 select * from goods where id = 1 and is_delete = 0
+11:16:52 use meiliyoupin;
+11:16:52 set names utf8;
+11:16:52 select * from configs
+11:16:52 select * from nav order by z_index desc
+11:16:52 select * from goods where id = 1 and is_delete = 0
+11:16:54 use meiliyoupin;
+11:16:54 set names utf8;
+11:16:54 select * from configs
+11:16:54 select * from nav order by z_index desc
+11:16:54 select * from goods where id = 1 and is_delete = 0
+11:16:54 use meiliyoupin;
+11:16:54 set names utf8;
+11:16:54 select * from configs
+11:16:54 select * from nav order by z_index desc
+11:16:54 select * from goods where id = 1 and is_delete = 0
+11:16:55 use meiliyoupin;
+11:16:55 set names utf8;
+11:16:55 select * from configs
+11:16:55 select * from nav order by z_index desc
+11:16:55 select * from goods where id = 1 and is_delete = 0
+11:16:56 use meiliyoupin;
+11:16:56 set names utf8;
+11:16:56 select * from configs
+11:16:56 select * from nav order by z_index desc
+11:16:56 select * from goods where id = 1 and is_delete = 0
+11:16:56 use meiliyoupin;
+11:16:56 set names utf8;
+11:16:56 select * from configs
+11:16:56 select * from nav order by z_index desc
+11:16:56 select * from goods where id = 1 and is_delete = 0
+11:17:03 use meiliyoupin;
+11:17:03 set names utf8;
+11:17:03 select * from configs
+11:17:03 select * from nav order by z_index desc
+11:17:03 select * from goods where id = 1 and is_delete = 0
+11:17:03 use meiliyoupin;
+11:17:03 set names utf8;
+11:17:03 select * from configs
+11:17:03 select * from nav order by z_index desc
+11:17:03 select * from goods where id = 1 and is_delete = 0
+11:17:08 use meiliyoupin;
+11:17:08 set names utf8;
+11:17:08 select * from configs
+11:17:08 select * from nav order by z_index desc
+11:17:08 select * from goods where id = 1 and is_delete = 0
+11:17:08 use meiliyoupin;
+11:17:08 set names utf8;
+11:17:08 select * from configs
+11:17:08 select * from nav order by z_index desc
+11:17:08 select * from goods where id = 1 and is_delete = 0
+11:17:11 use meiliyoupin;
+11:17:11 set names utf8;
+11:17:11 select * from configs
+11:17:11 select * from nav order by z_index desc
+11:17:11 select * from goods where id = 1 and is_delete = 0
+11:17:12 use meiliyoupin;
+11:17:12 set names utf8;
+11:17:12 select * from configs
+11:17:12 select * from nav order by z_index desc
+11:17:12 select * from goods where id = 1 and is_delete = 0
+11:17:12 use meiliyoupin;
+11:17:12 set names utf8;
+11:17:12 select * from configs
+11:17:12 select * from nav order by z_index desc
+11:17:12 select * from goods where id = 1 and is_delete = 0
+11:17:12 use meiliyoupin;
+11:17:12 set names utf8;
+11:17:12 select * from configs
+11:17:12 select * from nav order by z_index desc
+11:17:12 select * from goods where id = 1 and is_delete = 0
+11:17:14 use meiliyoupin;
+11:17:14 set names utf8;
+11:17:14 select * from configs
+11:17:14 select * from nav order by z_index desc
+11:17:14 select * from goods where id = 1 and is_delete = 0
+11:17:55 use meiliyoupin;
+11:17:55 set names utf8;
+11:17:55 select * from configs
+11:17:55 select * from nav order by z_index desc
+11:17:55 select * from goods where id = 1
+11:17:55 select * from carts where goods_id=1 and session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:17:55 insert into carts (user_id,session_id,goods_id,goods_sn,goods_name,market_price,shop_price,goods_attr,thumb_img,is_groupon,shipping_free,goods_attr_id,goods_number) values ('0','c01d2c635e9f09c5d9f49c244f3429e2','1','MAD00000000','御诚 Royal花萃净白夜间修护霜（50g）','18','12','','../images/20140730/thumb_140668483809978332.jpg','1','0','','1') ;
+11:17:55 use meiliyoupin;
+11:17:55 set names utf8;
+11:17:55 select * from configs
+11:17:55 select * from nav order by z_index desc
+11:17:55 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:17:55 use meiliyoupin;
+11:17:55 set names utf8;
+11:17:55 select * from configs
+11:17:55 select * from nav order by z_index desc
+11:17:55 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:18:14 use meiliyoupin;
+11:18:14 set names utf8;
+11:18:14 select * from configs
+11:18:14 select * from nav order by z_index desc
+11:18:14 select * from goods where id = 1 and is_delete = 0
+11:18:14 use meiliyoupin;
+11:18:14 set names utf8;
+11:18:14 select * from configs
+11:18:14 select * from nav order by z_index desc
+11:18:14 select * from goods where id = 1 and is_delete = 0
+11:18:16 use meiliyoupin;
+11:18:16 set names utf8;
+11:18:16 select * from configs
+11:18:16 select * from nav order by z_index desc
+11:18:16 select * from goods where id = 1
+11:18:16 select * from carts where goods_id=1 and session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:18:16 update carts set user_id='0',session_id='c01d2c635e9f09c5d9f49c244f3429e2',goods_id='1',goods_sn='MAD00000000',goods_name='御诚 Royal花萃净白夜间修护霜（50g）',market_price='18',shop_price='12',goods_attr='',thumb_img='../images/20140730/thumb_140668483809978332.jpg',is_groupon='1',shipping_free='0',goods_attr_id='',goods_number='2' where id =1
+11:18:16 use meiliyoupin;
+11:18:16 set names utf8;
+11:18:16 select * from configs
+11:18:16 select * from nav order by z_index desc
+11:18:16 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:18:16 use meiliyoupin;
+11:18:16 set names utf8;
+11:18:16 select * from configs
+11:18:16 select * from nav order by z_index desc
+11:18:16 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:18:18 use meiliyoupin;
+11:18:18 set names utf8;
+11:18:18 select * from configs
+11:18:18 select * from nav order by z_index desc
+11:18:18 select * from goods where id = 1 and is_delete = 0
+11:18:18 use meiliyoupin;
+11:18:18 set names utf8;
+11:18:18 select * from configs
+11:18:18 select * from nav order by z_index desc
+11:18:18 select * from goods where id = 1 and is_delete = 0
+11:18:18 use meiliyoupin;
+11:18:18 set names utf8;
+11:18:18 select * from configs
+11:18:18 select * from nav order by z_index desc
+11:18:18 select * from goods where id = 1
+11:18:18 select * from carts where goods_id=1 and session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:18:18 update carts set user_id='0',session_id='c01d2c635e9f09c5d9f49c244f3429e2',goods_id='1',goods_sn='MAD00000000',goods_name='御诚 Royal花萃净白夜间修护霜（50g）',market_price='18',shop_price='12',goods_attr='',thumb_img='../images/20140730/thumb_140668483809978332.jpg',is_groupon='1',shipping_free='0',goods_attr_id='',goods_number='3' where id =1
+11:18:18 use meiliyoupin;
+11:18:18 set names utf8;
+11:18:18 select * from configs
+11:18:18 select * from nav order by z_index desc
+11:18:18 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:18:19 use meiliyoupin;
+11:18:19 set names utf8;
+11:18:19 select * from configs
+11:18:19 select * from nav order by z_index desc
+11:18:19 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:18:20 use meiliyoupin;
+11:18:20 set names utf8;
+11:18:20 select * from configs
+11:18:20 select * from nav order by z_index desc
+11:18:20 select * from goods where id = 1 and is_delete = 0
+11:18:20 use meiliyoupin;
+11:18:20 set names utf8;
+11:18:20 select * from configs
+11:18:20 select * from nav order by z_index desc
+11:18:20 select * from goods where id = 1 and is_delete = 0
+11:18:22 use meiliyoupin;
+11:18:22 set names utf8;
+11:18:22 select * from configs
+11:18:22 select * from nav order by z_index desc
+11:18:22 select * from goods where id = 1
+11:18:22 select * from carts where goods_id=1 and session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:18:22 update carts set user_id='0',session_id='c01d2c635e9f09c5d9f49c244f3429e2',goods_id='1',goods_sn='MAD00000000',goods_name='御诚 Royal花萃净白夜间修护霜（50g）',market_price='18',shop_price='12',goods_attr='',thumb_img='../images/20140730/thumb_140668483809978332.jpg',is_groupon='1',shipping_free='0',goods_attr_id='',goods_number='4' where id =1
+11:18:22 use meiliyoupin;
+11:18:22 set names utf8;
+11:18:22 select * from configs
+11:18:22 select * from nav order by z_index desc
+11:18:22 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:18:22 use meiliyoupin;
+11:18:22 set names utf8;
+11:18:22 select * from configs
+11:18:22 select * from nav order by z_index desc
+11:18:22 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:25:13 use meiliyoupin;
+11:25:13 set names utf8;
+11:25:13 select * from configs
+11:25:13 select * from admin_menu
+11:25:14 use meiliyoupin;
+11:25:14 set names utf8;
+11:25:14 select * from configs
+11:25:14 select * from admin_menu
+11:25:14 select * from shipping_type 
+11:25:14 use meiliyoupin;
+11:25:14 set names utf8;
+11:25:14 select * from configs
+11:25:14 select * from admin_menu
+11:25:14 select * from pay_plugin 
+11:25:15 use meiliyoupin;
+11:25:15 set names utf8;
+11:25:15 select * from configs
+11:25:15 select * from admin_menu
+11:25:15 select * from nav order by z_index desc
+11:25:15 use meiliyoupin;
+11:25:15 set names utf8;
+11:25:15 select * from configs
+11:25:15 select * from admin_menu
+11:25:15 select * from focus_picture order by pic_index desc
+11:25:16 use meiliyoupin;
+11:25:16 set names utf8;
+11:25:16 select * from configs
+11:25:16 select * from admin_menu
+11:25:16 select count(id) from goods where is_delete=0 order by add_time desc
+11:25:16 select * from goods where is_delete=0 order by add_time desc limit 0,20
+11:25:17 use meiliyoupin;
+11:25:17 set names utf8;
+11:25:17 select * from configs
+11:25:17 select * from admin_menu
+11:25:17 select * from goods_type 
+11:25:17 select count(id) from goods
+11:25:17 use meiliyoupin;
+11:25:17 set names utf8;
+11:25:17 select * from configs
+11:25:17 select * from admin_menu
+11:25:17 select * from goods_type
+11:28:39 use meiliyoupin;
+11:28:39 set names utf8;
+11:28:39 select * from configs
+11:28:39 select * from nav order by z_index desc
+11:28:39 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:28:40 use meiliyoupin;
+11:28:40 set names utf8;
+11:28:40 select * from configs
+11:28:40 select * from nav order by z_index desc
+11:28:40 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:28:42 use meiliyoupin;
+11:28:42 set names utf8;
+11:28:42 select * from configs
+11:28:42 select * from nav order by z_index desc
+11:28:42 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:28:43 use meiliyoupin;
+11:28:43 set names utf8;
+11:28:43 select * from configs
+11:28:43 select * from nav order by z_index desc
+11:28:43 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:28:44 use meiliyoupin;
+11:28:44 set names utf8;
+11:28:44 select * from configs
+11:28:44 select * from nav order by z_index desc
+11:28:44 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:28:48 use meiliyoupin;
+11:28:48 set names utf8;
+11:28:48 select * from configs
+11:28:48 select * from nav order by z_index desc
+11:28:48 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:28:49 use meiliyoupin;
+11:28:49 set names utf8;
+11:28:49 select * from configs
+11:28:49 select * from nav order by z_index desc
+11:28:49 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:28:55 use meiliyoupin;
+11:28:55 set names utf8;
+11:28:55 select * from configs
+11:28:55 select * from nav order by z_index desc
+11:28:55 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:28:57 use meiliyoupin;
+11:28:57 set names utf8;
+11:28:57 select * from configs
+11:28:57 select * from nav order by z_index desc
+11:28:57 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:28:58 use meiliyoupin;
+11:28:58 set names utf8;
+11:28:58 select * from configs
+11:28:58 select * from nav order by z_index desc
+11:28:58 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:28:58 use meiliyoupin;
+11:28:58 set names utf8;
+11:28:58 select * from configs
+11:28:58 select * from nav order by z_index desc
+11:28:58 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:28:59 use meiliyoupin;
+11:28:59 set names utf8;
+11:28:59 select * from configs
+11:28:59 select * from nav order by z_index desc
+11:28:59 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:29:01 use meiliyoupin;
+11:29:01 set names utf8;
+11:29:01 select * from configs
+11:29:01 select * from nav order by z_index desc
+11:29:01 select * from carts where session_id='c01d2c635e9f09c5d9f49c244f3429e2'
+11:57:09 use meiliyoupin;
+11:57:09 set names utf8;
+11:57:09 select * from configs
+11:57:09 select * from admin_menu
+11:57:09 select count(id) from goods where is_delete=0 order by add_time desc
+11:57:09 select * from goods where is_delete=0 order by add_time desc limit 0,20
+11:57:09 use meiliyoupin;
+11:57:09 set names utf8;
+11:57:09 select * from configs
+11:57:09 select * from admin_menu
+11:57:09 select * from goods_type 
+11:57:09 select count(id) from goods
+11:57:10 use meiliyoupin;
+11:57:10 set names utf8;
+11:57:10 select * from configs
+11:57:10 select * from admin_menu
+11:57:10 select * from goods_type
+11:57:11 use meiliyoupin;
+11:57:11 set names utf8;
+11:57:11 select * from configs
+11:57:11 select * from admin_menu
+11:57:11 select * from goods_type
+11:57:11 use meiliyoupin;
+11:57:11 set names utf8;
+11:57:11 select * from configs
+11:57:11 select * from admin_menu
+11:57:11 select count(id) from goods where is_delete=1 order by add_time desc
+11:57:11 select * from goods where is_delete=1 order by add_time desc limit 0,20
+11:57:11 use meiliyoupin;
+11:57:11 set names utf8;
+11:57:11 select * from configs
+11:57:11 select * from admin_menu
+11:57:11 select * from goods_type 
+11:57:11 select count(id) from goods
+11:57:12 use meiliyoupin;
+11:57:12 set names utf8;
+11:57:12 select * from configs
+11:57:12 select * from admin_menu
+11:57:12 select count(id) from goods where is_delete=0 order by add_time desc
+11:57:12 select * from goods where is_delete=0 order by add_time desc limit 0,20
+11:57:13 use meiliyoupin;
+11:57:13 set names utf8;
+11:57:13 select * from configs
+11:57:13 select * from admin_menu
+11:57:13 use meiliyoupin;
+11:57:13 set names utf8;
+11:57:13 select * from configs
+11:57:13 select * from admin_menu
+11:57:13 select * from shipping_type 
+11:57:14 use meiliyoupin;
+11:57:14 set names utf8;
+11:57:14 select * from configs
+11:57:14 select * from admin_menu
+11:57:14 select * from pay_plugin 
+11:57:14 use meiliyoupin;
+11:57:14 set names utf8;
+11:57:14 select * from configs
+11:57:14 select * from admin_menu
+11:57:14 select * from nav order by z_index desc
+11:57:15 use meiliyoupin;
+11:57:15 set names utf8;
+11:57:15 select * from configs
+11:57:15 select * from admin_menu
+11:57:15 select * from focus_picture order by pic_index desc
+11:57:16 use meiliyoupin;
+11:57:16 set names utf8;
+11:57:16 select * from configs
+11:57:16 select * from admin_menu
+11:57:17 use meiliyoupin;
+11:57:17 set names utf8;
+11:57:17 select * from configs
+11:57:17 select * from admin_menu
+11:57:17 select * from shipping_type 
+11:57:17 use meiliyoupin;
+11:57:17 set names utf8;
+11:57:17 select * from configs
+11:57:17 select * from admin_menu
+11:57:17 select * from pay_plugin 
+11:57:18 use meiliyoupin;
+11:57:18 set names utf8;
+11:57:18 select * from configs
+11:57:18 select * from admin_menu
+11:57:18 select * from nav order by z_index desc
+11:57:18 use meiliyoupin;
+11:57:18 set names utf8;
+11:57:18 select * from configs
+11:57:18 select * from admin_menu
+11:57:18 select * from focus_picture order by pic_index desc
+11:57:40 use meiliyoupin;
+11:57:40 set names utf8;
+11:57:40 select * from configs
+11:57:40 select * from admin_menu
+11:57:41 use meiliyoupin;
+11:57:41 set names utf8;
+11:57:41 select * from configs
+11:57:41 select * from admin_menu
+11:57:41 select * from pay_plugin 
+11:57:41 use meiliyoupin;
+11:57:41 set names utf8;
+11:57:41 select * from configs
+11:57:41 select * from admin_menu
+11:57:41 select * from focus_picture order by pic_index desc
+11:57:43 use meiliyoupin;
+11:57:43 set names utf8;
+11:57:43 select * from configs
+11:57:43 select * from admin_menu
+11:57:43 select * from goods_type 
+11:57:43 select count(id) from goods
+11:57:43 use meiliyoupin;
+11:57:43 set names utf8;
+11:57:43 select * from configs
+11:57:43 select * from admin_menu
+11:57:43 select count(id) from goods where is_delete=0 order by add_time desc
+11:57:43 select * from goods where is_delete=0 order by add_time desc limit 0,20
+11:57:44 use meiliyoupin;
+11:57:44 set names utf8;
+11:57:44 select * from configs
+11:57:44 select * from admin_menu
+11:57:44 select * from goods_type 
+11:57:44 select count(id) from goods
+11:57:44 use meiliyoupin;
+11:57:44 set names utf8;
+11:57:44 select * from configs
+11:57:44 select * from admin_menu
+11:57:44 select * from goods_type
+11:57:45 use meiliyoupin;
+11:57:45 set names utf8;
+11:57:45 select * from configs
+11:57:45 select * from admin_menu
+11:57:45 select count(id) from goods where is_delete=1 order by add_time desc
+11:57:45 select * from goods where is_delete=1 order by add_time desc limit 0,20
+11:57:46 use meiliyoupin;
+11:57:46 set names utf8;
+11:57:46 select * from configs
+11:57:46 select * from admin_menu
+11:57:47 use meiliyoupin;
+11:57:47 set names utf8;
+11:57:47 select * from configs
+11:57:47 select * from admin_menu
+11:57:47 use meiliyoupin;
+11:57:47 set names utf8;
+11:57:47 select * from configs
+11:57:47 select * from admin_menu
+11:57:47 use meiliyoupin;
+11:57:47 set names utf8;
+11:57:47 select * from configs
+11:57:47 select * from admin_menu
+11:57:48 use meiliyoupin;
+11:57:48 set names utf8;
+11:57:48 select * from configs
+11:57:48 select * from admin_menu
+11:57:48 select count(a.id) from articles as a left join article_type as b on a.type_id=b.id order by a.id desc
+11:57:48 select a.*,b.type_name from articles as a left join article_type as b on a.type_id=b.id order by a.id desc limit 0,20
+11:57:49 use meiliyoupin;
+11:57:49 set names utf8;
+11:57:49 select * from configs
+11:57:49 select * from admin_menu
+11:57:49 select * from article_type
+11:57:49 use meiliyoupin;
+11:57:49 set names utf8;
+11:57:49 select * from configs
+11:57:49 select * from admin_menu
+11:57:49 select * from article_type
+11:57:50 use meiliyoupin;
+11:57:50 set names utf8;
+11:57:50 select * from configs
+11:57:50 select * from admin_menu
+11:57:51 use meiliyoupin;
+11:57:51 set names utf8;
+11:57:51 select * from configs
+11:57:51 select * from admin_menu
+11:57:51 select * from user_level 
+11:57:51 use meiliyoupin;
+11:57:51 set names utf8;
+11:57:51 select * from configs
+11:57:51 select * from admin_menu
+11:57:51 select count(id) from users order by id desc
+11:57:51 select * from users order by id desc limit 0,20
+11:57:52 use meiliyoupin;
+11:57:52 set names utf8;
+11:57:52 select * from configs
+11:57:52 select * from admin_menu
+11:57:52 select * from user_level 
+11:57:52 use meiliyoupin;
+11:57:52 set names utf8;
+11:57:52 select * from configs
+11:57:52 select * from admin_menu
+11:57:52 select count(id) from user_level
+11:57:52 select * from user_level limit 0,20
+11:57:53 use meiliyoupin;
+11:57:53 set names utf8;
+11:57:53 select * from configs
+11:57:53 select * from admin_menu
+11:57:54 use meiliyoupin;
+11:57:54 set names utf8;
+11:57:54 select * from configs
+11:57:54 select * from admin_menu
+11:57:55 use meiliyoupin;
+11:57:55 set names utf8;
+11:57:55 select * from configs
+11:57:55 select * from admin_menu
+11:57:57 use meiliyoupin;
+11:57:57 set names utf8;
+11:57:57 select * from configs
+11:57:57 select * from admin_menu
+11:57:57 select * from shipping_type 
+11:57:57 use meiliyoupin;
+11:57:57 set names utf8;
+11:57:57 select * from configs
+11:57:57 select * from admin_menu
+11:57:57 select * from pay_plugin 
+11:58:00 use meiliyoupin;
+11:58:00 set names utf8;
+11:58:00 select * from configs
+11:58:00 select * from admin_menu
+11:58:01 use meiliyoupin;
+11:58:01 set names utf8;
+11:58:01 select * from configs
+11:58:01 select * from admin_menu
+11:58:01 select * from shipping_type 
+11:58:01 use meiliyoupin;
+11:58:01 set names utf8;
+11:58:01 select * from configs
+11:58:01 select * from admin_menu
+11:58:01 select * from pay_plugin 
+11:58:02 use meiliyoupin;
+11:58:02 set names utf8;
+11:58:02 select * from configs
+11:58:02 select * from admin_menu
+11:58:02 select * from pay_plugin 
+11:58:02 use meiliyoupin;
+11:58:02 set names utf8;
+11:58:02 select * from configs
+11:58:02 select * from admin_menu
+11:58:02 select * from nav order by z_index desc
+11:58:03 use meiliyoupin;
+11:58:03 set names utf8;
+11:58:03 select * from configs
+11:58:03 select * from admin_menu
+11:58:03 select * from focus_picture order by pic_index desc
+11:58:03 use meiliyoupin;
+11:58:03 set names utf8;
+11:58:03 select * from configs
+11:58:03 select * from admin_menu
+11:58:03 select * from focus_picture order by pic_index desc
+11:58:04 use meiliyoupin;
+11:58:04 set names utf8;
+11:58:04 select * from configs
+11:58:04 select * from admin_menu
+11:58:04 select count(id) from goods where is_delete=0 order by add_time desc
+11:58:04 select * from goods where is_delete=0 order by add_time desc limit 0,20
+11:58:06 use meiliyoupin;
+11:58:06 set names utf8;
+11:58:06 select * from configs
+11:58:06 select * from admin_menu
+11:58:06 use meiliyoupin;
+11:58:06 set names utf8;
+11:58:06 select * from configs
+11:58:06 select * from admin_menu
+11:58:06 select * from shipping_type 
+11:58:07 use meiliyoupin;
+11:58:07 set names utf8;
+11:58:07 select * from configs
+11:58:07 select * from admin_menu
+11:58:07 select * from pay_plugin 
+11:58:08 use meiliyoupin;
+11:58:08 set names utf8;
+11:58:08 select * from configs
+11:58:08 select * from admin_menu
+11:58:08 select * from shipping_type 
+11:58:09 use meiliyoupin;
+11:58:09 set names utf8;
+11:58:09 select * from configs
+11:58:09 select * from admin_menu
+11:58:09 select * from pay_plugin 
+11:58:10 use meiliyoupin;
+11:58:10 set names utf8;
+11:58:10 select * from configs
+11:58:10 select * from admin_menu
+11:58:10 select * from nav order by z_index desc
+11:58:10 use meiliyoupin;
+11:58:10 set names utf8;
+11:58:10 select * from configs
+11:58:10 select * from admin_menu
+11:58:10 select * from pay_plugin 
+11:58:11 use meiliyoupin;
+11:58:11 set names utf8;
+11:58:11 select * from configs
+11:58:11 select * from admin_menu
+11:58:11 select * from pay_plugin 
+11:58:11 use meiliyoupin;
+11:58:11 set names utf8;
+11:58:11 select * from configs
+11:58:11 select * from admin_menu
+11:58:11 select * from pay_plugin 
+11:58:12 use meiliyoupin;
+11:58:12 set names utf8;
+11:58:12 select * from configs
+11:58:12 select * from admin_menu
+11:58:12 select * from nav order by z_index desc
+11:58:12 use meiliyoupin;
+11:58:12 set names utf8;
+11:58:12 select * from configs
+11:58:12 select * from admin_menu
+11:58:12 select * from focus_picture order by pic_index desc
+11:58:13 use meiliyoupin;
+11:58:13 set names utf8;
+11:58:13 select * from configs
+11:58:13 select * from admin_menu
+11:58:13 select count(id) from goods where is_delete=0 order by add_time desc
+11:58:13 select * from goods where is_delete=0 order by add_time desc limit 0,20
+11:58:14 use meiliyoupin;
+11:58:14 set names utf8;
+11:58:14 select * from configs
+11:58:14 select * from admin_menu
+11:58:14 select * from goods_type 
+11:58:14 select count(id) from goods
+11:58:14 use meiliyoupin;
+11:58:14 set names utf8;
+11:58:14 select * from configs
+11:58:14 select * from admin_menu
+11:58:14 select * from goods_type
+11:58:14 use meiliyoupin;
+11:58:14 set names utf8;
+11:58:14 select * from configs
+11:58:14 select * from admin_menu
+11:58:14 select * from goods_type
+11:58:15 use meiliyoupin;
+11:58:15 set names utf8;
+11:58:15 select * from configs
+11:58:15 select * from admin_menu
+11:58:15 select * from goods_type
+11:58:15 use meiliyoupin;
+11:58:15 set names utf8;
+11:58:15 select * from configs
+11:58:15 select * from admin_menu
+11:58:15 select count(id) from goods where is_delete=1 order by add_time desc
+11:58:15 select * from goods where is_delete=1 order by add_time desc limit 0,20
+11:58:16 use meiliyoupin;
+11:58:16 set names utf8;
+11:58:16 select * from configs
+11:58:16 select * from admin_menu
+11:58:16 use meiliyoupin;
+11:58:16 set names utf8;
+11:58:16 select * from configs
+11:58:16 select * from admin_menu
+11:58:17 use meiliyoupin;
+11:58:17 set names utf8;
+11:58:17 select * from configs
+11:58:17 select * from admin_menu
+11:58:18 use meiliyoupin;
+11:58:18 set names utf8;
+11:58:18 select * from configs
+11:58:18 select * from admin_menu
+11:58:18 select count(a.id) from articles as a left join article_type as b on a.type_id=b.id order by a.id desc
+11:58:18 select a.*,b.type_name from articles as a left join article_type as b on a.type_id=b.id order by a.id desc limit 0,20
+11:58:18 use meiliyoupin;
+11:58:18 set names utf8;
+11:58:18 select * from configs
+11:58:18 select * from admin_menu
+11:58:18 select * from article_type
+11:58:19 use meiliyoupin;
+11:58:19 set names utf8;
+11:58:19 select * from configs
+11:58:19 select * from admin_menu
+11:58:19 select * from article_type
+11:58:19 use meiliyoupin;
+11:58:19 set names utf8;
+11:58:19 select * from configs
+11:58:19 select * from admin_menu
+11:58:23 use meiliyoupin;
+11:58:23 set names utf8;
+11:58:23 select * from configs
+11:58:23 select * from admin_menu
+11:58:23 use meiliyoupin;
+11:58:23 set names utf8;
+11:58:23 select * from configs
+11:58:23 select * from admin_menu
+11:58:24 use meiliyoupin;
+11:58:24 set names utf8;
+11:58:24 select * from configs
+11:58:24 select * from admin_menu
+16:26:04 use meiliyoupin;
+16:26:04 set names utf8;
+16:26:04 select * from configs
+16:26:05 use meiliyoupin;
+16:26:05 set names utf8;
+16:26:05 select * from configs
+16:39:47 use meiliyoupin;
+16:39:47 set names utf8;
+16:39:47 select * from configs
+16:39:48 use meiliyoupin;
+16:39:48 set names utf8;
+16:39:48 select * from configs
+16:39:50 use meiliyoupin;
+16:39:50 set names utf8;
+16:39:50 select * from configs
+16:39:50 use meiliyoupin;
+16:39:50 set names utf8;
+16:39:50 select * from configs
+16:39:51 use meiliyoupin;
+16:39:51 set names utf8;
+16:39:51 select * from configs
+16:39:51 use meiliyoupin;
+16:39:51 set names utf8;
+16:39:51 select * from configs
+16:39:57 use meiliyoupin;
+16:39:57 set names utf8;
+16:39:57 select * from configs
+16:39:57 use meiliyoupin;
+16:39:57 set names utf8;
+16:39:57 select * from configs
+16:40:14 use meiliyoupin;
+16:40:14 set names utf8;
+16:40:14 select * from configs
+16:40:14 use meiliyoupin;
+16:40:14 set names utf8;
+16:40:14 select * from configs
+16:41:17 use meiliyoupin;
+16:41:17 set names utf8;
+16:41:17 select * from configs
+16:41:17 use meiliyoupin;
+16:41:17 set names utf8;
+16:41:17 select * from configs
+16:42:35 use meiliyoupin;
+16:42:35 set names utf8;
+16:42:35 select * from configs
+16:42:35 use meiliyoupin;
+16:42:35 set names utf8;
+16:42:35 select * from configs
+16:42:59 use meiliyoupin;
+16:42:59 set names utf8;
+16:42:59 select * from configs
+16:43:00 use meiliyoupin;
+16:43:00 set names utf8;
+16:43:00 select * from configs
+16:46:12 use meiliyoupin;
+16:46:12 set names utf8;
+16:46:12 select * from configs
+16:46:13 use meiliyoupin;
+16:46:13 set names utf8;
+16:46:13 select * from configs
+16:46:17 use meiliyoupin;
+16:46:17 set names utf8;
+16:46:17 select * from configs
+16:46:17 use meiliyoupin;
+16:46:17 set names utf8;
+16:46:17 select * from configs
+16:46:49 use meiliyoupin;
+16:46:49 set names utf8;
+16:46:49 select * from configs
+16:46:49 use meiliyoupin;
+16:46:49 set names utf8;
+16:46:49 select * from configs
+16:47:43 use meiliyoupin;
+16:47:43 set names utf8;
+16:47:43 select * from configs
+16:47:43 use meiliyoupin;
+16:47:43 set names utf8;
+16:47:43 select * from configs
+16:50:45 use meiliyoupin;
+16:50:45 set names utf8;
+16:50:45 select * from configs
+16:50:46 use meiliyoupin;
+16:50:46 set names utf8;
+16:50:46 select * from configs
+16:54:43 use meiliyoupin;
+16:54:43 set names utf8;
+16:54:43 select * from configs
+16:54:43 use meiliyoupin;
+16:54:43 set names utf8;
+16:54:43 select * from configs
+16:58:38 use meiliyoupin;
+16:58:38 set names utf8;
+16:58:38 select * from configs
+16:58:39 use meiliyoupin;
+16:58:39 set names utf8;
+16:58:39 select * from configs
+16:58:54 use meiliyoupin;
+16:58:54 set names utf8;
+16:58:54 select * from configs
+16:58:54 use meiliyoupin;
+16:58:54 set names utf8;
+16:58:54 select * from configs
+16:59:08 use meiliyoupin;
+16:59:08 set names utf8;
+16:59:08 select * from configs
+16:59:09 use meiliyoupin;
+16:59:09 set names utf8;
+16:59:09 select * from configs
+16:59:19 use meiliyoupin;
+16:59:19 set names utf8;
+16:59:19 select * from configs
+16:59:20 use meiliyoupin;
+16:59:20 set names utf8;
+16:59:20 select * from configs
+16:59:41 use meiliyoupin;
+16:59:41 set names utf8;
+16:59:41 select * from configs
+16:59:42 use meiliyoupin;
+16:59:42 set names utf8;
+16:59:42 select * from configs
+17:00:06 use meiliyoupin;
+17:00:06 set names utf8;
+17:00:06 select * from configs
+17:00:06 use meiliyoupin;
+17:00:06 set names utf8;
+17:00:06 select * from configs
+17:00:16 use meiliyoupin;
+17:00:16 set names utf8;
+17:00:16 select * from configs
+17:00:17 use meiliyoupin;
+17:00:17 set names utf8;
+17:00:17 select * from configs
+17:00:35 use meiliyoupin;
+17:00:35 set names utf8;
+17:00:35 select * from configs
+17:00:36 use meiliyoupin;
+17:00:36 set names utf8;
+17:00:36 select * from configs
+17:00:41 use meiliyoupin;
+17:00:41 set names utf8;
+17:00:41 select * from configs
+17:00:41 use meiliyoupin;
+17:00:41 set names utf8;
+17:00:41 select * from configs
+17:01:14 use meiliyoupin;
+17:01:14 set names utf8;
+17:01:14 select * from configs
+17:01:14 use meiliyoupin;
+17:01:14 set names utf8;
+17:01:14 select * from configs
+17:02:38 use meiliyoupin;
+17:02:38 set names utf8;
+17:02:38 select * from configs
+17:02:38 use meiliyoupin;
+17:02:38 set names utf8;
+17:02:38 select * from configs
+17:02:52 use meiliyoupin;
+17:02:52 set names utf8;
+17:02:52 select * from configs
+17:02:53 use meiliyoupin;
+17:02:53 set names utf8;
+17:02:53 select * from configs
+17:05:17 use meiliyoupin;
+17:05:17 set names utf8;
+17:05:17 select * from configs
+17:05:17 use meiliyoupin;
+17:05:17 set names utf8;
+17:05:17 select * from configs
+17:07:08 use meiliyoupin;
+17:07:09 set names utf8;
+17:07:09 select * from configs
+17:07:09 use meiliyoupin;
+17:07:09 set names utf8;
+17:07:09 select * from configs
+17:07:09 use meiliyoupin;
+17:07:09 set names utf8;
+17:07:09 select * from configs
+17:07:09 use meiliyoupin;
+17:07:09 set names utf8;
+17:07:09 select * from configs
+17:07:09 use meiliyoupin;
+17:07:09 set names utf8;
+17:07:09 select * from configs
+17:07:09 use meiliyoupin;
+17:07:09 set names utf8;
+17:07:09 select * from configs
+17:07:10 use meiliyoupin;
+17:07:10 set names utf8;
+17:07:10 select * from configs
+17:07:10 use meiliyoupin;
+17:07:10 set names utf8;
+17:07:10 select * from configs
+17:07:10 use meiliyoupin;
+17:07:10 set names utf8;
+17:07:10 select * from configs
+17:07:40 use meiliyoupin;
+17:07:40 set names utf8;
+17:07:40 select * from configs
+17:07:40 use meiliyoupin;
+17:07:40 set names utf8;
+17:07:40 select * from configs
+17:07:41 use meiliyoupin;
+17:07:41 set names utf8;
+17:07:41 select * from configs
+17:07:41 use meiliyoupin;
+17:07:41 set names utf8;
+17:07:41 select * from configs
+17:09:00 use meiliyoupin;
+17:09:00 set names utf8;
+17:09:00 select * from configs
+17:09:00 use meiliyoupin;
+17:09:00 set names utf8;
+17:09:00 select * from configs
+17:13:02 use meiliyoupin;
+17:13:02 set names utf8;
+17:13:02 select * from configs
+17:13:03 use meiliyoupin;
+17:13:03 set names utf8;
+17:13:03 select * from configs
+17:13:54 use meiliyoupin;
+17:13:54 set names utf8;
+17:13:54 select * from configs
+17:13:54 use meiliyoupin;
+17:13:54 set names utf8;
+17:13:54 select * from configs
+17:13:54 use meiliyoupin;
+17:13:54 set names utf8;
+17:13:54 select * from configs
+17:13:55 use meiliyoupin;
+17:13:55 set names utf8;
+17:13:55 select * from configs
+17:13:55 use meiliyoupin;
+17:13:55 set names utf8;
+17:13:55 select * from configs
+17:13:55 use meiliyoupin;
+17:13:55 set names utf8;
+17:13:55 select * from configs
+17:14:26 use meiliyoupin;
+17:14:26 set names utf8;
+17:14:26 select * from configs
+17:14:26 use meiliyoupin;
+17:14:26 set names utf8;
+17:14:26 select * from configs
+17:15:10 use meiliyoupin;
+17:15:10 set names utf8;
+17:15:10 select * from configs
+17:15:10 use meiliyoupin;
+17:15:10 set names utf8;
+17:15:10 select * from configs
+17:20:47 use meiliyoupin;
+17:20:47 set names utf8;
+17:20:47 select * from configs
+17:20:47 select * from nav order by z_index desc
+17:20:47 select * from goods where id = 1 and is_delete = 0
+17:20:47 use meiliyoupin;
+17:20:47 set names utf8;
+17:20:47 select * from configs
+17:20:47 select * from nav order by z_index desc
+17:20:47 select * from goods where id = 1 and is_delete = 0
+17:20:48 use meiliyoupin;
+17:20:48 set names utf8;
+17:20:48 select * from configs
+17:22:22 use meiliyoupin;
+17:22:22 set names utf8;
+17:22:22 select * from configs
+17:22:54 use meiliyoupin;
+17:22:54 set names utf8;
+17:22:54 select * from configs
+17:26:26 use meiliyoupin;
+17:26:26 set names utf8;
+17:26:26 select * from configs
+17:26:52 use meiliyoupin;
+17:26:52 set names utf8;
+17:26:52 select * from configs
+17:26:52 select * from nav order by z_index desc
+17:26:56 use meiliyoupin;
+17:26:56 set names utf8;
+17:26:56 select * from configs
+17:26:56 select * from nav order by z_index desc
+17:26:57 use meiliyoupin;
+17:26:57 set names utf8;
+17:26:57 select * from configs
+17:26:58 use meiliyoupin;
+17:26:58 set names utf8;
+17:26:58 select * from configs
+17:26:58 select * from nav order by z_index desc
+17:30:04 use meiliyoupin;
+17:30:04 set names utf8;
+17:30:04 select * from configs
+17:30:10 use meiliyoupin;
+17:30:10 set names utf8;
+17:30:10 select * from configs
+17:30:19 use meiliyoupin;
+17:30:19 set names utf8;
+17:30:19 select * from configs
+17:31:17 use meiliyoupin;
+17:31:17 set names utf8;
+17:31:17 select * from configs
+17:31:18 use meiliyoupin;
+17:31:18 set names utf8;
+17:31:18 select * from configs
+17:31:18 use meiliyoupin;
+17:31:18 set names utf8;
+17:31:18 select * from configs
+17:31:24 use meiliyoupin;
+17:31:24 set names utf8;
+17:31:24 select * from configs
+17:31:24 use meiliyoupin;
+17:31:24 set names utf8;
+17:31:24 select * from configs
+17:31:24 use meiliyoupin;
+17:31:24 set names utf8;
+17:31:24 select * from configs
+17:31:31 use meiliyoupin;
+17:31:31 set names utf8;
+17:31:31 select * from configs
+17:31:38 use meiliyoupin;
+17:31:38 set names utf8;
+17:31:38 select * from configs
+17:31:46 use meiliyoupin;
+17:31:46 set names utf8;
+17:31:46 select * from configs
+17:32:11 use meiliyoupin;
+17:32:11 set names utf8;
+17:32:11 select * from configs
+17:32:12 use meiliyoupin;
+17:32:12 set names utf8;
+17:32:12 select * from configs
+17:32:27 use meiliyoupin;
+17:32:27 set names utf8;
+17:32:27 select * from configs
+17:32:28 use meiliyoupin;
+17:32:28 set names utf8;
+17:32:28 select * from configs
+17:32:28 use meiliyoupin;
+17:32:28 set names utf8;
+17:32:28 select * from configs
+17:33:26 use meiliyoupin;
+17:33:26 set names utf8;
+17:33:26 select * from configs
+17:33:27 use meiliyoupin;
+17:33:27 set names utf8;
+17:33:27 select * from configs
+17:33:37 use meiliyoupin;
+17:33:37 set names utf8;
+17:33:37 select * from configs
+17:33:40 use meiliyoupin;
+17:33:40 set names utf8;
+17:33:40 select * from configs
+17:33:40 use meiliyoupin;
+17:33:40 set names utf8;
+17:33:40 select * from configs
+17:33:41 use meiliyoupin;
+17:33:41 set names utf8;
+17:33:41 select * from configs
+17:33:42 use meiliyoupin;
+17:33:42 set names utf8;
+17:33:42 select * from configs
+17:33:42 use meiliyoupin;
+17:33:42 set names utf8;
+17:33:42 select * from configs
+17:33:43 use meiliyoupin;
+17:33:43 set names utf8;
+17:33:43 select * from configs
+17:33:45 use meiliyoupin;
+17:33:45 set names utf8;
+17:33:45 select * from configs
+17:33:50 use meiliyoupin;
+17:33:50 set names utf8;
+17:33:50 select * from configs
+17:33:51 use meiliyoupin;
+17:33:51 set names utf8;
+17:33:51 select * from configs
+17:33:51 use meiliyoupin;
+17:33:51 set names utf8;
+17:33:51 select * from configs
+17:33:52 use meiliyoupin;
+17:33:52 set names utf8;
+17:33:52 select * from configs
+17:33:52 use meiliyoupin;
+17:33:52 set names utf8;
+17:33:52 select * from configs
+17:33:53 use meiliyoupin;
+17:33:53 set names utf8;
+17:33:53 select * from configs
+17:33:53 use meiliyoupin;
+17:33:53 set names utf8;
+17:33:53 select * from configs
+17:33:54 use meiliyoupin;
+17:33:54 set names utf8;
+17:33:54 select * from configs
+17:33:54 use meiliyoupin;
+17:33:54 set names utf8;
+17:33:54 select * from configs
+17:33:54 use meiliyoupin;
+17:33:54 set names utf8;
+17:33:54 select * from configs
+17:36:14 use meiliyoupin;
+17:36:14 set names utf8;
+17:36:14 select * from configs
+17:36:16 use meiliyoupin;
+17:36:16 set names utf8;
+17:36:16 select * from configs
+17:36:17 use meiliyoupin;
+17:36:17 set names utf8;
+17:36:17 select * from configs
+17:36:37 use meiliyoupin;
+17:36:37 set names utf8;
+17:36:37 select * from configs
+17:36:38 use meiliyoupin;
+17:36:38 set names utf8;
+17:36:38 select * from configs
+17:36:38 use meiliyoupin;
+17:36:38 set names utf8;
+17:36:38 select * from configs
+17:36:39 use meiliyoupin;
+17:36:39 set names utf8;
+17:36:39 select * from configs
+17:36:39 use meiliyoupin;
+17:36:39 set names utf8;
+17:36:39 select * from configs
+17:36:40 use meiliyoupin;
+17:36:40 set names utf8;
+17:36:40 select * from configs
+17:36:40 use meiliyoupin;
+17:36:40 set names utf8;
+17:36:40 select * from configs
+17:36:41 use meiliyoupin;
+17:36:41 set names utf8;
+17:36:41 select * from configs
+17:36:44 use meiliyoupin;
+17:36:44 set names utf8;
+17:36:44 select * from configs
+17:36:44 use meiliyoupin;
+17:36:44 set names utf8;
+17:36:44 select * from configs
+17:36:45 use meiliyoupin;
+17:36:45 set names utf8;
+17:36:45 select * from configs
+17:36:45 use meiliyoupin;
+17:36:45 set names utf8;
+17:36:45 select * from configs
+17:36:46 use meiliyoupin;
+17:36:46 set names utf8;
+17:36:46 select * from configs
+17:36:46 use meiliyoupin;
+17:36:46 set names utf8;
+17:36:46 select * from configs
+17:36:48 use meiliyoupin;
+17:36:48 set names utf8;
+17:36:48 select * from configs
+17:40:35 use meiliyoupin;
+17:40:35 set names utf8;
+17:40:35 select * from configs
+17:40:35 use meiliyoupin;
+17:40:35 set names utf8;
+17:40:35 select * from configs
+17:40:37 use meiliyoupin;
+17:40:37 set names utf8;
+17:40:37 select * from configs
+17:40:37 use meiliyoupin;
+17:40:37 set names utf8;
+17:40:37 select * from configs
+17:40:38 use meiliyoupin;
+17:40:38 set names utf8;
+17:40:38 select * from configs
+17:40:38 use meiliyoupin;
+17:40:38 set names utf8;
+17:40:38 select * from configs
+17:40:39 use meiliyoupin;
+17:40:39 set names utf8;
+17:40:39 select * from configs
+17:40:45 use meiliyoupin;
+17:40:45 set names utf8;
+17:40:45 select * from configs
+17:40:45 use meiliyoupin;
+17:40:45 set names utf8;
+17:40:45 select * from configs
+17:40:46 use meiliyoupin;
+17:40:46 set names utf8;
+17:40:46 select * from configs
+17:40:50 use meiliyoupin;
+17:40:50 set names utf8;
+17:40:50 select * from configs
+17:40:50 use meiliyoupin;
+17:40:50 set names utf8;
+17:40:50 select * from configs
+17:40:51 use meiliyoupin;
+17:40:51 set names utf8;
+17:40:51 select * from configs
+17:40:51 use meiliyoupin;
+17:40:51 set names utf8;
+17:40:51 select * from configs
+17:40:51 use meiliyoupin;
+17:40:51 set names utf8;
+17:40:51 select * from configs
+17:40:56 use meiliyoupin;
+17:40:56 set names utf8;
+17:40:56 select * from configs
+17:40:56 use meiliyoupin;
+17:40:56 set names utf8;
+17:40:56 select * from configs
+17:40:57 use meiliyoupin;
+17:40:57 set names utf8;
+17:40:57 select * from configs
+17:41:06 use meiliyoupin;
+17:41:06 set names utf8;
+17:41:06 select * from configs
+17:41:06 use meiliyoupin;
+17:41:06 set names utf8;
+17:41:06 select * from configs
+17:41:07 use meiliyoupin;
+17:41:07 set names utf8;
+17:41:07 select * from configs
+17:41:08 use meiliyoupin;
+17:41:08 set names utf8;
+17:41:08 select * from configs
+17:41:08 use meiliyoupin;
+17:41:08 set names utf8;
+17:41:08 select * from configs
+17:41:23 use meiliyoupin;
+17:41:23 set names utf8;
+17:41:23 select * from configs
+17:41:24 use meiliyoupin;
+17:41:24 set names utf8;
+17:41:24 select * from configs
+17:41:25 use meiliyoupin;
+17:41:25 set names utf8;
+17:41:25 select * from configs
+17:41:25 use meiliyoupin;
+17:41:25 set names utf8;
+17:41:25 select * from configs
+17:41:26 use meiliyoupin;
+17:41:26 set names utf8;
+17:41:26 select * from configs
+17:41:26 use meiliyoupin;
+17:41:26 set names utf8;
+17:41:26 select * from configs
+17:41:27 use meiliyoupin;
+17:41:27 set names utf8;
+17:41:27 select * from configs
+17:41:28 use meiliyoupin;
+17:41:28 set names utf8;
+17:41:28 select * from configs
+17:41:28 use meiliyoupin;
+17:41:28 set names utf8;
+17:41:28 select * from configs
+17:41:29 use meiliyoupin;
+17:41:29 set names utf8;
+17:41:29 select * from configs
+17:41:30 use meiliyoupin;
+17:41:30 set names utf8;
+17:41:30 select * from configs
+17:41:30 use meiliyoupin;
+17:41:30 set names utf8;
+17:41:30 select * from configs
+17:41:31 use meiliyoupin;
+17:41:31 set names utf8;
+17:41:31 select * from configs
+17:41:32 use meiliyoupin;
+17:41:32 set names utf8;
+17:41:32 select * from configs
+17:41:33 use meiliyoupin;
+17:41:33 set names utf8;
+17:41:33 select * from configs
+17:41:36 use meiliyoupin;
+17:41:36 set names utf8;
+17:41:36 select * from configs
+17:41:41 use meiliyoupin;
+17:41:41 set names utf8;
+17:41:41 select * from configs
+17:41:42 use meiliyoupin;
+17:41:42 set names utf8;
+17:41:42 select * from configs
+17:41:43 use meiliyoupin;
+17:41:43 set names utf8;
+17:41:43 select * from configs
+17:41:43 use meiliyoupin;
+17:41:43 set names utf8;
+17:41:43 select * from configs
+17:41:49 use meiliyoupin;
+17:41:49 set names utf8;
+17:41:49 select * from configs
+17:41:49 use meiliyoupin;
+17:41:49 set names utf8;
+17:41:49 select * from configs
+17:41:50 use meiliyoupin;
+17:41:50 set names utf8;
+17:41:50 select * from configs
+17:41:54 use meiliyoupin;
+17:41:54 set names utf8;
+17:41:54 select * from configs
+17:41:55 use meiliyoupin;
+17:41:55 set names utf8;
+17:41:55 select * from configs
+17:41:56 use meiliyoupin;
+17:41:56 set names utf8;
+17:41:56 select * from configs
+17:41:57 use meiliyoupin;
+17:41:57 set names utf8;
+17:41:57 select * from configs
+17:42:34 use meiliyoupin;
+17:42:34 set names utf8;
+17:42:34 select * from configs
+17:42:35 use meiliyoupin;
+17:42:35 set names utf8;
+17:42:35 select * from configs
+17:42:35 use meiliyoupin;
+17:42:35 set names utf8;
+17:42:35 select * from configs
+17:42:35 use meiliyoupin;
+17:42:35 set names utf8;
+17:42:35 select * from configs
+17:42:36 use meiliyoupin;
+17:42:36 set names utf8;
+17:42:36 select * from configs
+17:42:36 use meiliyoupin;
+17:42:36 set names utf8;
+17:42:36 select * from configs
+17:42:36 use meiliyoupin;
+17:42:36 set names utf8;
+17:42:36 select * from configs
+17:42:36 use meiliyoupin;
+17:42:36 set names utf8;
+17:42:36 select * from configs
+17:42:36 use meiliyoupin;
+17:42:36 set names utf8;
+17:42:36 select * from configs
+17:42:36 use meiliyoupin;
+17:42:36 set names utf8;
+17:42:36 select * from configs
+17:42:37 use meiliyoupin;
+17:42:37 set names utf8;
+17:42:37 select * from configs
+17:42:37 use meiliyoupin;
+17:42:37 set names utf8;
+17:42:37 select * from configs
+17:42:37 use meiliyoupin;
+17:42:37 set names utf8;
+17:42:37 select * from configs
+17:42:37 use meiliyoupin;
+17:42:37 set names utf8;
+17:42:37 select * from configs
+17:42:37 use meiliyoupin;
+17:42:37 set names utf8;
+17:42:37 select * from configs
+17:42:37 use meiliyoupin;
+17:42:37 set names utf8;
+17:42:37 select * from configs
+17:42:38 use meiliyoupin;
+17:42:38 set names utf8;
+17:42:38 select * from configs
+17:42:38 use meiliyoupin;
+17:42:38 set names utf8;
+17:42:38 select * from configs
+17:42:38 use meiliyoupin;
+17:42:38 set names utf8;
+17:42:38 select * from configs
+17:42:38 use meiliyoupin;
+17:42:38 set names utf8;
+17:42:38 select * from configs
+17:42:38 use meiliyoupin;
+17:42:38 set names utf8;
+17:42:38 select * from configs
+17:42:39 use meiliyoupin;
+17:42:39 set names utf8;
+17:42:39 select * from configs
+17:42:39 use meiliyoupin;
+17:42:39 set names utf8;
+17:42:39 select * from configs
+17:42:39 use meiliyoupin;
+17:42:39 set names utf8;
+17:42:39 select * from configs
+17:42:58 use meiliyoupin;
+17:42:58 set names utf8;
+17:42:58 select * from configs
+17:42:58 use meiliyoupin;
+17:42:58 set names utf8;
+17:42:58 select * from configs
+17:42:58 use meiliyoupin;
+17:42:58 set names utf8;
+17:42:58 select * from configs
+17:43:07 use meiliyoupin;
+17:43:07 set names utf8;
+17:43:07 select * from configs
+17:43:07 select * from nav order by z_index desc
+17:43:08 use meiliyoupin;
+17:43:08 set names utf8;
+17:43:08 select * from configs
+17:43:08 select * from nav order by z_index desc
+17:45:33 use meiliyoupin;
+17:45:33 set names utf8;
+17:45:33 select * from configs
+17:45:33 use meiliyoupin;
+17:45:33 set names utf8;
+17:45:33 select * from configs
+17:45:33 use meiliyoupin;
+17:45:33 set names utf8;
+17:45:33 select * from configs
+17:45:33 use meiliyoupin;
+17:45:33 set names utf8;
+17:45:33 select * from configs
+17:45:33 use meiliyoupin;
+17:45:33 set names utf8;
+17:45:33 select * from configs
+17:45:33 use meiliyoupin;
+17:45:33 set names utf8;
+17:45:33 select * from configs
+17:45:35 use meiliyoupin;
+17:45:35 set names utf8;
+17:45:35 select * from configs
+17:45:35 use meiliyoupin;
+17:45:35 set names utf8;
+17:45:35 select * from configs
+17:45:35 use meiliyoupin;
+17:45:35 set names utf8;
+17:45:35 select * from configs

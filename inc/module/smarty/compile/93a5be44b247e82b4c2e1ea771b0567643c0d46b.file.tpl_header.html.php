@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-07-18 10:08:35
+<?php /* Smarty version Smarty-3.1.16, created on 2014-07-30 11:16:25
          compiled from "E:\apache\www\temp\d\view\default\tpl_header.html" */ ?>
 <?php /*%%SmartyHeaderCode:1447353c881a343e3d2-76227656%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '93a5be44b247e82b4c2e1ea771b0567643c0d46b' => 
     array (
       0 => 'E:\\apache\\www\\temp\\d\\view\\default\\tpl_header.html',
-      1 => 1405649079,
+      1 => 1406690183,
       2 => 'file',
     ),
   ),
@@ -15,13 +15,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.16',
+  'unifunc' => 'content_53c881a3449905_86938665',
   'variables' => 
   array (
     'vp' => 0,
+    'navs' => 0,
+    'v' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.16',
-  'unifunc' => 'content_53c881a3449905_86938665',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_53c881a3449905_86938665')) {function content_53c881a3449905_86938665($_smarty_tpl) {?><header class="ML-jumbotron ML-jumbotron-top">
     <div class="container">
@@ -43,6 +45,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="collapse navbar-collapse" id="ML-navbar-collapse-1">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#"><strong>限时特卖</strong></a></li>
+              <!--
                 <li><a href="#"><strong>美妆商城</strong></a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>美妆口碑</strong> <span class="caret"></span></a>
@@ -55,6 +58,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                   </ul>
                 </li>
                 <li><a href="#"><strong>手机聚慧</strong></a></li>
+
+                -->
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>正品保证</strong> <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu" id="ML-navbar-collapse-3">
@@ -110,7 +115,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <nav class="navbar" role="navigation">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">特卖精选</a></li>
-                <li><a href="#">Royal新品</a></li>
+                <?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['navs']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->key => $_smarty_tpl->tpl_vars['v']->value) {
+$_smarty_tpl->tpl_vars['v']->_loop = true;
+?>
+                 <li><a href="<?php echo $_smarty_tpl->tpl_vars['v']->value['nav_url'];?>
+" <?php if ($_smarty_tpl->tpl_vars['v']->value['is_blank']) {?> target="_blank" <?php }?> ><?php echo $_smarty_tpl->tpl_vars['v']->value['nav_name'];?>
+</a></li>
+                <?php } ?>
             </ul>
         </nav>        
     </div>    

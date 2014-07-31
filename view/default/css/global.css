@@ -383,6 +383,15 @@
 .ML-primarycolor{
     color: #ed145b;
 }
+.ML-color333{
+    color: #333;
+}
+.ML-color666{
+    color: #666;
+}
+.ML-color999{
+    color: #999;
+}
 .ML-bg-fff{
     margin: 0;    
     background: #fff;
@@ -395,9 +404,14 @@
     margin: 0;
     background: #1a1a1a;
 }
+.ML-btn-bg{
+    background: #F8296D;
+    color: #fff;
+    font-weight: bold;
+}
 
 
-
+.unhappyMessage{color: rgba(255, 0, 153, 0.58);font-size: 12px;}
 
 
 

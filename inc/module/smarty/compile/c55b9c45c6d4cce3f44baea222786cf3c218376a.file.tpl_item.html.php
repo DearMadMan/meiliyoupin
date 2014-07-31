@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-07-18 14:51:37
+<?php /* Smarty version Smarty-3.1.16, created on 2014-07-30 10:57:32
          compiled from "E:\apache\www\temp\d\view\default\tpl_item.html" */ ?>
 <?php /*%%SmartyHeaderCode:2692053c87f6bd23032-33866421%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'c55b9c45c6d4cce3f44baea222786cf3c218376a' => 
     array (
       0 => 'E:\\apache\\www\\temp\\d\\view\\default\\tpl_item.html',
-      1 => 1405664149,
+      1 => 1406689047,
       2 => 'file',
     ),
   ),
@@ -168,7 +168,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         </div><!--/主图区域结束-->        
     </div>
     <br>
-    {
+    
     <script type="text/javascript">
               //initiating jQuery  
               jQuery(function($) {
@@ -188,7 +188,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 });
               });
     </script>
-    }
+    
     <div class="container ML-item-main">
         <div class="row">
             <div class="col-md-9">

@@ -1,7 +1,31 @@
-首页-tpl_index.html
-详情页-tpl_item.html
-文件夹：
-存放产品类型图片-img
-存放素材类图片-images
+文件说明
+tpl_index.html		首页
+tpl_item.html		详情页
+tpl_register.html	注册
+tpl_login.html		登录
+tpl_member.html		我的订单
+tpl_favproducts.html	我的收藏
+tpl_userlevel.html	会员等级
 
-By time：2014-7-8 16:09:53
+tpl_mycoupon.html	我的现金券
+tpl_tryapply.html	试用申请
+tpl_owngift.html	专属礼包
+tpl_birgift.html	生日礼包
+
+tpl_myrmb.html		我的余额
+tpl_account.html	账户信息
+tpl_chpass.html		密码修改
+tpl_bdmobi.html		绑定手机
+tpl_myadd.html		管理收货地址
+
+tpl_mlserv.html		售后咨询
+tpl_goodsbk.html	退货进度
+
+
+文件夹：
+img	存放产品类型图片
+images	存放素材类图片
+
+
+
+By time：2014-7-18 13:20:13

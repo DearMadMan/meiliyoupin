@@ -1,0 +1,150 @@
+/*
+ * Author: fx  Time:2014-7-18 09:35:21
+*/
+.ML-register{
+    border: 2px solid #f5f5f5;
+}
+.ML-register-topbanner img{
+    float: right;
+    padding-top: 15px;
+}
+.ML-register .control-label{
+    font-weight: normal;
+}
+.ML-register .form-control,
+.ML-login .form-control{    
+    border-radius: 0;
+    border-color: #e5e5e5;    
+}
+.ML-register .focus-tip,
+.ML-login .focus-tip{
+    color: #999;
+}
+.ML-register .ML-btn-bg:hover,
+.ML-login .ML-btn-bg:hover,
+.ML-register .ML-btn-bg:focus,
+.ML-login .ML-btn-bg:focus{
+    color: #f7f8f9;
+    background: #e5406f;
+    border: 1px solid #e5406f;
+}
+
+.ML-login{
+    background: url(../images/loginPic.jpg) no-repeat;
+}
+.login-info{
+    border: 1px solid #e5e5e5;
+    padding: 25px;
+}
+.login-info label{
+    font-weight: normal;
+}
+.login-title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ML-member{
+    background: #EDE7E1;
+}
+.ML-member .profile{
+    background: #fff;
+    padding: 0;
+    margin: 0 auto;
+}
+.ML-member .member-nav{
+    border-right: 1px solid #dbd6d0;
+    border-bottom: 1px solid #dbd6d0;
+    background: #f8f6f4;
+}
+.ML-member .member-nav .selected{
+    margin-right: -1px;
+    color: #ec1a5b;
+    background-color: #fff;
+    text-decoration: none;
+}
+.ML-member .member-nav a{
+    border-bottom: 1px solid #dbd6d0;
+    border-top: 1px solid #fff;
+    padding-left: 15px;
+    line-height: 45px;
+    font-size: 14px;
+    display: block;
+    color: #666;
+}
+.ML-member .member-nav a .glyphicon{
+    margin-right: 15px;
+}
+.ML-member .notice{
+    padding: 10px;
+    background: #fff;
+    overflow: hidden;
+    line-height: 1.8;
+}
+.ML-member .notice img{
+    margin-right: 10px;
+    height: 48px;
+    width: 48px;
+    float: left;
+}
+.ML-member .notice .nickname {
+    font-size: 14px;
+    color: #ed145b;
+}
+.ML-member .notice p{
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.ML-member h2{
+    -webkit-box-shadow: -1px 1px 2px 0 rgba(0,0,0,.2);
+    box-shadow: -1px 1px 2px 0 rgba(0,0,0,.2);
+    border-bottom: 1px solid #ccc;
+    font-family: "microsoft yahei";
+    font-weight: 400;
+    background: #ede7e1;
+    padding-left: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    margin-top: -1px;
+    margin-bottom: 0;
+    color: #333;
+}
+.ML-member h2 b{
+    background: url(../images/nav_title_bg.png) no-repeat 0 0;
+    margin-left: -47px;
+    position: absolute;
+    vertical-align: top;
+    height: 50px;
+    width: 40px;
+}
+.ML-member .profile .col-md-10{
+    padding-right: 30px;
+}
+.ML-member-content .nav-tabs > li.active > a,
+.ML-member-content .nav-tab{
+    border-color: #DBD6D0;
+    border-bottom-color: transparent;
+    color: #333;
+}
+.ML-member-content .nav-tabs > li > a{
+    color: #333;
+}
+.ML-member-content .tab-content{    
+    border: 1px solid #DBD6D0;
+    border-top: 0;
+    min-height: 450px;
+}
+.ML-member-content .tipnull{
+    line-height: 450px;
+    color: #999;
+    text-align: center;
+}
+
+/* gobale */
+.page-header h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+/* gobale */

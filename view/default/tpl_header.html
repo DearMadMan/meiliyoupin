@@ -17,6 +17,7 @@
             <div class="collapse navbar-collapse" id="ML-navbar-collapse-1">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#"><strong>限时特卖</strong></a></li>
+              <!--
                 <li><a href="#"><strong>美妆商城</strong></a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>美妆口碑</strong> <span class="caret"></span></a>
@@ -29,6 +30,8 @@
                   </ul>
                 </li>
                 <li><a href="#"><strong>手机聚慧</strong></a></li>
+
+                -->
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>正品保证</strong> <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu" id="ML-navbar-collapse-3">
@@ -82,7 +85,9 @@
         <nav class="navbar" role="navigation">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">特卖精选</a></li>
-                <li><a href="#">Royal新品</a></li>
+                {foreach $navs as $v}
+                 <li><a href="{$v.nav_url}" {if $v.is_blank} target="_blank" {/if} >{$v.nav_name}</a></li>
+                {/foreach}
             </ul>
         </nav>        
     </div>    

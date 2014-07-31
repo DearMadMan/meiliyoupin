@@ -236,6 +236,14 @@ if ($act == "site_info") {
 	$goods_sn = $db->getOne($sql);
 	$goods_sn = "MAD".str_pad($goods_sn, 8, "0", STR_PAD_LEFT);
 
+	//团购时间
+
+	$groupon_start_time = date("d-m-Y", time());
+	$groupon_end_time   = time();
+	$groupon_end_time   = date("d-m-Y", $groupon_end_time+60*60*24);
+
+	$smarty->assign("groupon_start_time", $groupon_start_time);
+	$smarty->assign("groupon_end_time", $groupon_end_time);
 	$smarty->assign("goods_sn", $goods_sn);
 	$smarty->assign("types", $types);
 	$smarty->assign("gallery_list", $gallery_list);//已经上传但为保存的图片
@@ -544,6 +552,23 @@ if ($act == "site_info") {
 		ShowDelete();
 	}
 	ShowError();
+} elseif ($act == "pay_type") {
+
+	$type_list = $db->getAllFromTable("pay_plugin");
+
+	$smarty->assign("type_list", $type_list);
+	$smarty->display("pay_plugin.mad");
+} elseif ($act == "pay_plugin_edit") {
+	$row = GetSomethingFromTable("pay_plugin");
+	if (!empty($row)) {
+		$plugin_config = unserialize($row['plugin_config']);
+		$smarty->assign("plugin", $row);
+		$smarty->assign("plugin_config", $plugin_config);
+		$smarty->display("pay_plugin_edit.mad");
+	} else {
+		ShowError();
+	}
+
 } else {
 	$smarty->display("index.mad");
 }

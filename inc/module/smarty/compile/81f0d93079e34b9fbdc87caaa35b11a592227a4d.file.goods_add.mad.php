@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-07-01 10:32:20
+<?php /* Smarty version Smarty-3.1.16, created on 2014-07-30 09:31:43
          compiled from "E:\apache\www\temp\d\madadmin\template\goods_add.mad" */ ?>
 <?php /*%%SmartyHeaderCode:1538053aa94f1438ce9-51146647%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '81f0d93079e34b9fbdc87caaa35b11a592227a4d' => 
     array (
       0 => 'E:\\apache\\www\\temp\\d\\madadmin\\template\\goods_add.mad',
-      1 => 1404179768,
+      1 => 1406683901,
       2 => 'file',
     ),
   ),
@@ -24,6 +24,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'goods_sn' => 0,
     'types' => 0,
     'v' => 0,
+    'groupon_start_time' => 0,
+    'groupon_end_time' => 0,
     'mad_configs' => 0,
     'gallery_list' => 0,
     'attr_list' => 0,
@@ -246,14 +248,18 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
             <div class="control-group">
               <label class="control-label">起始时间</label>
               <div class="controls">
-                <input type="text" name="groupon_start_time" data-date="10-02-2013" data-date-format="dd-mm-yyyy" value="09-02-2013" class="datepicker span11">
+                <input type="text" name="groupon_start_time" data-date="<?php echo $_smarty_tpl->tpl_vars['groupon_start_time']->value;?>
+" data-date-format="dd-mm-yyyy" value="<?php echo $_smarty_tpl->tpl_vars['groupon_start_time']->value;?>
+" class="datepicker span11">
                 <span class="help-block">时间格式 (日期-月份-年)</span> </div>
             </div>
 
             <div class="control-group">
               <label class="control-label">结束时间</label>
               <div class="controls">
-                <input type="text" name="groupon_end_time"  data-date="01-02-2013" data-date-format="dd-mm-yyyy" value="01-02-2013" class="datepicker span11">
+                <input type="text" name="groupon_end_time"  data-date="<?php echo $_smarty_tpl->tpl_vars['groupon_end_time']->value;?>
+" data-date-format="dd-mm-yyyy" value="<?php echo $_smarty_tpl->tpl_vars['groupon_end_time']->value;?>
+" class="datepicker span11">
                 <span class="help-block">时间格式 (日期-月份-年)</span> </div>
             </div>
 

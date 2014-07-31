@@ -42,6 +42,20 @@ function SetConfigsToDataBase($data) {
 	return $string;
 }
 
+function get_payment($code) {
+
+	$sql     = "select * from pay_plugin where plugin_code='$code'";
+	$payment = $GLOBALS['db']->getRow($sql);
+
+	if ($payment) {
+		$config_list = unserialize($payment['plugin_config']);
+
+		$payment = $config_list;
+	}
+
+	return $payment;
+}
+
 /**
  * [IsMust 传参判断]
  * @param [type] $must_arr [需判断键值数组]
