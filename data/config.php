@@ -18,7 +18,7 @@ $config_db_name = "meiliyoupin";
 $config_db_user = "root";
 
 // database password
-$config_db_password = "123456";
+$config_db_password = "";
 
 // charset
 $config_db_charset = "utf-8";
